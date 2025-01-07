@@ -1,0 +1,105 @@
+{
+    "quiz": [
+      {
+        "question": "What skill is most important for Ms. Sunayana Naik as an assistant teacher?",
+        "options": {
+          "a": "Leadership skills",
+          "b": "Technical skills",
+          "c": "Conceptual skills",
+          "d": "Problem-solving skills"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which skill is most important for Ms. Naik in her new role as a supervisor?",
+        "options": {
+          "a": "Time management skills",
+          "b": "Supervisory skills",
+          "c": "Technical skills",
+          "d": "Communication skills"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What skill should Ms. Naik possess to be an effective principal?",
+        "options": {
+          "a": "Analytical skills",
+          "b": "Strategic thinking",
+          "c": "Time management skills",
+          "d": "Teaching skills"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What type of skill is most critical for lower-level managers?",
+        "options": {
+          "a": "Human skills",
+          "b": "Conceptual skills",
+          "c": "Technical skills",
+          "d": "Analytical skills"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "What skill is required for top-level managers to handle the entire organization?",
+        "options": {
+          "a": "Technical skills",
+          "b": "Conceptual skills",
+          "c": "Human skills",
+          "d": "Problem-solving skills"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which skill is important for all managers but is particularly crucial for first-level managers?",
+        "options": {
+          "a": "Conceptual skills",
+          "b": "Human skills",
+          "c": "Decision-making skills",
+          "d": "Time management skills"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What skill involves understanding and managing one's own emotions as well as recognizing the emotions of others?",
+        "options": {
+          "a": "Human skills",
+          "b": "Technical skills",
+          "c": "Conceptual skills",
+          "d": "Analytical skills"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Which of the following is an example of human skills?",
+        "options": {
+          "a": "Strategic planning",
+          "b": "Team building",
+          "c": "Budget management",
+          "d": "Scheduling"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which type of skill is most important for making long-term, strategic decisions?",
+        "options": {
+          "a": "Conceptual skills",
+          "b": "Human skills",
+          "c": "Technical skills",
+          "d": "Communication skills"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "In which role do technical skills become less important, while leadership and conceptual skills are emphasized?",
+        "options": {
+          "a": "Supervisor",
+          "b": "Assistant teacher",
+          "c": "Principal",
+          "d": "Teacher"
+        },
+        "correct_answer": "c"
+      }
+    ]
+  }
+  

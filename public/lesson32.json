@@ -1,0 +1,105 @@
+{
+    "quiz": [
+      {
+        "question": "Which of the following is NOT a psychological consequence of stress?",
+        "options": {
+          "a": "Poor decision-making",
+          "b": "Headaches",
+          "c": "Reduced concentration",
+          "d": "Mood swings"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is one of the medical consequences of chronic stress?",
+        "options": {
+          "a": "Enhanced immune function",
+          "b": "Gastrointestinal disorders",
+          "c": "Improved sleep quality",
+          "d": "Higher energy levels"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which of the following is a strategy for managing stress at the individual level?",
+        "options": {
+          "a": "Open communication with management",
+          "b": "Relaxation techniques",
+          "c": "Wellness programs",
+          "d": "Team-building exercises"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is the primary goal of relaxation techniques in stress management?",
+        "options": {
+          "a": "To increase cortisol levels",
+          "b": "To release tension and reduce physical symptoms of stress",
+          "c": "To improve cardiovascular health",
+          "d": "To increase work efficiency"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "How does exercise help manage stress?",
+        "options": {
+          "a": "By increasing the production of stress hormones",
+          "b": "By distracting the mind from stress and boosting mood",
+          "c": "By improving the quality of work performance",
+          "d": "By increasing anxiety and tension"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which of the following is an example of social support in stress management?",
+        "options": {
+          "a": "Regular exercise",
+          "b": "Spending time with friends or family",
+          "c": "Setting realistic goals",
+          "d": "Time management"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What does time management help to prevent?",
+        "options": {
+          "a": "Overeating",
+          "b": "Overwhelm and stress due to missed deadlines",
+          "c": "Physical illness",
+          "d": "Excessive social interactions"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Why is role management important in stress management?",
+        "options": {
+          "a": "To avoid confusion about job roles",
+          "b": "To prevent role ambiguity and overload",
+          "c": "To reduce physical symptoms of stress",
+          "d": "To improve communication skills"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is a key aspect of adjusting life goals to manage stress?",
+        "options": {
+          "a": "Setting unrealistic and ambitious goals",
+          "b": "Avoiding any changes to long-term goals",
+          "c": "Breaking down big goals into smaller, manageable steps",
+          "d": "Avoiding social support"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Which of the following is a key strategy for organizational-level stress management?",
+        "options": {
+          "a": "Improving personal goal-setting",
+          "b": "Providing counseling services to employees",
+          "c": "Increasing work overload",
+          "d": "Promoting individual stress management only"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  }
+  

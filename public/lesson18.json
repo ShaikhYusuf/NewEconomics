@@ -1,0 +1,106 @@
+{
+    "quizTitle": "Delegating I Quiz",
+    "questions": [
+      {
+        "question": "What is the first key component of the delegation process?",
+        "options": {
+          "a": "Providing clear instructions",
+          "b": "Assigning tasks to subordinates",
+          "c": "Transferring authority and accountability",
+          "d": "Evaluating the performance of subordinates"
+        },
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which of the following best describes delegation?",
+        "options": {
+          "a": "Only assigning tasks without authority",
+          "b": "Transferring responsibility, authority, and accountability",
+          "c": "Delegating only responsibility without authority",
+          "d": "Providing feedback on subordinates' work"
+        },
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What distinguishes delegation from assigning work?",
+        "options": {
+          "a": "Delegation involves empowerment and decision-making authority",
+          "b": "Assigning work involves empowerment and decision-making authority",
+          "c": "Delegation involves giving instructions only",
+          "d": "There is no difference between delegation and assigning work"
+        },
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which of the following is a factor to consider when delegating work?",
+        "options": {
+          "a": "The competency of the subordinate",
+          "b": "The time available for the task",
+          "c": "The complexity of the task",
+          "d": "All of the above"
+        },
+        "correctAnswer": "d"
+      },
+      {
+        "question": "What is the primary purpose of delegation?",
+        "options": {
+          "a": "To transfer full responsibility to subordinates",
+          "b": "To empower subordinates and improve efficiency",
+          "c": "To minimize the role of managers",
+          "d": "To reduce workload for managers only"
+        },
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What element of delegation involves allowing a subordinate to make decisions within their responsibilities?",
+        "options": {
+          "a": "Responsibility",
+          "b": "Accountability",
+          "c": "Authority",
+          "d": "Communication"
+        },
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Which of the following is NOT a benefit of delegation?",
+        "options": {
+          "a": "Develops leadership and competencies in subordinates",
+          "b": "Increases manager's workload",
+          "c": "Promotes autonomy and encourages innovation",
+          "d": "Improves the overall functioning of the organization"
+        },
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which of the following is an example of effective delegation?",
+        "options": {
+          "a": "A manager assigns a task but does not provide resources or authority",
+          "b": "A manager provides clear instructions, authority, and resources to a subordinate",
+          "c": "A manager does everything themselves without involving subordinates",
+          "d": "A manager assigns a task but does not check in on progress"
+        },
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What is one key characteristic of a manager's role in delegation?",
+        "options": {
+          "a": "Managers should delegate everything to their subordinates",
+          "b": "Managers retain accountability even when tasks are delegated",
+          "c": "Managers should avoid giving subordinates authority",
+          "d": "Managers should delegate all strategic decisions"
+        },
+        "correctAnswer": "b"
+      },
+      {
+        "question": "How does delegation benefit the organization?",
+        "options": {
+          "a": "It reduces the number of employees needed",
+          "b": "It prevents burnout and encourages team performance",
+          "c": "It reduces the need for manager involvement",
+          "d": "It limits decision-making to senior leaders"
+        },
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  

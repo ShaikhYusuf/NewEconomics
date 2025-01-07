@@ -1,0 +1,105 @@
+{
+    "quiz": [
+      {
+        "question": "What is the primary purpose of Organizational Development (OD)?",
+        "options": {
+          "a": "To reduce operational costs",
+          "b": "To improve organizational effectiveness and adaptability",
+          "c": "To create new market strategies",
+          "d": "To restructure the organization"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which of the following is NOT a key characteristic of OD?",
+        "options": {
+          "a": "Planned Effort",
+          "b": "Organization-Wide Impact",
+          "c": "Focus on Short-Term Goals",
+          "d": "Behavioral Science Foundation"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "How does OD address the human side of organizations?",
+        "options": {
+          "a": "By focusing on employee well-being and motivation",
+          "b": "By reducing employee benefits",
+          "c": "By implementing more rigid hierarchies",
+          "d": "By enhancing product designs"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which of the following is an example of OD in action?",
+        "options": {
+          "a": "A company introducing a new customer relationship management system to improve service delivery",
+          "b": "A company cutting employee salaries to reduce expenses",
+          "c": "A company expanding its product range without any internal changes",
+          "d": "A company firing underperforming employees without any feedback mechanisms"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Why is training an important aspect of OD?",
+        "options": {
+          "a": "It helps employees adjust to technological changes and evolving market strategies",
+          "b": "It ensures that employees remain in their current roles without any growth",
+          "c": "It discourages employees from adapting to change",
+          "d": "It is only necessary for top management"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What does OD focus on when improving organizational culture?",
+        "options": {
+          "a": "Encouraging innovation, collaboration, and inclusivity",
+          "b": "Enforcing strict adherence to old policies",
+          "c": "Cutting costs in employee engagement programs",
+          "d": "Increasing hierarchy and centralization"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which of the following is a key objective of OD?",
+        "options": {
+          "a": "Encouraging short-term results without considering long-term vision",
+          "b": "Aligning organizational goals with employee well-being",
+          "c": "Focusing only on increasing sales",
+          "d": "Reinforcing rigid, traditional management structures"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which of these is a major reason for the need for Organizational Development?",
+        "options": {
+          "a": "Avoiding any form of change or innovation",
+          "b": "Coping with technological advancements and shifting market demands",
+          "c": "Reducing competition in the market",
+          "d": "Minimizing employee interaction"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which field does OD draw from to address organizational challenges?",
+        "options": {
+          "a": "Psychology",
+          "b": "Sociology",
+          "c": "Anthropology",
+          "d": "All of the above"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "How does OD help organizations deal with external pressures such as competition?",
+        "options": {
+          "a": "By encouraging a passive approach to market changes",
+          "b": "By promoting a culture of innovation and proactive change management",
+          "c": "By focusing on minimizing external influences",
+          "d": "By disregarding market fluctuations"
+        },
+        "answer": "b"
+      }
+    ]
+  }
+  

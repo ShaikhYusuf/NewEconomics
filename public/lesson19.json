@@ -1,0 +1,87 @@
+{
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the first step in the delegation process?",
+          "options": {
+            "a": "Creating Accountability",
+            "b": "Assignment of Tasks and Duties",
+            "c": "Granting Authorities",
+            "d": "Maintaining Balance Between Authority and Freedom"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "question": "Which of the following is NOT a component of delegation?",
+          "options": {
+            "a": "Providing the Right to Act",
+            "b": "Granting Authorities",
+            "c": "Increasing Managerial Workload",
+            "d": "Creating Accountability"
+          },
+          "correct_answer": "c"
+        },
+        {
+          "question": "What does effective delegation help to improve?",
+          "options": {
+            "a": "Time Management",
+            "b": "Employee Skill Development",
+            "c": "Decision-Making",
+            "d": "All of the above"
+          },
+          "correct_answer": "d"
+        },
+        {
+          "question": "What is the key principle of effective delegation that ensures subordinates only receive instructions from one authority?",
+          "options": {
+            "a": "Unity of Command",
+            "b": "Focus on Organizational Objectives",
+            "c": "Offer Support to Subordinates",
+            "d": "Maintain Parity Between Responsibility and Authority"
+          },
+          "correct_answer": "a"
+        },
+        {
+          "question": "What is a benefit of delegation that helps reduce managerial workload?",
+          "options": {
+            "a": "Better Decision-Making",
+            "b": "Improved Time Management",
+            "c": "Promotes Organizational Growth",
+            "d": "Encourages Innovation"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "question": "What is an example of how delegation fosters trust and morale?",
+          "options": {
+            "a": "A manager takes full control of a project",
+            "b": "A manager assigns all tasks to a single subordinate",
+            "c": "A manager empowers employees to make decisions",
+            "d": "A manager avoids communicating expectations"
+          },
+          "correct_answer": "c"
+        },
+        {
+          "question": "What is the relationship between authority and responsibility in delegation?",
+          "options": {
+            "a": "Authority is granted without responsibility",
+            "b": "Responsibility is given without authority",
+            "c": "Authority and responsibility must be balanced",
+            "d": "Authority exceeds responsibility"
+          },
+          "correct_answer": "c"
+        },
+        {
+          "question": "How does delegation benefit employee skill development?",
+          "options": {
+            "a": "By increasing workload without guidance",
+            "b": "By assigning tasks outside employees' expertise",
+            "c": "By providing employees with opportunities to take responsibility",
+            "d": "By minimizing employee involvement"
+          },
+          "correct_answer": "c"
+        }
+      ]
+    }
+  }
+  

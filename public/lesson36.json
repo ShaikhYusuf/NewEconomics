@@ -1,0 +1,95 @@
+{
+    "quiz": [
+      {
+        "question": "What is the key premise of Situational Leadership Theory?",
+        "options": {
+          "a": "Leaders must use the same leadership style for all situations.",
+          "b": "Leadership should be based on the maturity of followers.",
+          "c": "Leaders should focus only on task-oriented behavior."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What does the Path-Goal Theory emphasize?",
+        "options": {
+          "a": "Leaders should focus only on the relationships with followers.",
+          "b": "Leaders must clarify the paths, remove obstacles, and enhance rewards for followers.",
+          "c": "Leadership style must remain the same regardless of the situation."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which leadership style is most suitable for followers with low maturity who need clear direction?",
+        "options": {
+          "a": "Selling (S2)",
+          "b": "Delegating (S4)",
+          "c": "Telling (S1)"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "In the Path-Goal Theory, which leadership style is most suitable for tasks that are repetitive and stressful?",
+        "options": {
+          "a": "Directive Leadership",
+          "b": "Achievement-Oriented Leadership",
+          "c": "Supportive Leadership"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Which of the following is NOT a leadership style identified in Situational Leadership Theory?",
+        "options": {
+          "a": "Participating (S3)",
+          "b": "Selling (S2)",
+          "c": "Directive Leadership"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "In the Situational Leadership model, which behavior involves two-way communication and providing emotional support?",
+        "options": {
+          "a": "Task-Oriented Behavior",
+          "b": "Relationship-Oriented Behavior",
+          "c": "Directive Behavior"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What leadership style is appropriate for a team with high competence and motivation, ready for autonomy?",
+        "options": {
+          "a": "Participating (S3)",
+          "b": "Delegating (S4)",
+          "c": "Selling (S2)"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which factor is considered in both Situational Leadership and Path-Goal Theory?",
+        "options": {
+          "a": "Maturity of followers",
+          "b": "Motivation and experience of followers",
+          "c": "Task complexity"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "In Path-Goal Theory, which leadership style is suitable when tasks are complex or ambiguous?",
+        "options": {
+          "a": "Directive Leadership",
+          "b": "Participative Leadership",
+          "c": "Achievement-Oriented Leadership"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "What is the primary focus of the Telling (S1) leadership style?",
+        "options": {
+          "a": "Providing support and collaboration",
+          "b": "Giving clear instructions and closely supervising tasks",
+          "c": "Encouraging independence and decision-making"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  }
+  

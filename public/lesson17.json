@@ -1,0 +1,56 @@
+{
+    "quizTitle": "Controlling as a Function of Management Quiz",
+    "questions": [
+      {
+        "question": "What is the first step in the controlling process?",
+        "options": {
+          "a": "Establishment of controlled standards",
+          "b": "Measurement of performance",
+          "c": "Correction of deviations from standards",
+          "d": "Comparison between performance and set standards"
+        },
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Why is communication important in the directing function?",
+        "options": {
+          "a": "To motivate employees",
+          "b": "To exchange information and align tasks",
+          "c": "To measure performance",
+          "d": "To set standards"
+        },
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which of the following is NOT an element of direction?",
+        "options": {
+          "a": "Leadership",
+          "b": "Motivation",
+          "c": "Feedback and recognition",
+          "d": "Monitoring performance"
+        },
+        "correctAnswer": "d"
+      },
+      {
+        "question": "Which of the following is the primary goal of controlling?",
+        "options": {
+          "a": "To develop new strategies",
+          "b": "To ensure objectives are achieved efficiently and effectively",
+          "c": "To set performance standards",
+          "d": "To provide feedback to employees"
+        },
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What action should be taken when performance deviates from established standards?",
+        "options": {
+          "a": "Ignore the deviation",
+          "b": "Correct the deviation and implement corrective actions",
+          "c": "Increase the standards",
+          "d": "Change the goals of the organization"
+        },
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  

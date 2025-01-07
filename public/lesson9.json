@@ -1,0 +1,105 @@
+{
+    "quiz": [
+      {
+        "question": "What is the primary purpose of planning?",
+        "options": {
+          "a": "To reduce uncertainty and allocate resources effectively.",
+          "b": "To increase financial resources for the organization.",
+          "c": "To eliminate external challenges.",
+          "d": "To create a structured approach to leadership."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Which of the following is a characteristic of good objectives?",
+        "options": {
+          "a": "Vague and general.",
+          "b": "Achievable, measurable, and time-bound.",
+          "c": "Non-specific with no measurable metrics.",
+          "d": "Unrealistic and unaligned with the organization’s vision."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What does the 'Perception of Opportunities' step in planning involve?",
+        "options": {
+          "a": "Setting objectives for the organization.",
+          "b": "Identifying potential opportunities and challenges.",
+          "c": "Allocating resources to different departments.",
+          "d": "Developing contingency plans for unforeseen events."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What are planning premises?",
+        "options": {
+          "a": "Detailed instructions for completing tasks.",
+          "b": "Specific, clear, and achievable objectives.",
+          "c": "Assumptions that shape the planning process.",
+          "d": "The total budget required for a project."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Which of the following is an example of a planning policy?",
+        "options": {
+          "a": "The steps involved in student admissions.",
+          "b": "The principle of no student being expelled without warning.",
+          "c": "The rules governing uniform wear during school hours.",
+          "d": "A detailed procedure for setting up a digital classroom."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "In the planning process, which step involves analyzing available resources and identifying constraints?",
+        "options": {
+          "a": "Setting objectives.",
+          "b": "Identifying resources and constraints.",
+          "c": "Formulating supporting plans.",
+          "d": "Exploring alternatives."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is the main benefit of the 'Monitoring and Evaluating Progress' step in the planning process?",
+        "options": {
+          "a": "It helps to increase budget allocation.",
+          "b": "It provides a mechanism for continuous improvement.",
+          "c": "It eliminates all uncertainties in the plan.",
+          "d": "It ensures resources are allocated to new opportunities."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which of the following is an example of a procedural element in planning?",
+        "options": {
+          "a": "The overall goal of increasing student enrollment.",
+          "b": "The detailed steps for conducting entrance exams.",
+          "c": "The principles that guide decision-making.",
+          "d": "The strategies for improving academic performance."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What should be considered when selecting the best alternative in the planning process?",
+        "options": {
+          "a": "The availability of resources and alignment with goals.",
+          "b": "The lowest possible cost, regardless of resources.",
+          "c": "The potential risks without regard to goals.",
+          "d": "The quickest execution time, without proper planning."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Which of the following is true about strategies in planning?",
+        "options": {
+          "a": "They are short-term goals that change frequently.",
+          "b": "They focus on achieving long-term objectives and competitive advantage.",
+          "c": "They only involve setting clear, measurable goals.",
+          "d": "They have no flexibility and must be strictly followed."
+        },
+        "correct_answer": "b"
+      }
+    ]
+  }
+  

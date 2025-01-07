@@ -1,0 +1,107 @@
+{
+    "lesson": "10",
+    "title": "Organisation as a Process",
+    "questions": [
+      {
+        "question": "What is the primary purpose of organizing in management?",
+        "options": {
+          "a": "To create chaos in the institution",
+          "b": "To coordinate tasks and resources to achieve organizational objectives",
+          "c": "To establish confusion among team members",
+          "d": "To eliminate roles and responsibilities"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which of the following is NOT a key aspect of the organizing process?",
+        "options": {
+          "a": "Identifying activities and work",
+          "b": "Defining responsibilities",
+          "c": "Establishing authority relationships",
+          "d": "Eliminating coordination between departments"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Which of the following is an example of a curricular activity in a school?",
+        "options": {
+          "a": "Sports events",
+          "b": "Teaching and learning",
+          "c": "Cultural programs",
+          "d": "Examinations"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is the role of authority in an organization?",
+        "options": {
+          "a": "To prevent coordination between teams",
+          "b": "To ensure clear roles and responsibilities are defined",
+          "c": "To promote individualism and independence",
+          "d": "To restrict delegation of tasks"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Why is coordination important in the organizing process?",
+        "options": {
+          "a": "To ensure that resources are misused",
+          "b": "To make sure activities align with organizational goals",
+          "c": "To create conflicts between departments",
+          "d": "To avoid clear communication within the organization"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What does delegation involve in an organization?",
+        "options": {
+          "a": "Assigning tasks without authority",
+          "b": "Delegating responsibility without assigning any authority",
+          "c": "Assigning tasks along with the authority to make decisions",
+          "d": "Avoiding the assignment of tasks"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Which of the following defines the relationship between different levels of authority in an organization?",
+        "options": {
+          "a": "Horizontal relationships",
+          "b": "Vertical relationships",
+          "c": "Independent relationships",
+          "d": "Casual relationships"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is one of the key reasons for establishing structural relationships in an organization?",
+        "options": {
+          "a": "To prevent interaction between departments",
+          "b": "To promote smooth interaction and collaboration",
+          "c": "To eliminate reporting mechanisms",
+          "d": "To assign more tasks to subordinates"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which of the following is a necessary aspect of organizing for smooth functioning?",
+        "options": {
+          "a": "Providing limited resources",
+          "b": "Ensuring employees have access to the necessary facilities and equipment",
+          "c": "Restricting communication among departments",
+          "d": "Preventing delegation of authority"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "In the organizing process, what must happen after identifying activities?",
+        "options": {
+          "a": "Activities must be avoided",
+          "b": "Activities must be assigned to the appropriate departments or individuals",
+          "c": "Activities should be eliminated from the organization",
+          "d": "Activities should be outsourced immediately"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  }
+  

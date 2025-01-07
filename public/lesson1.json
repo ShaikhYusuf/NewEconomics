@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "question": "What is the primary focus of administration?",
+      "options": {
+        "a": "Planning and organizing resources",
+        "b": "Setting policies and defining objectives",
+        "c": "Managing day-to-day operations",
+        "d": "Executing tasks based on goals"
+      },
+      "index": "b"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a key element of administration?",
+      "options": {
+        "a": "Division of Labor",
+        "b": "Financial Management",
+        "c": "Customer Service",
+        "d": "Marketing Strategy"
+      },
+      "index": "a"
+    },
+    {
+      "id": 3,
+      "question": "According to Newman, administration involves which of the following?",
+      "options": {
+        "a": "Guidance, leadership, and control",
+        "b": "Forecasting and planning",
+        "c": "Directing and controlling",
+        "d": "Hiring and staffing"
+      },
+      "index": "a"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an example of authority structure in an organization?",
+      "options": {
+        "a": "A soccer coach making decisions for the team",
+        "b": "Employees deciding work schedules collectively",
+        "c": "Team members deciding on project goals",
+        "d": "A customer deciding product features"
+      },
+      "index": "a"
+    },
+    {
+      "id": 5,
+      "question": "What is the main difference between administration and management?",
+      "options": {
+        "a": "Administration focuses on 'what' to do, management focuses on 'how' to get it done",
+        "b": "Administration is about decision-making, management is about execution",
+        "c": "Administration is concerned with resources, management is concerned with planning",
+        "d": "Both administration and management are the same"
+      },
+      "index": "a"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following best describes management?",
+      "options": {
+        "a": "The process of planning, organizing, and guiding people",
+        "b": "The art of getting things done through others",
+        "c": "The act of setting objectives and policies",
+        "d": "The creation of strategies to reach business goals"
+      },
+      "index": "b"
+    },
+    {
+      "id": 7,
+      "question": "What does staffing in management refer to?",
+      "options": {
+        "a": "Hiring the right people and assigning them roles",
+        "b": "Making decisions on how resources are allocated",
+        "c": "Coordinating between different teams",
+        "d": "Ensuring tasks are completed on time"
+      },
+      "index": "a"
+    },
+    {
+      "id": 8,
+      "question": "In management, what does 'directing' involve?",
+      "options": {
+        "a": "Motivating and guiding people to do their best",
+        "b": "Allocating resources effectively",
+        "c": "Planning for the future",
+        "d": "Setting goals and objectives"
+      },
+      "index": "a"
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of an organization?",
+      "options": {
+        "a": "To structure people and resources to achieve specific goals",
+        "b": "To manage day-to-day operations",
+        "c": "To coordinate the activities of individual workers",
+        "d": "To oversee the planning and execution of tasks"
+      },
+      "index": "a"
+    },
+    {
+      "id": 10,
+      "question": "What is a formal organization?",
+      "options": {
+        "a": "A structured group with defined roles and goals",
+        "b": "A social network that develops within a company",
+        "c": "A group of people working independently",
+        "d": "A casual group with no specific goals"
+      },
+      "index": "a"
+    }
+  ]
+  

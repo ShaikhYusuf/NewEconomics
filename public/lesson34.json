@@ -1,0 +1,105 @@
+{
+    "quiz": [
+      {
+        "question": "What is the primary difference between a manager and a leader?",
+        "options": {
+          "a": "Managers focus on vision, while leaders focus on stability.",
+          "b": "Managers focus on control and efficiency, while leaders focus on vision, change, and inspiration.",
+          "c": "Leaders focus on monitoring activities, while managers focus on inspiring others.",
+          "d": "Leaders and managers perform exactly the same roles."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which of the following is NOT a key implication of leadership?",
+        "options": {
+          "a": "Leadership involves people.",
+          "b": "Leaders have no power over followers.",
+          "c": "Influence is central to leadership.",
+          "d": "Leadership is value-driven."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "The Great Man Theory of Leadership suggests that leaders are:",
+        "options": {
+          "a": "Made through education and experience.",
+          "b": "Born with specific qualities like charisma and intelligence.",
+          "c": "Effective only during crises.",
+          "d": "Developed over time through trial and error."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which of the following best describes charismatic leadership?",
+        "options": {
+          "a": "Leaders influence through power and control.",
+          "b": "Leaders motivate through personality and vision.",
+          "c": "Leaders focus on following rules and regulations.",
+          "d": "Leaders encourage followers to work independently."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is the primary focus of Trait Theory in leadership?",
+        "options": {
+          "a": "Leaders can be made through behavioral changes.",
+          "b": "Leaders possess innate traits that make them effective.",
+          "c": "Leaders must adapt their behaviors to different situations.",
+          "d": "Leaders can influence others by focusing on situational factors."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "According to the Behavioral Theory of Leadership, what is a critical leadership behavior?",
+        "options": {
+          "a": "Visionary thinking and strategic planning.",
+          "b": "Initiating structure (task-oriented behavior).",
+          "c": "Exclusively focusing on maintaining power.",
+          "d": "Strictly following rules and procedures."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which leadership style involves team participation and collaboration?",
+        "options": {
+          "a": "Autocratic",
+          "b": "Democratic",
+          "c": "Laissez-faire",
+          "d": "Directive"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What does the Path-Goal Theory emphasize in leadership?",
+        "options": {
+          "a": "The leader’s ability to control every aspect of the task.",
+          "b": "The leader’s role in clearing obstacles and motivating followers to achieve goals.",
+          "c": "The leader’s focus on their own success.",
+          "d": "The leader’s need to avoid conflicts with followers."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What does the term ‘employee-centered’ refer to in leadership?",
+        "options": {
+          "a": "Focusing on task completion at all costs.",
+          "b": "Focusing on the needs and well-being of the employees.",
+          "c": "Focusing on strict control over the work environment.",
+          "d": "Focusing on maintaining the status quo."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Which of the following leadership theories is based on the idea that leaders can be made through learning specific behaviors?",
+        "options": {
+          "a": "Great Man Theory",
+          "b": "Trait Theory",
+          "c": "Behavioral Theory",
+          "d": "Contingency Theory"
+        },
+        "correct_answer": "c"
+      }
+    ]
+  }
+  
