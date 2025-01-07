@@ -39,6 +39,7 @@ import { Lesson37Component } from './lesson37/lesson37.component';
 import { Lesson38Component } from './lesson38/lesson38.component';
 import { Lesson39Component } from './lesson39/lesson39.component';
 import { Lesson40Component } from './lesson40/lesson40.component';
+import { QuizComponent } from './quiz/quiz.component';
 
 
 
@@ -84,6 +85,6 @@ export const routes: Routes = [
     { path: 'les38', component: Lesson38Component },
     { path: 'les39', component: Lesson39Component },
     { path: 'les40 ', component: Lesson40Component },
-    
+    { path: 'quiz/:lessonId', component: QuizComponent }
     
 ];
