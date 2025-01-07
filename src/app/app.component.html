@@ -1,6 +1,29 @@
-<!-- app.component.html -->
-<div class="main-container">
+<div class="container">
+  <!-- Menu Button with Angular Material Icon -->
+  <button class="menu-btn" (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
 
-  <router-outlet></router-outlet> <!-- Where the routed components will be displayed -->
+  <!-- Dropdown Menu -->
+  <div class="dropdown-menu" *ngIf="isMenuActive">
+    <ul>
+      <li *ngFor="let item of menuItems" (click)="selectMenuItem(item)">
+        <a [routerLink]="getRouterLink(item)">{{ item.name }}</a>
+      </li>
+    </ul>
+  </div>
 
+  <!-- Main Content Section -->
+  <div class="main-content">
+    <div class="tabs-section">
+      <button 
+        *ngFor="let tab of tabs" 
+        [class.active]="activeTab === tab" 
+        (click)="setActiveTab(tab)" 
+        class="tab-button">
+        {{ tab }}
+      </button>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
 </div>

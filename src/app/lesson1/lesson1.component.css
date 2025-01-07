@@ -1,6 +1,6 @@
 /* General Styling for the Lesson Container */
-.lesson-container {
-  width: 80%;
+.lesson1-container {
+  width: 90%;
   margin: 40px auto;
   padding: 30px;
   font-family: 'Arial', sans-serif;
@@ -11,17 +11,18 @@
   color: #2c3e50;
 }
 
-/* Main Heading */
-h1 {
+/* Main Heading for Lesson1 */
+.lesson1-container h1 {
   font-size: 2.5rem;
   color: #2980b9;
   text-align: center;
+  margin-top: 40px; /* Adjusted to give space from the top */
   margin-bottom: 30px;
   font-weight: bold;
 }
 
-/* Topic Headings */
-h2 {
+/* Topic Headings for Lesson1 */
+.lesson1-container h2 {
   font-size: 2rem;
   color: #34495e;
   text-transform: uppercase;
@@ -31,8 +32,8 @@ h2 {
   font-weight: 600;
 }
 
-/* Subheadings (h3) */
-h3 {
+/* Subheadings (h3) for Lesson1 */
+.lesson1-container h3 {
   font-size: 1.75rem;
   color: #16a085;
   margin-top: 30px;
@@ -44,12 +45,12 @@ h3 {
   transition: all 0.3s ease;
 }
 
-h3:hover {
+.lesson1-container h3:hover {
   color: #2980b9;
   border-bottom-color: #2980b9;
 }
 
-h3::before {
+.lesson1-container h3::before {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -60,79 +61,88 @@ h3::before {
   transition: all 0.3s ease;
 }
 
-/* Paragraph Styling */
-p {
+/* Paragraph Styling for Lesson1 */
+.lesson1-container p {
   font-size: 1.1rem;
   margin-bottom: 15px;
   color: #7f8c8d;
 }
 
-strong {
+.lesson1-container strong {
   font-weight: bold;
   color: #2c3e50;
 }
 
-/* List Styling */
-ul {
+/* List Styling for Lesson1 */
+.lesson1-container ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-ul li {
+.lesson1-container ul li {
   margin-bottom: 12px;
   font-size: 1.1rem;
   color: #7f8c8d;
 }
 
-ul li strong {
+.lesson1-container ul li strong {
   color: #34495e;
 }
 
-/* Section Styling */
-section {
+/* Section Styling for Lesson1 */
+.lesson1-container section {
   margin-bottom: 50px;
 }
 
-/* Styling for Links (if applicable) */
-a {
+/* Styling for Links (if applicable) in Lesson1 */
+.lesson1-container a {
   color: #3498db;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-a:hover {
+.lesson1-container a:hover {
   color: #2980b9;
   text-decoration: underline;
 }
 
 /* Styling for Lists with Strong Titles */
-ul li strong {
+.lesson1-container ul li strong {
   font-weight: 600;
 }
 
-/* Responsive Design */
+/* Responsive Design for Lesson1 */
 @media (max-width: 768px) {
-  .lesson-container {
+  .lesson1-container {
       padding: 20px;
   }
 
-  h1 {
+  .lesson1-container h1 {
       font-size: 2rem;
   }
 
-  h2 {
+  .lesson1-container h2 {
       font-size: 1.8rem;
   }
 
-  h3 {
+  .lesson1-container h3 {
       font-size: 1.5rem;
   }
 
-  p {
+  .lesson1-container p {
       font-size: 1rem;
   }
 
-  ul li {
+  .lesson1-container ul li {
       font-size: 1rem;
   }
+}
+
+/* Page Visibility Control */
+.lesson1-container {
+  display: block;  /* Show Lesson1 page */
+}
+
+.other-page {
+  display: none;  /* Hide other pages */
 }
