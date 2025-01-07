@@ -61,7 +61,7 @@ export class AppComponent {
 
   ];
 
-  tabs = ['Explanation', 'Quiz'];
+  tabs = ['Explanation', 'Quiz', 'Fill In the Blanks'];
 
   constructor(private router: Router) {
     this.selectedMenuItem = this.menuItems[0];
