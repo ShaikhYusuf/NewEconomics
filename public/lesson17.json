@@ -1,56 +1,56 @@
-{
-    "quizTitle": "Controlling as a Function of Management Quiz",
-    "questions": [
-      {
-        "question": "What is the first step in the controlling process?",
-        "options": {
-          "a": "Establishment of controlled standards",
-          "b": "Measurement of performance",
-          "c": "Correction of deviations from standards",
-          "d": "Comparison between performance and set standards"
-        },
-        "correctAnswer": "a"
-      },
-      {
-        "question": "Why is communication important in the directing function?",
-        "options": {
-          "a": "To motivate employees",
-          "b": "To exchange information and align tasks",
-          "c": "To measure performance",
-          "d": "To set standards"
-        },
-        "correctAnswer": "b"
-      },
-      {
-        "question": "Which of the following is NOT an element of direction?",
-        "options": {
-          "a": "Leadership",
-          "b": "Motivation",
-          "c": "Feedback and recognition",
-          "d": "Monitoring performance"
-        },
-        "correctAnswer": "d"
-      },
-      {
-        "question": "Which of the following is the primary goal of controlling?",
-        "options": {
-          "a": "To develop new strategies",
-          "b": "To ensure objectives are achieved efficiently and effectively",
-          "c": "To set performance standards",
-          "d": "To provide feedback to employees"
-        },
-        "correctAnswer": "b"
-      },
-      {
-        "question": "What action should be taken when performance deviates from established standards?",
-        "options": {
-          "a": "Ignore the deviation",
-          "b": "Correct the deviation and implement corrective actions",
-          "c": "Increase the standards",
-          "d": "Change the goals of the organization"
-        },
-        "correctAnswer": "b"
-      }
-    ]
+[{
+    "id": 6,
+    "question": "Which type of leadership focuses on building good relationships with employees?",
+    "options": {
+      "a": "Autocratic leadership",
+      "b": "Transformational leadership",
+      "c": "Democratic leadership",
+      "d": "Laissez-faire leadership"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 7,
+    "question": "What is the primary objective of motivation in management?",
+    "options": {
+      "a": "To assign tasks to employees",
+      "b": "To inspire employees to achieve organizational goals",
+      "c": "To establish performance standards",
+      "d": "To monitor employee performance"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 8,
+    "question": "What does the term 'span of control' refer to in an organization?",
+    "options": {
+      "a": "The number of employees under a manager's direct supervision",
+      "b": "The total number of managers in an organization",
+      "c": "The amount of control a manager has over the organization's finances",
+      "d": "The level of authority a manager holds in decision-making"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is NOT a characteristic of effective communication?",
+    "options": {
+      "a": "Clarity of message",
+      "b": "Quick delivery",
+      "c": "Two-way interaction",
+      "d": "Consideration of the receiver's understanding"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "What is the key role of coordination in management?",
+    "options": {
+      "a": "To resolve employee disputes",
+      "b": "To align individual and group efforts towards organizational goals",
+      "c": "To reduce the workload of managers",
+      "d": "To increase financial resources"
+    },
+    "answer": "b"
   }
-  
+]

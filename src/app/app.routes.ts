@@ -45,7 +45,7 @@ import { QuizComponent } from './quiz/quiz.component';
 
 export const routes: Routes = [
     
-    { path: 'les1', component: Lesson1Component },// Lesson 1 route
+    { path: '', component: Lesson1Component },// Lesson 1 route
     { path: 'les2', component: Lesson2Component },
     { path: 'les3', component: Lesson3Component },
     { path: 'les4', component: Lesson4Component },

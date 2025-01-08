@@ -1,95 +1,101 @@
-{
-    "quiz": [
-      {
-        "question": "What is the primary focus of staff development?",
-        "options": {
-          "a": "Improving short-term job skills",
-          "b": "Enhancing both professional and personal growth",
-          "c": "Training employees for their current role only"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "Which of the following is NOT a method of staff development?",
-        "options": {
-          "a": "On-the-job training",
-          "b": "Off-the-job training",
-          "c": "Salary increase"
-        },
-        "correct_answer": "c"
-      },
-      {
-        "question": "According to Flippo, staff development focuses on preparing employees for:",
-        "options": {
-          "a": "Current managerial tasks",
-          "b": "Future managerial tasks of increasing difficulty",
-          "c": "Reducing workload"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "What is the first step in the staff development process?",
-        "options": {
-          "a": "Appraisal of present managerial talent",
-          "b": "Identifying development needs",
-          "c": "Inventory of staff manpower"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "Which of the following best describes 'Job Enrichment'?",
-        "options": {
-          "a": "Increasing the number of tasks an employee performs",
-          "b": "Providing more autonomy and decision-making opportunities in a job",
-          "c": "Moving employees between different roles"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "What is the main advantage of 360-degree feedback?",
-        "options": {
-          "a": "It provides feedback from one source",
-          "b": "It helps identify strengths and areas for development",
-          "c": "It is only useful for senior management"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "What is a key challenge of Off-the-Job Training?",
-        "options": {
-          "a": "It is usually too informal",
-          "b": "It may not be directly applicable to the employee's job immediately after training",
-          "c": "It is not effective for long-term growth"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "Which method involves employees working on real-time problems or projects?",
-        "options": {
-          "a": "Action Learning",
-          "b": "Coaching",
-          "c": "Job Rotation"
-        },
-        "correct_answer": "a"
-      },
-      {
-        "question": "What is the purpose of succession planning?",
-        "options": {
-          "a": "To reduce employee turnover",
-          "b": "To identify and prepare potential future leaders",
-          "c": "To improve the work-life balance of employees"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "Which of the following is a benefit of On-the-Job Training (OJT)?",
-        "options": {
-          "a": "It requires employees to leave their job to train",
-          "b": "It provides direct application of skills to the job",
-          "c": "It is always expensive"
-        },
-        "correct_answer": "b"
-      }
-    ]
+[{
+    "id": 1,
+    "question": "What is the primary focus of staff development?",
+    "options": {
+      "a": "Improving short-term job skills",
+      "b": "Enhancing both professional and personal growth",
+      "c": "Training employees for their current role only"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is NOT a method of staff development?",
+    "options": {
+      "a": "On-the-job training",
+      "b": "Off-the-job training",
+      "c": "Salary increase"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 3,
+    "question": "According to Flippo, staff development focuses on preparing employees for:",
+    "options": {
+      "a": "Current managerial tasks",
+      "b": "Future managerial tasks of increasing difficulty",
+      "c": "Reducing workload"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": "What is the first step in the staff development process?",
+    "options": {
+      "a": "Appraisal of present managerial talent",
+      "b": "Identifying development needs",
+      "c": "Inventory of staff manpower"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following best describes 'Job Enrichment'?",
+    "options": {
+      "a": "Increasing the number of tasks an employee performs",
+      "b": "Providing more autonomy and decision-making opportunities in a job",
+      "c": "Moving employees between different roles"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": "What is the main advantage of 360-degree feedback?",
+    "options": {
+      "a": "It provides feedback from one source",
+      "b": "It helps identify strengths and areas for development",
+      "c": "It is only useful for senior management"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 7,
+    "question": "What is a key challenge of Off-the-Job Training?",
+    "options": {
+      "a": "It is usually too informal",
+      "b": "It may not be directly applicable to the employee's job immediately after training",
+      "c": "It is not effective for long-term growth"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 8,
+    "question": "Which method involves employees working on real-time problems or projects?",
+    "options": {
+      "a": "Action Learning",
+      "b": "Coaching",
+      "c": "Job Rotation"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of succession planning?",
+    "options": {
+      "a": "To reduce employee turnover",
+      "b": "To identify and prepare potential future leaders",
+      "c": "To improve the work-life balance of employees"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is a benefit of On-the-Job Training (OJT)?",
+    "options": {
+      "a": "It requires employees to leave their job to train",
+      "b": "It provides direct application of skills to the job",
+      "c": "It is always expensive"
+    },
+    "answer": "b"
   }
-  
+]

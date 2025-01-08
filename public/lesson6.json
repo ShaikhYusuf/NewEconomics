@@ -1,106 +1,111 @@
-{
-    "lesson": "Roles of a Manager",
-    "quiz": [
-      {
-        "question": "Which of the following is NOT a category of managerial roles as classified by Henry Mintzberg?",
-        "options": {
-          "a": "Interpersonal Role",
-          "b": "Informational Role",
-          "c": "Decisional Role",
-          "d": "Strategic Role"
-        },
-        "correct_answer": "d"
-      },
-      {
-        "question": "What is the primary responsibility of the 'Leader' sub-role in the interpersonal role?",
-        "options": {
-          "a": "To manage crises and unexpected events",
-          "b": "To motivate, mentor, and evaluate employee performance",
-          "c": "To initiate and implement innovation within the organization",
-          "d": "To manage resource allocation"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "In which scenario did Mr. Kulkarni play the 'Spokesperson' role?",
-        "options": {
-          "a": "He managed teacher performance and gathered feedback",
-          "b": "He participated in ceremonial activities and signed reports",
-          "c": "He prepared brochures and advertisements to inform the public about the school",
-          "d": "He mediated between teachers and management during the strike"
-        },
-        "correct_answer": "c"
-      },
-      {
-        "question": "Which sub-role of the informational role involves gathering internal and external information to monitor the performance of employees, students, and the organization?",
-        "options": {
-          "a": "Disseminator",
-          "b": "Monitor",
-          "c": "Spokesperson",
-          "d": "Leader"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "What is the main focus of the decisional role of a manager?",
-        "options": {
-          "a": "Building relationships within the organization",
-          "b": "Handling the communication of information",
-          "c": "Making strategic decisions and resolving issues",
-          "d": "Monitoring and assessing the performance of the organization"
-        },
-        "correct_answer": "c"
-      },
-      {
-        "question": "In the case of the teacher strike, which role did Mr. Kulkarni play when he communicated with teachers and top management?",
-        "options": {
-          "a": "Negotiator",
-          "b": "Entrepreneur",
-          "c": "Monitor",
-          "d": "Leader"
-        },
-        "correct_answer": "a"
-      },
-      {
-        "question": "What is the primary responsibility of a manager in the 'Liaison' sub-role?",
-        "options": {
-          "a": "Represent the organization in external negotiations",
-          "b": "Communicate and share information with stakeholders inside and outside the organization",
-          "c": "Handle conflicts and crises within the organization",
-          "d": "Evaluate employee performance and set goals"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "Which of the following actions is an example of the 'Entrepreneur' role?",
-        "options": {
-          "a": "Setting performance goals for employees",
-          "b": "Allocating resources to achieve objectives",
-          "c": "Introducing new teaching methods, such as ICT integration",
-          "d": "Building relationships with external stakeholders"
-        },
-        "correct_answer": "c"
-      },
-      {
-        "question": "In what scenario did Mr. Kulkarni play the 'Figurehead' role?",
-        "options": {
-          "a": "He mediated between teachers and management during a strike",
-          "b": "He participated in ceremonial activities and signed legal documents",
-          "c": "He evaluated the performance of teachers and set goals",
-          "d": "He allocated resources to meet the school’s needs"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "Which role is added by Coulson (1987) to Mintzberg's classification of managerial roles?",
-        "options": {
-          "a": "Strategic Role",
-          "b": "Leading Professional Role",
-          "c": "Supportive Role",
-          "d": "Operational Role"
-        },
-        "correct_answer": "b"
-      }
-    ]
+[{
+    "id": 1,
+    "question": "Which of the following is NOT a category of managerial roles as classified by Henry Mintzberg?",
+    "options": {
+      "a": "Interpersonal Role",
+      "b": "Informational Role",
+      "c": "Decisional Role",
+      "d": "Strategic Role"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 2,
+    "question": "What is the primary responsibility of the 'Leader' sub-role in the interpersonal role?",
+    "options": {
+      "a": "To manage crises and unexpected events",
+      "b": "To motivate, mentor, and evaluate employee performance",
+      "c": "To initiate and implement innovation within the organization",
+      "d": "To manage resource allocation"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 3,
+    "question": "In which scenario did Mr. Kulkarni play the 'Spokesperson' role?",
+    "options": {
+      "a": "He managed teacher performance and gathered feedback",
+      "b": "He participated in ceremonial activities and signed reports",
+      "c": "He prepared brochures and advertisements to inform the public about the school",
+      "d": "He mediated between teachers and management during the strike"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 4,
+    "question": "Which sub-role of the informational role involves gathering internal and external information to monitor the performance of employees, students, and the organization?",
+    "options": {
+      "a": "Disseminator",
+      "b": "Monitor",
+      "c": "Spokesperson",
+      "d": "Leader"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 5,
+    "question": "What is the main focus of the decisional role of a manager?",
+    "options": {
+      "a": "Building relationships within the organization",
+      "b": "Handling the communication of information",
+      "c": "Making strategic decisions and resolving issues",
+      "d": "Monitoring and assessing the performance of the organization"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 6,
+    "question": "In the case of the teacher strike, which role did Mr. Kulkarni play when he communicated with teachers and top management?",
+    "options": {
+      "a": "Negotiator",
+      "b": "Entrepreneur",
+      "c": "Monitor",
+      "d": "Leader"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "What is the primary responsibility of a manager in the 'Liaison' sub-role?",
+    "options": {
+      "a": "Represent the organization in external negotiations",
+      "b": "Communicate and share information with stakeholders inside and outside the organization",
+      "c": "Handle conflicts and crises within the organization",
+      "d": "Evaluate employee performance and set goals"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following actions is an example of the 'Entrepreneur' role?",
+    "options": {
+      "a": "Setting performance goals for employees",
+      "b": "Allocating resources to achieve objectives",
+      "c": "Introducing new teaching methods, such as ICT integration",
+      "d": "Building relationships with external stakeholders"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 9,
+    "question": "In what scenario did Mr. Kulkarni play the 'Figurehead' role?",
+    "options": {
+      "a": "He mediated between teachers and management during a strike",
+      "b": "He participated in ceremonial activities and signed legal documents",
+      "c": "He evaluated the performance of teachers and set goals",
+      "d": "He allocated resources to meet the school’s needs"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "Which role is added by Coulson (1987) to Mintzberg's classification of managerial roles?",
+    "options": {
+      "a": "Strategic Role",
+      "b": "Leading Professional Role",
+      "c": "Supportive Role",
+      "d": "Operational Role"
+    },
+    "answer": "b"
   }
-  
+]
