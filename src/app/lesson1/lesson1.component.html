@@ -1,8 +1,20 @@
 <div class="lesson1-container">
+  <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+    <mat-icon>play_arrow</mat-icon>
+  </button>
+
+  <!-- Pause Button -->
+  <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+    <mat-icon>pause</mat-icon>
+  </button>
+  <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+    <mat-icon>stop</mat-icon>
+  </button>
+
     <h1>Lesson 1: Concept of Administration, Management and Organization</h1>
   
     <!-- Topic 1: Structure Objectives Administration Management Organisation -->
-    <section>
+    <section #textDiv>
       <h2>Topic 1: Structure Objectives Administration Management Organisation</h2>
       
       <!-- Administration Section -->
