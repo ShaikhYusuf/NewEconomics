@@ -40,12 +40,14 @@ import { Lesson38Component } from './lesson38/lesson38.component';
 import { Lesson39Component } from './lesson39/lesson39.component';
 import { Lesson40Component } from './lesson40/lesson40.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { FillBlankComponent } from './fill-blank/fill-blank.component';
 
 
 
 export const routes: Routes = [
-    
+
     { path: '', component: Lesson1Component },// Lesson 1 route
+    { path: 'les1', component: Lesson1Component },
     { path: 'les2', component: Lesson2Component },
     { path: 'les3', component: Lesson3Component },
     { path: 'les4', component: Lesson4Component },
@@ -85,6 +87,7 @@ export const routes: Routes = [
     { path: 'les38', component: Lesson38Component },
     { path: 'les39', component: Lesson39Component },
     { path: 'les40 ', component: Lesson40Component },
-    { path: 'quiz/:lessonId', component: QuizComponent }
-    
+    { path: 'quiz/:lessonId', component: QuizComponent },
+    { path: 'fillblank/:lessonId', component: FillBlankComponent }
+
 ];

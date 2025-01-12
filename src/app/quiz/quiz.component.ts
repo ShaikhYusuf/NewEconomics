@@ -16,7 +16,7 @@ export class QuizComponent {
   submitted = false;
   lessonId!: number;
 
-  constructor(private http: HttpClient, private route: ActivatedRoute) {}
+  constructor(private http: HttpClient, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
@@ -26,7 +26,7 @@ export class QuizComponent {
   }
 
   loadQuizzes(lessonId: number): void {
-    const url = `./lesson${lessonId}.json`;
+    const url = `./quiz/lesson${lessonId}.json`;
     this.http.get<any[]>(url).subscribe({
       next: (data) => {
         this.quizzes = data;
