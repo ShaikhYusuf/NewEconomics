@@ -1,0 +1,92 @@
+/* Main Container Styling */
+.container {
+    position: relative;
+  }
+  
+  /* Menu Button Styles */
+  .menu-btn {
+    background-color: #2980b9;
+    margin-left: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 15;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .menu-btn:hover {
+    background-color: #1c598a;
+  }
+  
+  /* Dropdown Menu Styles */
+  .dropdown-menu {
+    position: fixed;
+    top: 60px;
+    left: 20px;
+    background-color: #ffffff;
+    color: #34495e;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    padding: 10px;
+    height: 200px;
+    overflow: auto;
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    margin: 10px 0;
+  }
+  
+  .dropdown-menu li a {
+    color: #34495e;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 8px 0;
+  }
+  
+  .dropdown-menu li a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+  }
+  
+  /* Main content section */
+  .main-content {
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+  }
+  
+  /* Tabs section */
+  .tabs-section {
+    display: flex;
+    position: fixed;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  .tab-button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(241, 171, 41);
+    color: black;
+  }
+  
+  .tab-button.active {
+    background-color: dodgerblue;
+    color: white;
+  }  
