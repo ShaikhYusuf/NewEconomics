@@ -1,14 +1,43 @@
 <div class="lesson-container">
-    <h1>Lesson 13: Organisation IV</h1>
-  
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
+  <h1>Lesson 13: Organisation IV</h1>
+  <section class="main" #textDiv>
+
     <!-- Introduction to Organization -->
     <section>
       <h2>Introduction to Organization</h2>
       <p>
-        Organizing is a fundamental function of management that plays a pivotal role in coordinating activities, aligning responsibilities, and achieving institutional goals. It serves as the foundation upon which all other management functions—planning, directing, controlling, and staffing—are based. In any organization, there are a multitude of tasks, responsibilities, and activities that need to be managed. These must be categorized, assigned, and executed systematically to ensure smooth operations. Organizing focuses on grouping these tasks, defining roles, establishing authority, and creating relationships between various units or departments.
+        Organizing is a fundamental function of management that plays a pivotal role in coordinating activities,
+        aligning
+        responsibilities, and achieving institutional goals. It serves as the foundation upon which all other management
+        functions—planning, directing, controlling, and staffing—are based. In any organization, there are a multitude
+        of
+        tasks, responsibilities, and activities that need to be managed. These must be categorized, assigned, and
+        executed
+        systematically to ensure smooth operations. Organizing focuses on grouping these tasks, defining roles,
+        establishing authority, and creating relationships between various units or departments.
       </p>
     </section>
-  
+
     <!-- The Role of Organization in Management -->
     <section>
       <h2>The Role of Organization in Management</h2>
@@ -16,14 +45,19 @@
         The term “organization” can be understood in two distinct ways:
       </p>
       <ul>
-        <li><strong>As a Process</strong>: The act of grouping and coordinating activities to achieve specific objectives.</li>
-        <li><strong>As a Structure</strong>: The framework that defines how activities are carried out, who performs them, and how they relate to one another.</li>
+        <li><strong>As a Process</strong>: The act of grouping and coordinating activities to achieve specific
+          objectives.
+        </li>
+        <li><strong>As a Structure</strong>: The framework that defines how activities are carried out, who performs
+          them,
+          and how they relate to one another.</li>
       </ul>
       <p>
         For example, in a school setting:
       </p>
       <ul>
-        <li>The principal oversees the entire institution and delegates responsibilities to vice-principals, department heads, and teachers.</li>
+        <li>The principal oversees the entire institution and delegates responsibilities to vice-principals, department
+          heads, and teachers.</li>
         <li>Teachers are assigned tasks such as teaching, exam preparation, and student counseling.</li>
         <li>Non-teaching staff take on administrative and operational responsibilities.</li>
       </ul>
@@ -31,17 +65,23 @@
         This division and coordination are formalized in an organization chart.
       </p>
     </section>
-  
+
     <!-- What is an Organization Chart? -->
     <section>
       <h2>What is an Organization Chart?</h2>
       <p>
-        An organization chart is a graphical representation of an organization's structure, showing the hierarchy, roles, and relationships between different individuals and groups. It ensures clarity in roles and accountability, allows transparency, and can assist in identifying areas for restructuring.
+        An organization chart is a graphical representation of an organization's structure, showing the hierarchy,
+        roles,
+        and relationships between different individuals and groups. It ensures clarity in roles and accountability,
+        allows
+        transparency, and can assist in identifying areas for restructuring.
       </p>
-      <p><strong>Example:</strong> In a school, teachers may be grouped into departments based on subjects (e.g., Mathematics, Science, Languages), with additional responsibilities such as admissions and event organizing assigned to specific teachers. The chart ensures that tasks are clearly defined and workloads are balanced.
+      <p><strong>Example:</strong> In a school, teachers may be grouped into departments based on subjects (e.g.,
+        Mathematics, Science, Languages), with additional responsibilities such as admissions and event organizing
+        assigned to specific teachers. The chart ensures that tasks are clearly defined and workloads are balanced.
       </p>
     </section>
-  
+
     <!-- Why is Organizing Important? -->
     <section>
       <h2>Why is Organizing Important?</h2>
@@ -49,20 +89,28 @@
         Organizing is crucial for several reasons:
       </p>
       <ul>
-        <li><strong>Efficiency</strong>: It minimizes confusion and duplication of work by defining roles and responsibilities clearly.</li>
-        <li><strong>Goal Achievement</strong>: Proper organization aligns activities with institutional objectives, ensuring all efforts contribute to the overarching mission.</li>
+        <li><strong>Efficiency</strong>: It minimizes confusion and duplication of work by defining roles and
+          responsibilities clearly.</li>
+        <li><strong>Goal Achievement</strong>: Proper organization aligns activities with institutional objectives,
+          ensuring all efforts contribute to the overarching mission.</li>
         <li><strong>Enhanced Communication</strong>: Clear reporting relationships facilitate smooth communication.</li>
-        <li><strong>Adaptability</strong>: Organizations can adapt to changes through restructuring and reassignment of tasks.</li>
-        <li><strong>Creativity</strong>: By fostering collaboration and grouping activities, organizing provides opportunities for innovation.</li>
+        <li><strong>Adaptability</strong>: Organizations can adapt to changes through restructuring and reassignment of
+          tasks.</li>
+        <li><strong>Creativity</strong>: By fostering collaboration and grouping activities, organizing provides
+          opportunities for innovation.</li>
       </ul>
     </section>
-  
+
     <!-- Conclusion -->
     <section>
       <h2>Conclusion</h2>
       <p>
-        Organizing is more than creating a structure; it ensures that the institution operates cohesively and efficiently. Whether through an organization chart or day-to-day operations, organizing aligns resources, roles, and efforts with institutional goals. By embracing this function, organizations can foster accountability and drive growth, achieving their objectives effectively.
+        Organizing is more than creating a structure; it ensures that the institution operates cohesively and
+        efficiently.
+        Whether through an organization chart or day-to-day operations, organizing aligns resources, roles, and efforts
+        with institutional goals. By embracing this function, organizations can foster accountability and drive growth,
+        achieving their objectives effectively.
       </p>
     </section>
-  </div>
-  
+  </section>
+</div>

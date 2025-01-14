@@ -1,29 +1,64 @@
 <div class="lesson-container">
-    <h1>Lesson 34: Theories of Leadership – I</h1>
-  
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
+  <h1>Lesson 34: Theories of Leadership – I</h1>
+
+  <section class="main" #textDiv>
     <section>
       <h2>2. Introduction</h2>
       <p>
-        Leadership is a crucial function within any organization, encompassing not only the administrative aspects of management but also the motivational and guiding elements. A manager may need to fulfill both managerial and leadership roles, with management focusing on maintaining systems and operations, while leadership aims to inspire, guide, and influence people toward common objectives. Leadership is a process through which one individual influences a group to achieve desired outcomes, and this ability to influence and inspire sets a true leader apart from a mere manager.
+        Leadership is a crucial function within any organization, encompassing not only the administrative aspects of
+        management but also the motivational and guiding elements. A manager may need to fulfill both managerial and
+        leadership roles, with management focusing on maintaining systems and operations, while leadership aims to
+        inspire, guide, and influence people toward common objectives. Leadership is a process through which one
+        individual influences a group to achieve desired outcomes, and this ability to influence and inspire sets a true
+        leader apart from a mere manager.
       </p>
     </section>
-  
+
     <section>
       <h2>3. Concept of Leadership</h2>
-      <p>Leadership has been a topic of extensive debate and there are various ways to define it. At its core, leadership is about influencing and directing others toward task-related objectives. Key elements that emerge from this concept include:</p>
-      
+      <p>Leadership has been a topic of extensive debate and there are various ways to define it. At its core,
+        leadership is about influencing and directing others toward task-related objectives. Key elements that emerge
+        from this concept include:</p>
+
       <ul>
-        <li><strong>Leadership Involves People:</strong> Leadership is a group phenomenon—without followers or employees, leadership would have no purpose. The leader's role is defined by the willingness of others to accept guidance and direction.</li>
-        <li><strong>Unequal Power Distribution:</strong> Leaders typically hold more power than their followers, but this disparity is not about tyranny. Rather, it enables leaders to effectively influence and guide others.</li>
-        <li><strong>Influence is Central:</strong> Leadership revolves around influencing behavior. Influence can take the form of inspiration, persuasion, or direct guidance toward achieving shared goals.</li>
-        <li><strong>Leadership is Value-Driven:</strong> Effective leadership requires a strong moral and ethical foundation. Leaders who ignore this risk losing credibility and trust.</li>
+        <li><strong>Leadership Involves People:</strong> Leadership is a group phenomenon—without followers or
+          employees, leadership would have no purpose. The leader's role is defined by the willingness of others to
+          accept guidance and direction.</li>
+        <li><strong>Unequal Power Distribution:</strong> Leaders typically hold more power than their followers, but
+          this disparity is not about tyranny. Rather, it enables leaders to effectively influence and guide others.
+        </li>
+        <li><strong>Influence is Central:</strong> Leadership revolves around influencing behavior. Influence can take
+          the form of inspiration, persuasion, or direct guidance toward achieving shared goals.</li>
+        <li><strong>Leadership is Value-Driven:</strong> Effective leadership requires a strong moral and ethical
+          foundation. Leaders who ignore this risk losing credibility and trust.</li>
       </ul>
     </section>
-  
+
     <section>
       <h2>Scenario Analysis: Manager vs. Leader</h2>
-      <p><strong>Scenario:</strong> Mr. Deshpande, the principal of a college, implemented a new timetable to optimize teaching schedules. Though initially resisted by staff, the system was eventually accepted as its benefits became clear.</p>
-      
+      <p><strong>Scenario:</strong> Mr. Deshpande, the principal of a college, implemented a new timetable to optimize
+        teaching schedules. Though initially resisted by staff, the system was eventually accepted as its benefits
+        became clear.</p>
+
       <h3>Analysis:</h3>
       <h4>Role of Manager:</h4>
       <ul>
@@ -31,14 +66,14 @@
         <li>Monitoring adherence and ensuring efficiency.</li>
         <li>Controlling resources for optimal use.</li>
       </ul>
-  
+
       <h4>Role of Leader:</h4>
       <ul>
         <li>Envisioning improvements (e.g., enhancing efficiency and quality).</li>
         <li>Motivating and inspiring staff to accept the changes.</li>
         <li>Recognizing efforts and fostering morale.</li>
       </ul>
-  
+
       <h4>Differentiating Manager and Leader:</h4>
       <table>
         <thead>
@@ -72,42 +107,58 @@
         </tbody>
       </table>
     </section>
-  
+
     <section>
       <h2>4. Overview of Leadership Theories</h2>
-      <p>Leadership theories aim to categorize factors that contribute to successful leadership. These theories are generally classified into categories based on traits, behaviors, situational contexts, or the leader-follower dynamic. Prominent theories include:</p>
-      
+      <p>Leadership theories aim to categorize factors that contribute to successful leadership. These theories are
+        generally classified into categories based on traits, behaviors, situational contexts, or the leader-follower
+        dynamic. Prominent theories include:</p>
+
       <ul>
-        <li><strong>Great Man Theory:</strong> Suggests that leaders are born with innate qualities that set them apart.</li>
-        <li><strong>Trait Theory:</strong> Focuses on specific personality traits that can make someone a good leader.</li>
-        <li><strong>Behavioral Theories:</strong> Emphasizes the actions and behaviors of leaders over their inherent traits.</li>
-        <li><strong>Contingency Theories:</strong> Proposes that the effectiveness of leadership depends on how well a leader's style fits the situation.</li>
-        <li><strong>Situational Theories:</strong> Suggests leaders must adjust their approach based on the readiness and maturity of their followers.</li>
-        <li><strong>Path-Goal Theory:</strong> Focuses on how leaders motivate followers by clarifying goals and removing obstacles.</li>
+        <li><strong>Great Man Theory:</strong> Suggests that leaders are born with innate qualities that set them apart.
+        </li>
+        <li><strong>Trait Theory:</strong> Focuses on specific personality traits that can make someone a good leader.
+        </li>
+        <li><strong>Behavioral Theories:</strong> Emphasizes the actions and behaviors of leaders over their inherent
+          traits.</li>
+        <li><strong>Contingency Theories:</strong> Proposes that the effectiveness of leadership depends on how well a
+          leader's style fits the situation.</li>
+        <li><strong>Situational Theories:</strong> Suggests leaders must adjust their approach based on the readiness
+          and maturity of their followers.</li>
+        <li><strong>Path-Goal Theory:</strong> Focuses on how leaders motivate followers by clarifying goals and
+          removing obstacles.</li>
       </ul>
     </section>
-  
+
     <section>
       <h2>5. Great Man Theory of Leadership</h2>
-      <p>The <strong>Great Man Theory</strong> posits that leaders are born with inherent qualities like charisma, intelligence, and courage. This theory historically centered on male leaders, reflecting societal norms of the time. Leaders such as Napoleon Bonaparte and Mahatma Gandhi are examples of this theory, as they were seen as possessing unique qualities that allowed them to lead transformative change.</p>
+      <p>The <strong>Great Man Theory</strong> posits that leaders are born with inherent qualities like charisma,
+        intelligence, and courage. This theory historically centered on male leaders, reflecting societal norms of the
+        time. Leaders such as Napoleon Bonaparte and Mahatma Gandhi are examples of this theory, as they were seen as
+        possessing unique qualities that allowed them to lead transformative change.</p>
       <p><strong>Key Assumptions:</strong></p>
       <ul>
         <li>Leaders are born with specific qualities.</li>
         <li>Leadership traits are intrinsic and stable over time.</li>
         <li>Great leaders profoundly shape history.</li>
       </ul>
-      <p><strong>Critique:</strong> Modern research challenges the idea that leadership is purely innate, highlighting the importance of environment, education, and experience in leadership development.</p>
+      <p><strong>Critique:</strong> Modern research challenges the idea that leadership is purely innate, highlighting
+        the importance of environment, education, and experience in leadership development.</p>
       <p><strong>Example:</strong> <strong>Mahatma Gandhi</strong></p>
       <ul>
-        <li><strong>Traits:</strong> Charismatic communicator, strategic thinker, and steadfast believer in nonviolence.</li>
-        <li><strong>Impact:</strong> Gandhi’s principles of truth and nonviolence (Satyagraha) played a crucial role in India's independence movement.</li>
+        <li><strong>Traits:</strong> Charismatic communicator, strategic thinker, and steadfast believer in nonviolence.
+        </li>
+        <li><strong>Impact:</strong> Gandhi’s principles of truth and nonviolence (Satyagraha) played a crucial role in
+          India's independence movement.</li>
       </ul>
     </section>
-  
+
     <section>
       <h2>6. Charismatic Leadership Theory</h2>
-      <p><strong>Charismatic leadership</strong> focuses on leaders who inspire and motivate followers through their personality and vision. These leaders build trust and loyalty, often being most effective during crises or periods of significant change.</p>
-  
+      <p><strong>Charismatic leadership</strong> focuses on leaders who inspire and motivate followers through their
+        personality and vision. These leaders build trust and loyalty, often being most effective during crises or
+        periods of significant change.</p>
+
       <h3>Attributes of Charismatic Leaders:</h3>
       <ul>
         <li><strong>Confidence:</strong> They instill confidence in others.</li>
@@ -115,13 +166,13 @@
         <li><strong>Empathy:</strong> They understand and address followers’ needs.</li>
         <li><strong>Exceptional Communication:</strong> They connect emotionally with their audience.</li>
       </ul>
-  
+
       <h3>Examples:</h3>
       <ul>
         <li><strong>Martin Luther King Jr.:</strong> His "I Have a Dream" speech epitomized visionary leadership.</li>
         <li><strong>Winston Churchill:</strong> His leadership during WWII inspired Britain to stand firm.</li>
       </ul>
-  
+
       <h3>Conger and Kanungo’s Five Behavioral Attributes:</h3>
       <ul>
         <li>Vision and Articulation</li>
@@ -131,41 +182,48 @@
         <li>Unconventional Behavior</li>
       </ul>
     </section>
-  
+
     <section>
       <h2>7. Trait Theory of Leadership</h2>
-      <p>The <strong>Trait Theory</strong> builds upon the Great Man Theory but asserts that leadership traits can be developed. Effective leaders often possess both innate and acquired traits. Key traits for effective leadership include intelligence, self-confidence, decisiveness, and honesty.</p>
-  
+      <p>The <strong>Trait Theory</strong> builds upon the Great Man Theory but asserts that leadership traits can be
+        developed. Effective leaders often possess both innate and acquired traits. Key traits for effective leadership
+        include intelligence, self-confidence, decisiveness, and honesty.</p>
+
       <h3>Modern Applications:</h3>
-      <p>Leaders are often evaluated on a blend of personality traits and job-specific skills. For example, Principal Rane’s scenario:</p>
+      <p>Leaders are often evaluated on a blend of personality traits and job-specific skills. For example, Principal
+        Rane’s scenario:</p>
       <ul>
         <li><strong>Seema:</strong> Assertive and confident, embodying traditional leadership traits.</li>
         <li><strong>Hemna:</strong> Creative and nurturing, offering complementary qualities.</li>
       </ul>
-  
-      <p><strong>Critique:</strong> The Trait Theory does not account for situational factors such as organizational culture or team dynamics.</p>
+
+      <p><strong>Critique:</strong> The Trait Theory does not account for situational factors such as organizational
+        culture or team dynamics.</p>
     </section>
-  
+
     <section>
       <h2>8. Behavioral Theory of Leadership</h2>
-      <p>The <strong>Behavioral Theory</strong> emphasizes actions rather than traits, suggesting that leadership is learned through appropriate behaviors. Leaders can adapt their approach to situations.</p>
-  
+      <p>The <strong>Behavioral Theory</strong> emphasizes actions rather than traits, suggesting that leadership is
+        learned through appropriate behaviors. Leaders can adapt their approach to situations.</p>
+
       <h3>Leadership Styles:</h3>
       <ul>
         <li><strong>Autocratic:</strong> Centralized decision-making, effective in emergencies.</li>
         <li><strong>Democratic:</strong> Encourages participation, fostering collaboration.</li>
         <li><strong>Laissez-faire:</strong> Delegates authority, suitable for skilled teams.</li>
       </ul>
-  
+
       <h3>Key Studies:</h3>
       <ul>
-        <li><strong>Ohio State University:</strong> Identified two critical behaviors—Initiating Structure (task-oriented) and Consideration (people-oriented).</li>
+        <li><strong>Ohio State University:</strong> Identified two critical behaviors—Initiating Structure
+          (task-oriented) and Consideration (people-oriented).</li>
         <li><strong>Michigan Studies:</strong> Focused on job-centered and employee-centered leadership.</li>
       </ul>
-  
+
       <h3>Leadership Continuum:</h3>
-      <p>Explains how leaders can shift from boss-centered to subordinate-centered approaches based on task complexity and follower readiness.</p>
-  
+      <p>Explains how leaders can shift from boss-centered to subordinate-centered approaches based on task complexity
+        and follower readiness.</p>
+
       <h3>Key Takeaways:</h3>
       <ul>
         <li>Leadership effectiveness depends on the interaction of traits, behaviors, and situational factors.</li>
@@ -174,5 +232,5 @@
         <li>Vision and empathy are essential for connecting with followers and achieving success.</li>
       </ul>
     </section>
-  </div>
-  
+  </section>
+</div>

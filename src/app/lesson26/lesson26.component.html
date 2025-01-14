@@ -1,177 +1,212 @@
 <div class="lesson-container">
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
+
   <h1>Lesson 26: Theories of Motivation and its Application (Vroom)</h1>
 
-  <section>
-    <h2>2. Vroom Expectancy Motivation Theory (Detailed Explanation)</h2>
-    <p>
-      Vroom's Expectancy Motivation Theory is a cognitive approach to understanding human motivation. Unlike other
-      motivation theories that focus on intrinsic needs or drives, Vroom's theory examines the thought processes behind
-      decisions regarding effort, performance, and rewards. It is based on the assumption that individuals are motivated
-      by the expected outcomes of their behavior, meaning they will make decisions based on how much they value the
-      outcomes and their belief in their ability to achieve those outcomes.
-    </p>
-    <p>
-      The theory postulates that motivation is a result of conscious choices people make based on their perceptions of
-      the likelihood that their effort will lead to the desired performance, and that their performance will result in a
-      valued reward. The theory is framed around three main components: Expectancy, Instrumentality, and Valence.
-    </p>
-  </section>
+  <section class="main" #textDiv>
+    <section>
+      <h2>2. Vroom Expectancy Motivation Theory (Detailed Explanation)</h2>
+      <p>
+        Vroom's Expectancy Motivation Theory is a cognitive approach to understanding human motivation. Unlike other
+        motivation theories that focus on intrinsic needs or drives, Vroom's theory examines the thought processes
+        behind
+        decisions regarding effort, performance, and rewards. It is based on the assumption that individuals are
+        motivated
+        by the expected outcomes of their behavior, meaning they will make decisions based on how much they value the
+        outcomes and their belief in their ability to achieve those outcomes.
+      </p>
+      <p>
+        The theory postulates that motivation is a result of conscious choices people make based on their perceptions of
+        the likelihood that their effort will lead to the desired performance, and that their performance will result in
+        a
+        valued reward. The theory is framed around three main components: Expectancy, Instrumentality, and Valence.
+      </p>
+    </section>
 
-  <section>
-    <h2>Key Components of Vroom’s Expectancy Theory</h2>
+    <section>
+      <h2>Key Components of Vroom’s Expectancy Theory</h2>
 
-    <h3>1. Expectancy (E)</h3>
-    <p>
-      Expectancy refers to the belief that increased effort will lead to increased performance. It is an individual’s
-      perception that their effort will directly affect their performance level. The stronger this belief, the more
-      motivated the person will be to put forth effort.
-    </p>
-    <p><strong>Influencing Factors:</strong></p>
-    <ul>
-      <li>Skills and abilities: If an individual believes they have the necessary skills, their expectancy will be high.
-      </li>
-      <li>Availability of resources: The necessary resources like materials, time, and support impact the individual’s
-        belief.</li>
-      <li>Support systems: Supportive peers, managers, or instructors can increase expectancy.</li>
-    </ul>
-
-    <h3>2. Instrumentality (I)</h3>
-    <p>
-      Instrumentality refers to the belief that good performance will lead to a desired outcome or reward. It is the
-      individual’s perception of the relationship between performance and outcomes.
-    </p>
-    <p><strong>Influencing Factors:</strong></p>
-    <ul>
-      <li>Trust in management: Employees need to trust that their performance will be fairly rewarded.</li>
-      <li>Clarity of the reward system: The clearer the link between performance and reward, the more motivated
-        individuals will be.</li>
-      <li>Fairness of the reward system: Rewards must be distributed fairly.</li>
-    </ul>
-
-    <h3>3. Valence (V)</h3>
-    <p>
-      Valence refers to the value an individual places on the expected outcome. The individual must value the outcome
-      highly for motivation to occur.
-    </p>
-    <p><strong>Influencing Factors:</strong></p>
-    <ul>
-      <li>Personal goals and values: If an individual is driven by money, a monetary reward will have high valence.</li>
-      <li>Cultural and social factors: The types of rewards valued may vary across cultures.</li>
-      <li>Past experiences: Previous experiences with rewards affect future expectations.</li>
-    </ul>
-
-    <h3>Motivational Formula</h3>
-    <p>Vroom's Expectancy Motivation Theory can be expressed as:</p>
-    <p><strong>Motivation = V × E × I</strong></p>
-    <h6>
-      Where:
+      <h3>1. Expectancy (E)</h3>
+      <p>
+        Expectancy refers to the belief that increased effort will lead to increased performance. It is an individual’s
+        perception that their effort will directly affect their performance level. The stronger this belief, the more
+        motivated the person will be to put forth effort.
+      </p>
+      <p><strong>Influencing Factors:</strong></p>
       <ul>
-        <li><strong>V</strong> = Valence (the value the individual places on the reward)</li>
-        <li><strong>E</strong> = Expectancy (the belief that increased effort leads to better performance)</li>
-        <li><strong>I</strong> = Instrumentality (the belief that good performance will lead to a desired outcome)</li>
+        <li>Skills and abilities: If an individual believes they have the necessary skills, their expectancy will be
+          high.
+        </li>
+        <li>Availability of resources: The necessary resources like materials, time, and support impact the individual’s
+          belief.</li>
+        <li>Support systems: Supportive peers, managers, or instructors can increase expectancy.</li>
       </ul>
 
-      The motivation of an individual will only be high if all three factors are strong. If any of these factors is weak
-      or absent, motivation will decrease.
-    </h6>
-  </section>
+      <h3>2. Instrumentality (I)</h3>
+      <p>
+        Instrumentality refers to the belief that good performance will lead to a desired outcome or reward. It is the
+        individual’s perception of the relationship between performance and outcomes.
+      </p>
+      <p><strong>Influencing Factors:</strong></p>
+      <ul>
+        <li>Trust in management: Employees need to trust that their performance will be fairly rewarded.</li>
+        <li>Clarity of the reward system: The clearer the link between performance and reward, the more motivated
+          individuals will be.</li>
+        <li>Fairness of the reward system: Rewards must be distributed fairly.</li>
+      </ul>
 
-  <section>
-    <h2>Vroom’s Theory in Action</h2>
-    <p><strong>Example Scenario:</strong></p>
-    <p>
-      Sarah is a sales manager in a company. She wants to motivate her team to achieve higher sales targets.
-    </p>
+      <h3>3. Valence (V)</h3>
+      <p>
+        Valence refers to the value an individual places on the expected outcome. The individual must value the outcome
+        highly for motivation to occur.
+      </p>
+      <p><strong>Influencing Factors:</strong></p>
+      <ul>
+        <li>Personal goals and values: If an individual is driven by money, a monetary reward will have high valence.
+        </li>
+        <li>Cultural and social factors: The types of rewards valued may vary across cultures.</li>
+        <li>Past experiences: Previous experiences with rewards affect future expectations.</li>
+      </ul>
 
-    <ul>
-      <li><strong>Expectancy:</strong> Sarah provides her team with the necessary training and tools to succeed. She
-        believes that with proper support, the team can reach the targets.</li>
-      <li><strong>Instrumentality:</strong> Sarah has established a clear reward system: the top performer of the month
-        will receive a bonus and recognition.</li>
-      <li><strong>Valence:</strong> The team values the reward, whether it's a monetary bonus or public recognition.
-      </li>
-    </ul>
+      <h3>Motivational Formula</h3>
+      <p>Vroom's Expectancy Motivation Theory can be expressed as:</p>
+      <p><strong>Motivation = V × E × I</strong></p>
+      <h6>
+        Where:
+        <ul>
+          <li><strong>V</strong> = Valence (the value the individual places on the reward)</li>
+          <li><strong>E</strong> = Expectancy (the belief that increased effort leads to better performance)</li>
+          <li><strong>I</strong> = Instrumentality (the belief that good performance will lead to a desired outcome)
+          </li>
+        </ul>
 
-    <p>
-      If all three elements are strong—expectancy, instrumentality, and valence—Sarah’s team will be highly motivated to
-      achieve the sales target.
-    </p>
-  </section>
+        The motivation of an individual will only be high if all three factors are strong. If any of these factors is
+        weak
+        or absent, motivation will decrease.
+      </h6>
+    </section>
 
-  <section>
-    <h2>Conclusion</h2>
-    <p>
-      Vroom’s Expectancy Motivation Theory is a valuable framework for understanding human motivation, especially in
-      organizational settings. By focusing on the individual’s beliefs and perceptions, the theory provides insights
-      into how motivation can be influenced by how employees view the relationship between effort, performance, and
-      rewards.
-    </p>
-    <p>
-      To apply this theory effectively:
-    </p>
-    <ul>
-      <li>Ensure that employees believe that their effort will lead to better performance.</li>
-      <li>Clarify the link between performance and reward.</li>
-      <li>Offer rewards that are valued by the employees.</li>
-    </ul>
-    <p>
-      If these components are effectively managed, motivation in the workplace, classroom, or any other environment can
-      be significantly improved.
-    </p>
-  </section>
+    <section>
+      <h2>Vroom’s Theory in Action</h2>
+      <p><strong>Example Scenario:</strong></p>
+      <p>
+        Sarah is a sales manager in a company. She wants to motivate her team to achieve higher sales targets.
+      </p>
 
-  <section>
-    <h2>3. Application of Vroom's Expectancy Theory</h2>
-    <p>
-      Vroom's Expectancy Theory is not only a theoretical framework but also a practical tool for enhancing motivation
-      in both the workplace and educational environments. By understanding and applying the principles of expectancy,
-      instrumentality, and valence, leaders, educators, and managers can create an environment that fosters higher
-      motivation and performance.
-    </p>
-  </section>
+      <ul>
+        <li><strong>Expectancy:</strong> Sarah provides her team with the necessary training and tools to succeed. She
+          believes that with proper support, the team can reach the targets.</li>
+        <li><strong>Instrumentality:</strong> Sarah has established a clear reward system: the top performer of the
+          month
+          will receive a bonus and recognition.</li>
+        <li><strong>Valence:</strong> The team values the reward, whether it's a monetary bonus or public recognition.
+        </li>
+      </ul>
 
-  <!-- Application of Expectancy Theory in the Workplace -->
-  <section>
-    <h3>Application of Expectancy Theory in the Workplace</h3>
-    <p><strong>Expectancy:</strong> Leaders can enhance employee motivation by addressing the relationship between
-      effort and performance.</p>
-    <ul>
-      <li>Challenging Assignments</li>
-      <li>Matching Tasks to Skills</li>
-      <li>Fostering Confidence</li>
-      <li>Clear Performance Outcomes</li>
-    </ul>
-  </section>
+      <p>
+        If all three elements are strong—expectancy, instrumentality, and valence—Sarah’s team will be highly motivated
+        to
+        achieve the sales target.
+      </p>
+    </section>
 
-  <!-- Application of Expectancy Theory in the Classroom -->
-  <section>
-    <h3>Application of Expectancy Theory in the Classroom</h3>
-    <p><strong>Expectancy:</strong> Teachers can improve students’ expectations by helping them believe that their
-      effort will lead to success.</p>
-    <ul>
-      <li>Clarifying Learning Behaviors</li>
-      <li>Providing Support</li>
-      <li>Setting Achievable Goals</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Conclusion</h2>
+      <p>
+        Vroom’s Expectancy Motivation Theory is a valuable framework for understanding human motivation, especially in
+        organizational settings. By focusing on the individual’s beliefs and perceptions, the theory provides insights
+        into how motivation can be influenced by how employees view the relationship between effort, performance, and
+        rewards.
+      </p>
+      <p>
+        To apply this theory effectively:
+      </p>
+      <ul>
+        <li>Ensure that employees believe that their effort will lead to better performance.</li>
+        <li>Clarify the link between performance and reward.</li>
+        <li>Offer rewards that are valued by the employees.</li>
+      </ul>
+      <p>
+        If these components are effectively managed, motivation in the workplace, classroom, or any other environment
+        can
+        be significantly improved.
+      </p>
+    </section>
 
-  <section>
-    <h2>To Summarize...</h2>
-    <p>
-      Vroom’s Expectancy Theory posits that individuals are motivated by the expected outcomes of their behavior, where
-      motivation depends on the strength of three components: expectancy, instrumentality, and valence.
-    </p>
-    <p>
-      In the workplace, managers can increase motivation by clarifying the relationships between effort, performance,
-      and reward, ensuring fairness, and offering rewards that are meaningful to employees.
-    </p>
-    <p>
-      In the classroom, teachers can motivate students by setting achievable goals, offering appropriate feedback, and
-      aligning rewards with students’ personal values.
-    </p>
-    <p>
-      In conclusion, Vroom’s theory provides a practical framework that can be used by leaders, managers, and educators
-      to foster an environment where individuals are motivated to perform at their best.
-    </p>
+    <section>
+      <h2>3. Application of Vroom's Expectancy Theory</h2>
+      <p>
+        Vroom's Expectancy Theory is not only a theoretical framework but also a practical tool for enhancing motivation
+        in both the workplace and educational environments. By understanding and applying the principles of expectancy,
+        instrumentality, and valence, leaders, educators, and managers can create an environment that fosters higher
+        motivation and performance.
+      </p>
+    </section>
+
+    <!-- Application of Expectancy Theory in the Workplace -->
+    <section>
+      <h3>Application of Expectancy Theory in the Workplace</h3>
+      <p><strong>Expectancy:</strong> Leaders can enhance employee motivation by addressing the relationship between
+        effort and performance.</p>
+      <ul>
+        <li>Challenging Assignments</li>
+        <li>Matching Tasks to Skills</li>
+        <li>Fostering Confidence</li>
+        <li>Clear Performance Outcomes</li>
+      </ul>
+    </section>
+
+    <!-- Application of Expectancy Theory in the Classroom -->
+    <section>
+      <h3>Application of Expectancy Theory in the Classroom</h3>
+      <p><strong>Expectancy:</strong> Teachers can improve students’ expectations by helping them believe that their
+        effort will lead to success.</p>
+      <ul>
+        <li>Clarifying Learning Behaviors</li>
+        <li>Providing Support</li>
+        <li>Setting Achievable Goals</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>To Summarize...</h2>
+      <p>
+        Vroom’s Expectancy Theory posits that individuals are motivated by the expected outcomes of their behavior,
+        where
+        motivation depends on the strength of three components: expectancy, instrumentality, and valence.
+      </p>
+      <p>
+        In the workplace, managers can increase motivation by clarifying the relationships between effort, performance,
+        and reward, ensuring fairness, and offering rewards that are meaningful to employees.
+      </p>
+      <p>
+        In the classroom, teachers can motivate students by setting achievable goals, offering appropriate feedback, and
+        aligning rewards with students’ personal values.
+      </p>
+      <p>
+        In conclusion, Vroom’s theory provides a practical framework that can be used by leaders, managers, and
+        educators
+        to foster an environment where individuals are motivated to perform at their best.
+      </p>
+    </section>
   </section>
 </div>

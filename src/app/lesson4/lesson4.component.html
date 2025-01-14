@@ -1,9 +1,29 @@
 <div class="lesson-container">
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+  
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+  
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
     <div class="lesson-header">
       <h1>Lesson 4: Concept of Management with Special Reference to Education III</h1>
     </div>
     
-    <div class="lesson-section">
+    <div class="lesson-section" #textDiv>
       <h2>1.1 Introduction</h2>
       <p>
         The concept of management originated in the industrial sector, where its primary focus was on profit-making and the efficient use of resources. The early roots of management were primarily seen in industries that needed a structured approach to handling raw materials, machinery, workforce, and finance to maximize production and profits. Initially, management was more of a strategic and operational concern for industries producing goods, and the effectiveness of the management system was largely evaluated based on its financial success.

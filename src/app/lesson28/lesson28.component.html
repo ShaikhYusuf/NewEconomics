@@ -1,215 +1,244 @@
 <div class="lesson-container">
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
   <h1>Lesson 28: Concept and Types of Conflict</h1>
 
-  <section>
-    <h2>1. Introduction: Understanding Conflict in Detail</h2>
-    <p>
-      <strong>Conflict</strong> is a fundamental aspect of human interactions, present throughout history and society.
-      It arises when there is a clash between differing goals, values, or behaviors, and spans all areas, including
-      interpersonal relationships, organizational settings, and international relations. Conflict is both a driver of
-      progress and a cause of division.
-    </p>
-    <p><strong>Historical Presence of Conflict:</strong> Conflict has shaped civilizations, ideologies, and
-      institutions. It has influenced the course of history, serving both as a catalyst for change and as a source of
-      division.</p>
-    <p><strong>Inevitability of Conflict:</strong> As people and groups interact, differences in goals, values, and
-      perceptions inevitably arise, leading to conflict. It is part of the human experience.</p>
-  </section>
+  <section class="main" #textDiv>
+    <section>
+      <h2>1. Introduction: Understanding Conflict in Detail</h2>
+      <p>
+        <strong>Conflict</strong> is a fundamental aspect of human interactions, present throughout history and society.
+        It arises when there is a clash between differing goals, values, or behaviors, and spans all areas, including
+        interpersonal relationships, organizational settings, and international relations. Conflict is both a driver of
+        progress and a cause of division.
+      </p>
+      <p><strong>Historical Presence of Conflict:</strong> Conflict has shaped civilizations, ideologies, and
+        institutions. It has influenced the course of history, serving both as a catalyst for change and as a source of
+        division.</p>
+      <p><strong>Inevitability of Conflict:</strong> As people and groups interact, differences in goals, values, and
+        perceptions inevitably arise, leading to conflict. It is part of the human experience.</p>
+    </section>
 
-  <section>
-    <h2>2. What is Conflict?</h2>
-    <p>At its core, <strong>conflict</strong> refers to the incompatibility or opposition between needs, desires, goals,
-      values, interests, or attitudes. It occurs when one party's actions block or hinder the desires of another,
-      creating a state of disagreement or disharmony.</p>
+    <section>
+      <h2>2. What is Conflict?</h2>
+      <p>At its core, <strong>conflict</strong> refers to the incompatibility or opposition between needs, desires,
+        goals,
+        values, interests, or attitudes. It occurs when one party's actions block or hinder the desires of another,
+        creating a state of disagreement or disharmony.</p>
 
-    <h3>Key Characteristics of Conflict</h3>
-    <ul>
-      <li><strong>Perception of Differences:</strong> Conflict arises from how differences in values, goals, or
-        interests are perceived. Whether these differences are real or imagined, the perception is often the root cause
-        of tension.</li>
-      <li><strong>Struggle for Resources:</strong> Conflict often involves competition over limited resources such as
-        time, power, recognition, or material goods.</li>
-      <li><strong>Multiple Dimensions:</strong> Conflict can manifest at different levels: personal, interpersonal, or
-        group-based. Each level involves varying degrees of intensity and complexity.</li>
-    </ul>
+      <h3>Key Characteristics of Conflict</h3>
+      <ul>
+        <li><strong>Perception of Differences:</strong> Conflict arises from how differences in values, goals, or
+          interests are perceived. Whether these differences are real or imagined, the perception is often the root
+          cause
+          of tension.</li>
+        <li><strong>Struggle for Resources:</strong> Conflict often involves competition over limited resources such as
+          time, power, recognition, or material goods.</li>
+        <li><strong>Multiple Dimensions:</strong> Conflict can manifest at different levels: personal, interpersonal, or
+          group-based. Each level involves varying degrees of intensity and complexity.</li>
+      </ul>
 
-    <h3>Scenarios of Conflict</h3>
-    <ul>
-      <li><strong>Divergent Goals:</strong> When two parties pursue mutually exclusive objectives, conflict arises.</li>
-      <li><strong>Resource Scarcity:</strong> Limited resources trigger competition and conflict.</li>
-      <li><strong>Cultural Differences:</strong> Misalignment of values, beliefs, or traditions often leads to
-        misunderstandings and friction.</li>
-      <li><strong>Power Struggles:</strong> Conflicts can arise from disputes over authority or control.</li>
-    </ul>
-  </section>
+      <h3>Scenarios of Conflict</h3>
+      <ul>
+        <li><strong>Divergent Goals:</strong> When two parties pursue mutually exclusive objectives, conflict arises.
+        </li>
+        <li><strong>Resource Scarcity:</strong> Limited resources trigger competition and conflict.</li>
+        <li><strong>Cultural Differences:</strong> Misalignment of values, beliefs, or traditions often leads to
+          misunderstandings and friction.</li>
+        <li><strong>Power Struggles:</strong> Conflicts can arise from disputes over authority or control.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>3. Characteristics of Conflict</h2>
-    <ul>
-      <li><strong>Natural and Inevitable:</strong> Conflict is universal and inevitable because of the diversity in
-        human needs, desires, and values. Whether personal, professional, or societal, conflict arises whenever
-        differing goals or beliefs are present.</li>
-      <li><strong>Interaction-Based:</strong> For conflict to exist, there must be interaction between two or more
-        parties. Conflict only arises when there is engagement, and the interaction leads to incompatible goals or
-        behaviors.</li>
-      <li><strong>Latent and Manifest Conflict:</strong> Conflict can be latent, remaining dormant until it is
-        triggered. Escalation of conflict can lead to overt disputes, and external intervention may be required to
-        resolve it.</li>
-      <li><strong>Positive and Negative Outcomes:</strong> While conflict often leads to negative consequences like
-        stress or hostility, it can also produce positive outcomes. Conflict can encourage reevaluation of strategies,
-        lead to innovation, and foster better decision-making when handled constructively.</li>
-      <li><strong>Not Always Due to Misunderstandings:</strong> Conflict doesn't always stem from miscommunication. It
-        can arise from role conflicts, differences in fundamental values, or personality clashes.</li>
-      <li><strong>Struggle or Incompatibility:</strong> Conflict involves a sense of struggle or incompatibility, such
-        as when two parties desire the same limited resource or have conflicting behavioral preferences.</li>
-      <li><strong>Expression of Conflict:</strong> Conflict can be expressed directly or indirectly. Direct expression
-        involves open disagreements, while indirect expression can manifest through non-verbal cues like body language
-        or passive-aggressive behavior.</li>
-      <li><strong>Poor Communication as a Catalyst:</strong> A common cause of conflict is poor communication.
-        Misunderstandings, lack of clarity, or failure to share important information can escalate tensions and lead to
-        conflict.</li>
-    </ul>
-  </section>
+    <section>
+      <h2>3. Characteristics of Conflict</h2>
+      <ul>
+        <li><strong>Natural and Inevitable:</strong> Conflict is universal and inevitable because of the diversity in
+          human needs, desires, and values. Whether personal, professional, or societal, conflict arises whenever
+          differing goals or beliefs are present.</li>
+        <li><strong>Interaction-Based:</strong> For conflict to exist, there must be interaction between two or more
+          parties. Conflict only arises when there is engagement, and the interaction leads to incompatible goals or
+          behaviors.</li>
+        <li><strong>Latent and Manifest Conflict:</strong> Conflict can be latent, remaining dormant until it is
+          triggered. Escalation of conflict can lead to overt disputes, and external intervention may be required to
+          resolve it.</li>
+        <li><strong>Positive and Negative Outcomes:</strong> While conflict often leads to negative consequences like
+          stress or hostility, it can also produce positive outcomes. Conflict can encourage reevaluation of strategies,
+          lead to innovation, and foster better decision-making when handled constructively.</li>
+        <li><strong>Not Always Due to Misunderstandings:</strong> Conflict doesn't always stem from miscommunication. It
+          can arise from role conflicts, differences in fundamental values, or personality clashes.</li>
+        <li><strong>Struggle or Incompatibility:</strong> Conflict involves a sense of struggle or incompatibility, such
+          as when two parties desire the same limited resource or have conflicting behavioral preferences.</li>
+        <li><strong>Expression of Conflict:</strong> Conflict can be expressed directly or indirectly. Direct expression
+          involves open disagreements, while indirect expression can manifest through non-verbal cues like body language
+          or passive-aggressive behavior.</li>
+        <li><strong>Poor Communication as a Catalyst:</strong> A common cause of conflict is poor communication.
+          Misunderstandings, lack of clarity, or failure to share important information can escalate tensions and lead
+          to
+          conflict.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>4. Conclusion</h2>
-    <p>
-      Conflict is a natural and inevitable aspect of human interaction. It arises from differences in values, goals, or
-      resources and can manifest in various forms. Conflict can have both positive and negative consequences depending
-      on how it is handled. When managed effectively, conflict can lead to personal growth, innovation, and improved
-      decision-making, while poor management can lead to destruction and harm. Understanding the characteristics of
-      conflict is essential for managing its impact and transforming potential challenges into opportunities for growth.
-    </p>
-  </section>
+    <section>
+      <h2>4. Conclusion</h2>
+      <p>
+        Conflict is a natural and inevitable aspect of human interaction. It arises from differences in values, goals,
+        or
+        resources and can manifest in various forms. Conflict can have both positive and negative consequences depending
+        on how it is handled. When managed effectively, conflict can lead to personal growth, innovation, and improved
+        decision-making, while poor management can lead to destruction and harm. Understanding the characteristics of
+        conflict is essential for managing its impact and transforming potential challenges into opportunities for
+        growth.
+      </p>
+    </section>
 
-  <section>
-    <h2>1. Inter-Organizational Conflict</h2>
-    <p>
-      This type of conflict occurs between two or more different organizations.
-      It typically arises due to competition, differing goals, or the
-      interdependence of the organizations.
-    </p>
-    <ul>
-      <li><strong>Example 1:</strong> Conflict between two schools located within the same city, competing for
-        resources, students, and reputation.</li>
-      <li><strong>Example 2:</strong> Conflict between national regulatory bodies (such as the National Council for
-        Teacher Education - NCTE) and educational institutions over the implementation of education-related guidelines.
-      </li>
-    </ul>
-  </section>
+    <section>
+      <h2>1. Inter-Organizational Conflict</h2>
+      <p>
+        This type of conflict occurs between two or more different organizations.
+        It typically arises due to competition, differing goals, or the
+        interdependence of the organizations.
+      </p>
+      <ul>
+        <li><strong>Example 1:</strong> Conflict between two schools located within the same city, competing for
+          resources, students, and reputation.</li>
+        <li><strong>Example 2:</strong> Conflict between national regulatory bodies (such as the National Council for
+          Teacher Education - NCTE) and educational institutions over the implementation of education-related
+          guidelines.
+        </li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>2. Intra-Organizational Conflict</h2>
-    <p>
-      This type of conflict arises within the same organization, usually between
-      different levels or departments. It occurs when there are differing views
-      on priorities, objectives, or ways of operating.
-    </p>
-    <ul>
-      <li><strong>Example 1:</strong> Top Management vs. Middle Management</li>
-      <li><strong>Example 2:</strong> Policy Conflicts such as disagreements on student admission policies in a
-        university.</li>
-      <li><strong>Example 3:</strong> Teaching vs. Non-Teaching Staff Conflict over roles and responsibilities.</li>
-    </ul>
-  </section>
+    <section>
+      <h2>2. Intra-Organizational Conflict</h2>
+      <p>
+        This type of conflict arises within the same organization, usually between
+        different levels or departments. It occurs when there are differing views
+        on priorities, objectives, or ways of operating.
+      </p>
+      <ul>
+        <li><strong>Example 1:</strong> Top Management vs. Middle Management</li>
+        <li><strong>Example 2:</strong> Policy Conflicts such as disagreements on student admission policies in a
+          university.</li>
+        <li><strong>Example 3:</strong> Teaching vs. Non-Teaching Staff Conflict over roles and responsibilities.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>3. Inter-Group Conflict</h2>
-    <p>
-      Inter-group conflict happens between different groups or departments within
-      the same organization. These groups may have conflicting goals, methods, or
-      resources, leading to competition and friction.
-    </p>
-    <ul>
-      <li><strong>Example 1:</strong> Teaching Staff vs. Non-Teaching Staff</li>
-      <li><strong>Example 2:</strong> Departments with Different Goals, like Marketing vs. Finance or HR.</li>
-    </ul>
+    <section>
+      <h2>3. Inter-Group Conflict</h2>
+      <p>
+        Inter-group conflict happens between different groups or departments within
+        the same organization. These groups may have conflicting goals, methods, or
+        resources, leading to competition and friction.
+      </p>
+      <ul>
+        <li><strong>Example 1:</strong> Teaching Staff vs. Non-Teaching Staff</li>
+        <li><strong>Example 2:</strong> Departments with Different Goals, like Marketing vs. Finance or HR.</li>
+      </ul>
 
-    <h3>Antecedent Conditions:</h3>
-    <ul>
-      <li>Competition for Resources</li>
-      <li>Task Interdependence</li>
-      <li>Status Struggles</li>
-      <li>Inconsistent Rewards</li>
-    </ul>
+      <h3>Antecedent Conditions:</h3>
+      <ul>
+        <li>Competition for Resources</li>
+        <li>Task Interdependence</li>
+        <li>Status Struggles</li>
+        <li>Inconsistent Rewards</li>
+      </ul>
 
-    <h3>Effects of Conflict:</h3>
-    <ul>
-      <li>Increased cohesion within groups.</li>
-      <li>Autocratic leadership may emerge as a means to resolve conflict.</li>
-    </ul>
-  </section>
+      <h3>Effects of Conflict:</h3>
+      <ul>
+        <li>Increased cohesion within groups.</li>
+        <li>Autocratic leadership may emerge as a means to resolve conflict.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>4. Intra-Group Conflict</h2>
-    <p>
-      Intra-group conflict occurs within a single group or team, often driven by
-      differences in goals, ideas, or personalities. Although disruptive, this type
-      of conflict can lead to positive outcomes if managed constructively.
-    </p>
-    <ul>
-      <li><strong>Example 1:</strong> Disagreements in Team Goals.</li>
-      <li><strong>Example 2:</strong> Personality Conflicts.</li>
-      <li><strong>Example 3:</strong> Role Conflict.</li>
-    </ul>
+    <section>
+      <h2>4. Intra-Group Conflict</h2>
+      <p>
+        Intra-group conflict occurs within a single group or team, often driven by
+        differences in goals, ideas, or personalities. Although disruptive, this type
+        of conflict can lead to positive outcomes if managed constructively.
+      </p>
+      <ul>
+        <li><strong>Example 1:</strong> Disagreements in Team Goals.</li>
+        <li><strong>Example 2:</strong> Personality Conflicts.</li>
+        <li><strong>Example 3:</strong> Role Conflict.</li>
+      </ul>
 
-    <h3>Effect:</h3>
-    <ul>
-      <li>Intra-group conflict can stimulate more effective decision-making and brainstorming when approached in a
-        constructive manner.</li>
-    </ul>
-  </section>
+      <h3>Effect:</h3>
+      <ul>
+        <li>Intra-group conflict can stimulate more effective decision-making and brainstorming when approached in a
+          constructive manner.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>5. Interpersonal Conflict</h2>
-    <p>
-      Interpersonal conflict is the most common form and occurs between two
-      individuals. It typically arises from differences in personalities, goals,
-      or opinions.
-    </p>
-    <ul>
-      <li><strong>Example 1:</strong> Teacher vs. Principal.</li>
-      <li><strong>Example 2:</strong> Colleagues or Friends.</li>
-    </ul>
+    <section>
+      <h2>5. Interpersonal Conflict</h2>
+      <p>
+        Interpersonal conflict is the most common form and occurs between two
+        individuals. It typically arises from differences in personalities, goals,
+        or opinions.
+      </p>
+      <ul>
+        <li><strong>Example 1:</strong> Teacher vs. Principal.</li>
+        <li><strong>Example 2:</strong> Colleagues or Friends.</li>
+      </ul>
 
-    <h3>Causes:</h3>
-    <ul>
-      <li>Competing for Resources</li>
-      <li>Different Opinions</li>
-    </ul>
+      <h3>Causes:</h3>
+      <ul>
+        <li>Competing for Resources</li>
+        <li>Different Opinions</li>
+      </ul>
 
-    <h3>Resolution:</h3>
-    <ul>
-      <li>Third-party intervention is often necessary to resolve interpersonal conflicts.</li>
-    </ul>
-  </section>
+      <h3>Resolution:</h3>
+      <ul>
+        <li>Third-party intervention is often necessary to resolve interpersonal conflicts.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>6. Intrapersonal Conflict</h2>
-    <p>
-      Intrapersonal conflict occurs within an individual, typically when they
-      experience psychological struggles due to conflicting values, beliefs,
-      roles, or goals.
-    </p>
-    <ul>
-      <li><strong>Example 1:</strong> Role Conflict between professional responsibilities and personal beliefs.</li>
-      <li><strong>Example 2:</strong> Ethical Conflict.</li>
-      <li><strong>Example 3:</strong> Frustration from competing goals or desires.</li>
-    </ul>
+    <section>
+      <h2>6. Intrapersonal Conflict</h2>
+      <p>
+        Intrapersonal conflict occurs within an individual, typically when they
+        experience psychological struggles due to conflicting values, beliefs,
+        roles, or goals.
+      </p>
+      <ul>
+        <li><strong>Example 1:</strong> Role Conflict between professional responsibilities and personal beliefs.</li>
+        <li><strong>Example 2:</strong> Ethical Conflict.</li>
+        <li><strong>Example 3:</strong> Frustration from competing goals or desires.</li>
+      </ul>
 
-    <h3>Effects:</h3>
-    <ul>
-      <li>Intrapersonal conflict can cause stress, frustration, and mental distress.</li>
-      <li>However, resolving such conflict can lead to personal growth and improved well-being.</li>
-    </ul>
-  </section>
+      <h3>Effects:</h3>
+      <ul>
+        <li>Intrapersonal conflict can cause stress, frustration, and mental distress.</li>
+        <li>However, resolving such conflict can lead to personal growth and improved well-being.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Summary of Conflict Types</h2>
-    <p>
-      The conflict types are categorized based on their level and the individuals or groups involved. These conflicts,
-      when addressed constructively, can drive positive change, but when mishandled, they can lead to disruption and
-      stress.
-    </p>
+    <section>
+      <h2>Summary of Conflict Types</h2>
+      <p>
+        The conflict types are categorized based on their level and the individuals or groups involved. These conflicts,
+        when addressed constructively, can drive positive change, but when mishandled, they can lead to disruption and
+        stress.
+      </p>
+    </section>
   </section>
 </div>

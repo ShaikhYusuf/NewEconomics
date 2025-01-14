@@ -1,34 +1,66 @@
 <div class="lesson-container">
-    <h1>Lesson 36: Theories of Leadership – III</h1>
-    
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
+  <h1>Lesson 36: Theories of Leadership – III</h1>
+
+  <section class="main" #textDiv>
     <section>
       <h2>2. Introduction (Detailed Explanation)</h2>
-      <p>Leadership theories have evolved over time to better explain how leaders can effectively guide their teams to achieve organizational goals. Among these theories, Situational Leadership Theory and Path Goal Theory stand out for their emphasis on adaptability and contextual relevance. These theories argue that leadership is not static; instead, it evolves based on the needs of the followers and the demands of the task or environment.</p>
-  
+      <p>Leadership theories have evolved over time to better explain how leaders can effectively guide their teams to
+        achieve organizational goals. Among these theories, Situational Leadership Theory and Path Goal Theory stand out
+        for their emphasis on adaptability and contextual relevance. These theories argue that leadership is not static;
+        instead, it evolves based on the needs of the followers and the demands of the task or environment.</p>
+
       <h3>Situational Leadership: A Dynamic Approach</h3>
-      <p>The Situational Leadership Theory, developed by Hersey and Blanchard, was introduced as the Life Cycle Theory of Leadership. This theory emphasizes that leadership effectiveness depends on balancing two fundamental behaviors: task-oriented and relationship-oriented actions.</p>
-  
+      <p>The Situational Leadership Theory, developed by Hersey and Blanchard, was introduced as the Life Cycle Theory
+        of Leadership. This theory emphasizes that leadership effectiveness depends on balancing two fundamental
+        behaviors: task-oriented and relationship-oriented actions.</p>
+
       <ul>
         <li><strong>Task-Oriented Behavior:</strong>
           <ul>
-            <li>Involves one-way communication where the leader gives instructions on what needs to be done, how to do it, and when it should be completed.</li>
+            <li>Involves one-way communication where the leader gives instructions on what needs to be done, how to do
+              it, and when it should be completed.</li>
             <li>The leader closely supervises the progress, ensuring that the goals are met effectively.</li>
-            <li>This behavior is particularly useful when dealing with inexperienced or unskilled followers who need guidance and clarity.</li>
+            <li>This behavior is particularly useful when dealing with inexperienced or unskilled followers who need
+              guidance and clarity.</li>
           </ul>
         </li>
         <li><strong>Relationship-Oriented Behavior:</strong>
           <ul>
             <li>Focuses on building connections through two-way communication.</li>
             <li>Includes actions like active listening, providing feedback, and encouraging team participation.</li>
-            <li>This behavior becomes critical as followers mature in their roles and require more emotional and professional support rather than explicit instructions.</li>
+            <li>This behavior becomes critical as followers mature in their roles and require more emotional and
+              professional support rather than explicit instructions.</li>
           </ul>
         </li>
       </ul>
-  
-      <p>As followers grow in competence, confidence, and motivation, the leader gradually transitions from a directive approach to one that emphasizes relationship building and, eventually, delegation.</p>
-  
+
+      <p>As followers grow in competence, confidence, and motivation, the leader gradually transitions from a directive
+        approach to one that emphasizes relationship building and, eventually, delegation.</p>
+
       <h3>Path Goal Theory: Motivating Through Clarity</h3>
-      <p>Martin Evans and Robert House introduced the Path Goal Theory, which centers on the idea that leaders should serve as guides who pave the way for their team members to achieve their goals. The term "Path Goal" signifies the leader's role in:</p>
+      <p>Martin Evans and Robert House introduced the Path Goal Theory, which centers on the idea that leaders should
+        serve as guides who pave the way for their team members to achieve their goals. The term "Path Goal" signifies
+        the leader's role in:</p>
       <ul>
         <li><strong>Clarifying the Path:</strong>
           <ul>
@@ -49,111 +81,157 @@
           </ul>
         </li>
       </ul>
-  
-      <p>This theory underscores the leader's responsibility to create a conducive environment where employees feel motivated, supported, and capable of achieving both personal and organizational objectives.</p>
-  
+
+      <p>This theory underscores the leader's responsibility to create a conducive environment where employees feel
+        motivated, supported, and capable of achieving both personal and organizational objectives.</p>
+
       <h3>Interconnection Between Theories</h3>
       <p>Both Situational Leadership and Path Goal Theory highlight the adaptive nature of leadership:</p>
       <ul>
         <li>In Situational Leadership, the adaptation is based on the maturity of the followers.</li>
-        <li>In Path Goal Theory, the adaptation is influenced by the needs of the followers and environmental challenges.</li>
+        <li>In Path Goal Theory, the adaptation is influenced by the needs of the followers and environmental
+          challenges.</li>
       </ul>
-  
-      <p>While Situational Leadership provides a framework for modifying leadership styles (Telling, Selling, Participating, Delegating), Path Goal Theory focuses on motivational techniques (Directive, Supportive, Participative, Achievement-Oriented). Together, these theories offer a comprehensive view of how leaders can effectively manage and inspire diverse teams in varying circumstances.</p>
+
+      <p>While Situational Leadership provides a framework for modifying leadership styles (Telling, Selling,
+        Participating, Delegating), Path Goal Theory focuses on motivational techniques (Directive, Supportive,
+        Participative, Achievement-Oriented). Together, these theories offer a comprehensive view of how leaders can
+        effectively manage and inspire diverse teams in varying circumstances.</p>
     </section>
-  
+
     <section>
       <h2>3. Situational Leadership Theory</h2>
-      <p>The Situational Leadership Theory, developed by Hersey and Blanchard in 1969, emphasizes that no single leadership style is universally effective. Instead, the leader's approach should vary based on the maturity, readiness, and competence of the followers.</p>
-  
+      <p>The Situational Leadership Theory, developed by Hersey and Blanchard in 1969, emphasizes that no single
+        leadership style is universally effective. Instead, the leader's approach should vary based on the maturity,
+        readiness, and competence of the followers.</p>
+
       <h3>Understanding Situational Leadership Theory</h3>
       <p>This model suggests that:</p>
       <ul>
-        <li><strong>Leadership is contextual:</strong> Leaders must assess their followers' ability and willingness to perform tasks.</li>
+        <li><strong>Leadership is contextual:</strong> Leaders must assess their followers' ability and willingness to
+          perform tasks.</li>
         <li><strong>Leadership style should align with the development stage of the team or individual.</strong></li>
-        <li><strong>Maturity determines leadership style:</strong> Maturity refers to followers' level of motivation, competence, and willingness to accept responsibility.</li>
-        <li><strong>Effective leadership adapts to growth:</strong> As followers mature, the leader should transition from task-oriented to relationship-oriented behaviors and eventually delegate responsibilities.</li>
+        <li><strong>Maturity determines leadership style:</strong> Maturity refers to followers' level of motivation,
+          competence, and willingness to accept responsibility.</li>
+        <li><strong>Effective leadership adapts to growth:</strong> As followers mature, the leader should transition
+          from task-oriented to relationship-oriented behaviors and eventually delegate responsibilities.</li>
       </ul>
-  
+
       <h3>Key Components of the Model</h3>
       <ul>
-        <li><strong>Task Behavior:</strong> Represents how much direction and guidance the leader provides, including clear communication about roles, responsibilities, and the steps to achieve tasks.</li>
-        <li><strong>Relationship Behavior:</strong> Focuses on how much two-way communication and support the leader provides, encouraging collaboration, listening, and fostering trust within the team.</li>
+        <li><strong>Task Behavior:</strong> Represents how much direction and guidance the leader provides, including
+          clear communication about roles, responsibilities, and the steps to achieve tasks.</li>
+        <li><strong>Relationship Behavior:</strong> Focuses on how much two-way communication and support the leader
+          provides, encouraging collaboration, listening, and fostering trust within the team.</li>
       </ul>
-  
+
       <h3>Leadership Styles in Situational Leadership</h3>
       <ul>
-        <li><strong>Telling (S1):</strong> Low relationship, high task. Suitable for followers with low maturity who lack competence and confidence. Example: A manager instructing new interns on how to operate specific software.</li>
-        <li><strong>Selling (S2):</strong> High relationship, high task. Suitable for followers with low to moderate maturity who are motivated but need skill development. Example: A teacher guiding students through a new curriculum while encouraging participation.</li>
-        <li><strong>Participating (S3):</strong> High relationship, low task. Suitable for followers with moderate to high maturity who have competence but need encouragement or collaboration. Example: A team lead working with experienced staff to brainstorm project ideas.</li>
-        <li><strong>Delegating (S4):</strong> Low relationship, low task. Suitable for followers with high maturity who are skilled, confident, and self-directed. Example: A project manager leaving experienced engineers to complete a task independently.</li>
+        <li><strong>Telling (S1):</strong> Low relationship, high task. Suitable for followers with low maturity who
+          lack competence and confidence. Example: A manager instructing new interns on how to operate specific
+          software.</li>
+        <li><strong>Selling (S2):</strong> High relationship, high task. Suitable for followers with low to moderate
+          maturity who are motivated but need skill development. Example: A teacher guiding students through a new
+          curriculum while encouraging participation.</li>
+        <li><strong>Participating (S3):</strong> High relationship, low task. Suitable for followers with moderate to
+          high maturity who have competence but need encouragement or collaboration. Example: A team lead working with
+          experienced staff to brainstorm project ideas.</li>
+        <li><strong>Delegating (S4):</strong> Low relationship, low task. Suitable for followers with high maturity who
+          are skilled, confident, and self-directed. Example: A project manager leaving experienced engineers to
+          complete a task independently.</li>
       </ul>
-      
+
       <h3>Follower Readiness Levels</h3>
       <ul>
-        <li><strong>R1 – Unable and unwilling/insecure:</strong> Lacks skills and confidence; needs close supervision. Leadership style: Telling (S1).</li>
-        <li><strong>R2 – Unable but willing/confident:</strong> Lacks skills but is motivated; needs guidance and encouragement. Leadership style: Selling (S2).</li>
-        <li><strong>R3 – Able but unwilling/insecure:</strong> Has skills but lacks confidence or motivation; needs support and collaboration. Leadership style: Participating (S3).</li>
-        <li><strong>R4 – Able and willing/confident:</strong> Fully competent and motivated; ready for autonomy. Leadership style: Delegating (S4).</li>
+        <li><strong>R1 – Unable and unwilling/insecure:</strong> Lacks skills and confidence; needs close supervision.
+          Leadership style: Telling (S1).</li>
+        <li><strong>R2 – Unable but willing/confident:</strong> Lacks skills but is motivated; needs guidance and
+          encouragement. Leadership style: Selling (S2).</li>
+        <li><strong>R3 – Able but unwilling/insecure:</strong> Has skills but lacks confidence or motivation; needs
+          support and collaboration. Leadership style: Participating (S3).</li>
+        <li><strong>R4 – Able and willing/confident:</strong> Fully competent and motivated; ready for autonomy.
+          Leadership style: Delegating (S4).</li>
       </ul>
-  
+
       <h3>Illustrative Cases</h3>
       <ul>
         <li><strong>Case I: Telling (S1)</strong> – A newly formed team tasked with designing an online course.</li>
         <li><strong>Case II: Selling (S2)</strong> – A team with some experience but new members need integration.</li>
-        <li><strong>Case III: Participating (S3)</strong> – An experienced team working well together but needing additional responsibilities.</li>
+        <li><strong>Case III: Participating (S3)</strong> – An experienced team working well together but needing
+          additional responsibilities.</li>
         <li><strong>Case IV: Delegating (S4)</strong> – A seasoned team capable of independent work.</li>
       </ul>
-  
-      <p>Situational Leadership Theory underscores the importance of flexibility in leadership. By assessing and aligning with followers’ readiness levels, leaders can foster growth, improve performance, and build confidence within their teams. This dynamic approach ensures that leadership adapts to the evolving needs of both individuals and organizations.</p>
+
+      <p>Situational Leadership Theory underscores the importance of flexibility in leadership. By assessing and
+        aligning with followers’ readiness levels, leaders can foster growth, improve performance, and build confidence
+        within their teams. This dynamic approach ensures that leadership adapts to the evolving needs of both
+        individuals and organizations.</p>
     </section>
-  
+
     <section>
       <h2>4. Path-Goal Theory of Leadership</h2>
-      <p>The Path-Goal Theory of Leadership was developed by Martin Evans and Robert House. It focuses on how leaders can motivate their subordinates to achieve goals by clarifying the paths, removing obstacles, and enhancing rewards. The theory emphasizes the relationship between the leader’s behavior, the work environment, and the subordinates' performance.</p>
-  
+      <p>The Path-Goal Theory of Leadership was developed by Martin Evans and Robert House. It focuses on how leaders
+        can motivate their subordinates to achieve goals by clarifying the paths, removing obstacles, and enhancing
+        rewards. The theory emphasizes the relationship between the leader’s behavior, the work environment, and the
+        subordinates' performance.</p>
+
       <h3>Understanding Path-Goal Theory</h3>
-      <p>The core premise is that leaders must adapt their style to the needs of their team and the task environment to optimize productivity and satisfaction.</p>
-  
+      <p>The core premise is that leaders must adapt their style to the needs of their team and the task environment to
+        optimize productivity and satisfaction.</p>
+
       <h3>Key Components of Path-Goal Theory</h3>
       <ul>
-        <li><strong>Goal Clarification:</strong> Leaders help subordinates understand organizational and individual goals.</li>
+        <li><strong>Goal Clarification:</strong> Leaders help subordinates understand organizational and individual
+          goals.</li>
         <li><strong>Path Clarification:</strong> Leaders provide guidance and remove barriers to achieving goals.</li>
-        <li><strong>Support and Motivation:</strong> Leaders ensure that followers feel supported and recognize their efforts through rewards and encouragement.</li>
-        <li><strong>Situational Adaptation:</strong> Leaders adjust their behavior based on subordinates' needs and environmental factors.</li>
+        <li><strong>Support and Motivation:</strong> Leaders ensure that followers feel supported and recognize their
+          efforts through rewards and encouragement.</li>
+        <li><strong>Situational Adaptation:</strong> Leaders adjust their behavior based on subordinates' needs and
+          environmental factors.</li>
       </ul>
-  
+
       <h3>Leadership Styles in Path-Goal Theory</h3>
       <ul>
-        <li><strong>Directive Leadership:</strong> Suitable when tasks are unstructured or complex. Example: A manager instructing a team on a new procedure in detail.</li>
-        <li><strong>Supportive Leadership:</strong> Suitable when tasks are repetitive, stressful, or dissatisfying. Example: A supervisor providing emotional support to workers in monotonous roles.</li>
-        <li><strong>Participative Leadership:</strong> Suitable for tasks requiring creativity or when team members are experienced. Example: A project manager conducting brainstorming sessions with the team.</li>
-        <li><strong>Achievement-Oriented Leadership:</strong> Suitable for motivated employees working on complex tasks. Example: A sales leader encouraging high-performing employees to exceed targets.</li>
+        <li><strong>Directive Leadership:</strong> Suitable when tasks are unstructured or complex. Example: A manager
+          instructing a team on a new procedure in detail.</li>
+        <li><strong>Supportive Leadership:</strong> Suitable when tasks are repetitive, stressful, or dissatisfying.
+          Example: A supervisor providing emotional support to workers in monotonous roles.</li>
+        <li><strong>Participative Leadership:</strong> Suitable for tasks requiring creativity or when team members are
+          experienced. Example: A project manager conducting brainstorming sessions with the team.</li>
+        <li><strong>Achievement-Oriented Leadership:</strong> Suitable for motivated employees working on complex tasks.
+          Example: A sales leader encouraging high-performing employees to exceed targets.</li>
       </ul>
-  
+
       <h3>Situational Factors</h3>
       <ul>
         <li><strong>Subordinate Characteristics:</strong> Experience, confidence, and motivation levels.</li>
         <li><strong>Task Structure:</strong> Nature of the work: routine, complex, or ambiguous.</li>
-        <li><strong>Work Environment:</strong> The organizational culture, available resources, and existing barriers.</li>
+        <li><strong>Work Environment:</strong> The organizational culture, available resources, and existing barriers.
+        </li>
       </ul>
-  
+
       <h3>Illustrative Cases</h3>
       <ul>
-        <li><strong>Case V: Directive Leadership</strong> – Teachers repeatedly perform monotonous tasks like writing lesson plans but lack motivation.</li>
-        <li><strong>Case VI: Supportive Leadership</strong> – A team manages complex systems, but absenteeism and complaints persist despite the leader's supportive behavior.</li>
-        <li><strong>Case VII: Achievement-Oriented Leadership</strong> – A motivated team excels under Mrs. Patil’s leadership as she encourages personal growth and sets high standards.</li>
+        <li><strong>Case V: Directive Leadership</strong> – Teachers repeatedly perform monotonous tasks like writing
+          lesson plans but lack motivation.</li>
+        <li><strong>Case VI: Supportive Leadership</strong> – A team manages complex systems, but absenteeism and
+          complaints persist despite the leader's supportive behavior.</li>
+        <li><strong>Case VII: Achievement-Oriented Leadership</strong> – A motivated team excels under Mrs. Patil’s
+          leadership as she encourages personal growth and sets high standards.</li>
       </ul>
-  
+
       <h3>Leader-Behavior and Outcome Relationships</h3>
       <ul>
         <li><strong>Directive Leadership:</strong> Unclear tasks – Improves performance by reducing uncertainty.</li>
         <li><strong>Supportive Leadership:</strong> Repetitive tasks – Boosts morale and enhances satisfaction.</li>
         <li><strong>Participative Leadership:</strong> Creative tasks – Increases engagement and innovation.</li>
-        <li><strong>Achievement-Oriented Leadership:</strong> Skilled employees – Drives higher productivity and growth.</li>
+        <li><strong>Achievement-Oriented Leadership:</strong> Skilled employees – Drives higher productivity and growth.
+        </li>
       </ul>
-  
-      <p>The Path-Goal Theory highlights the importance of dynamic leadership that evolves with the situation. By identifying subordinate needs and task requirements, leaders can provide the right mix of direction, support, and encouragement to drive success.</p>
+
+      <p>The Path-Goal Theory highlights the importance of dynamic leadership that evolves with the situation. By
+        identifying subordinate needs and task requirements, leaders can provide the right mix of direction, support,
+        and encouragement to drive success.</p>
     </section>
-  </div>
-  
+  </section>
+</div>

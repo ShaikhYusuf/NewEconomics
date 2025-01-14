@@ -1,87 +1,152 @@
 <!-- Lesson 10: Organization as a Process -->
 
 <div class="lesson-container">
-    <h1>Lesson 10: Organization as a Process</h1>
-  
-    <section class="introduction">
-      <h2>1. Introduction to Organization as a Process</h2>
-      <p>The concept of <strong>organization</strong> is a cornerstone in management, essential for ensuring the efficient functioning of institutions, businesses, and societies. <strong>Organization as a process</strong> refers to the ongoing activities aimed at structuring tasks, defining authority, and establishing relationships among individuals to achieve organizational objectives effectively. It is an ever-evolving process that ensures roles and resources are properly coordinated and managed to fulfill the goals of the institution.</p>
-  
-      <h3>Key Points of the Introduction:</h3>
-      <ul>
-        <li><strong>Society’s Structure:</strong> Society functions as an organized system where people collaborate towards common goals. Relationships in society are both horizontal (across similar levels) and vertical (across different authority levels). For instance, in a school, there are distinct roles such as teachers, administrators, and support staff, each contributing to the larger objective of education.</li>
-        <li><strong>Need for Organization:</strong> Human beings have an inherent tendency to create communities and institutions. These institutions require organized structures to ensure smooth operations. Organization plays a crucial role in facilitating coordination and cooperation within institutions, such as schools or hospitals, where the objectives are often specific (like education or healthcare).</li>
-        <li><strong>Education as an Example:</strong> Education systems require organization to ensure the achievement of educational objectives, such as the development of students. Teachers, administrators, and support staff must work in coordination to ensure that lessons are taught, exams are conducted, and resources are used effectively.</li>
-        <li><strong>Role of Authority:</strong> Authority is essential in ensuring clarity in roles and responsibilities. In a school setting, the principal may oversee the operation, with teachers and staff managing specific responsibilities under the principal's guidance.</li>
-        <li><strong>Definition of Organization:</strong> 
-          <ul>
-            <li>Louis A. Allen: Organization is the process of defining and grouping activities and establishing authority relationships among them to achieve objectives.</li>
-            <li>Koontz and O'Donnell: Organization involves establishing authority relationships and providing coordination vertically and horizontally within an organization.</li>
-            <li>Sheldon: Organization is about combining efforts and resources systematically and efficiently to achieve goals.</li>
-            <li>A common definition is that organization is a management function that involves creating a structure and allocating resources to meet objectives.</li>
-          </ul>
-        </li>
-        <li><strong>Why Organization is Necessary:</strong> 
-          <ul>
-            <li><strong>Preventing Chaos:</strong> Without structure, institutions would fall into chaos, with no clear direction or task allocation.</li>
-            <li><strong>Coordinating Efforts:</strong> Through organizing, tasks are assigned to individuals or groups, and authority is provided to ensure successful task completion.</li>
-            <li><strong>Achieving Objectives:</strong> Organization helps ensure that resources, whether human, financial, or physical, are utilized optimally to meet institutional goals.</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-  
-    <section class="aspects-of-organization">
-      <h2>2. Aspects of Organization as a Process</h2>
-      <p>The organizing process involves several interconnected aspects that ensure the smooth functioning of an organization. These key aspects are crucial for achieving the organization’s goals and utilizing resources efficiently.</p>
-  
-      <h3>Key Aspects:</h3>
-      <ul>
-        <li><strong>Identification of Activities and Work:</strong> 
-          The first step in organizing is identifying the activities necessary to fulfill the organization’s goals. In educational institutions, for example:
-          <ul>
-            <li><strong>Curricular Activities:</strong> Teaching, learning, examinations.</li>
-            <li><strong>Co-curricular Activities:</strong> Sports, cultural programs.</li>
-            <li><strong>Administrative Activities:</strong> Record-keeping, staffing.</li>
-            <li><strong>Financial Activities:</strong> Budgeting, fee collection.</li>
-          </ul>
-        </li>
-        <li><strong>Assigning Activities to Appropriate Departments, Sections, and Individuals:</strong> After identifying activities, they must be assigned to specific departments. For example, in a school:
-          <ul>
-            <li><strong>Examination Department:</strong> Responsible for exam papers and scheduling.</li>
-            <li><strong>Teaching Departments:</strong> Deliver lessons and design courses.</li>
-            <li><strong>Administrative Section:</strong> Manages records and student services.</li>
-          </ul>
-        </li>
-        <li><strong>Defining Responsibilities:</strong> Clear definitions of responsibilities ensure that each task is carried out by the right individual or department. For example, in the <strong>Examination Department</strong>, the <strong>Exam Coordinator</strong> may manage the exam schedule, while <strong>Subject Teachers</strong> set papers and <strong>Evaluation Staff</strong> grades them.</li>
-        <li><strong>Providing Authority and Delegation:</strong> Authority must accompany responsibility. Delegation involves assigning tasks with the necessary authority to carry them out. For example, a <strong>Head of Department</strong> might have the authority to set the curriculum, while a <strong>Class Teacher</strong> has authority over the teaching methods.</li>
-        <li><strong>Ensuring Coordination and Communication:</strong> 
-          Coordination ensures that tasks are aligned and executed in a synchronized manner across departments. Communication enables the sharing of information, progress updates, and problem-solving, ensuring that tasks are completed without misunderstanding.
-        </li>
-        <li><strong>Establishing Structural Relationships:</strong> Relationships in an organization should be well-defined:
-          <ul>
-            <li><strong>Horizontal Relationships:</strong> Between colleagues at the same level (e.g., teachers within the same department).</li>
-            <li><strong>Vertical Relationships:</strong> Between different levels of authority (e.g., teachers reporting to the head of department).</li>
-          </ul>
-        </li>
-        <li><strong>Provision of Facilities and Equipment:</strong> An organization must provide the necessary tools, resources, and facilities for employees to perform their tasks effectively. For example, in a school, teachers require teaching aids such as textbooks, computers, and projectors.</li>
-      </ul>
-    </section>
-  
-    <section class="summary">
-      <h2>3. Summary</h2>
-      <p><strong>Organizing</strong> is a critical management function that helps align resources and people to achieve organizational objectives. The key steps include:</p>
-      <ul>
-        <li><strong>Identifying Activities:</strong> Understanding the tasks that must be performed to meet the organization’s goals.</li>
-        <li><strong>Assigning Activities:</strong> Allocating responsibilities to the appropriate departments and individuals.</li>
-        <li><strong>Defining Responsibilities:</strong> Clarifying roles to ensure accountability.</li>
-        <li><strong>Providing Authority:</strong> Ensuring individuals have the power to carry out their tasks.</li>
-        <li><strong>Ensuring Coordination:</strong> Aligning efforts across departments and individuals.</li>
-        <li><strong>Establishing Relationships:</strong> Defining both horizontal and vertical relationships within the organization.</li>
-        <li><strong>Providing Resources:</strong> Ensuring that the necessary tools and facilities are available to employees.</li>
-      </ul>
-  
-      <p>Ultimately, the process of organizing is ongoing, requiring continuous adaptation to maintain effectiveness and ensure the organization’s success. Through thoughtful implementation of the organizing process, institutions can achieve their objectives, improve coordination, and utilize resources optimally.</p>
-    </section>
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
   </div>
-  
+  <h1>Lesson 10: Organization as a Process</h1>
+
+  <section class="introduction" #textDiv>
+    <h2>1. Introduction to Organization as a Process</h2>
+    <p>The concept of <strong>organization</strong> is a cornerstone in management, essential for ensuring the efficient
+      functioning of institutions, businesses, and societies. <strong>Organization as a process</strong> refers to the
+      ongoing activities aimed at structuring tasks, defining authority, and establishing relationships among
+      individuals to achieve organizational objectives effectively. It is an ever-evolving process that ensures roles
+      and resources are properly coordinated and managed to fulfill the goals of the institution.</p>
+
+    <h3>Key Points of the Introduction:</h3>
+    <ul>
+      <li><strong>Society’s Structure:</strong> Society functions as an organized system where people collaborate
+        towards common goals. Relationships in society are both horizontal (across similar levels) and vertical (across
+        different authority levels). For instance, in a school, there are distinct roles such as teachers,
+        administrators, and support staff, each contributing to the larger objective of education.</li>
+      <li><strong>Need for Organization:</strong> Human beings have an inherent tendency to create communities and
+        institutions. These institutions require organized structures to ensure smooth operations. Organization plays a
+        crucial role in facilitating coordination and cooperation within institutions, such as schools or hospitals,
+        where the objectives are often specific (like education or healthcare).</li>
+      <li><strong>Education as an Example:</strong> Education systems require organization to ensure the achievement of
+        educational objectives, such as the development of students. Teachers, administrators, and support staff must
+        work in coordination to ensure that lessons are taught, exams are conducted, and resources are used effectively.
+      </li>
+      <li><strong>Role of Authority:</strong> Authority is essential in ensuring clarity in roles and responsibilities.
+        In a school setting, the principal may oversee the operation, with teachers and staff managing specific
+        responsibilities under the principal's guidance.</li>
+      <li><strong>Definition of Organization:</strong>
+        <ul>
+          <li>Louis A. Allen: Organization is the process of defining and grouping activities and establishing authority
+            relationships among them to achieve objectives.</li>
+          <li>Koontz and O'Donnell: Organization involves establishing authority relationships and providing
+            coordination vertically and horizontally within an organization.</li>
+          <li>Sheldon: Organization is about combining efforts and resources systematically and efficiently to achieve
+            goals.</li>
+          <li>A common definition is that organization is a management function that involves creating a structure and
+            allocating resources to meet objectives.</li>
+        </ul>
+      </li>
+      <li><strong>Why Organization is Necessary:</strong>
+        <ul>
+          <li><strong>Preventing Chaos:</strong> Without structure, institutions would fall into chaos, with no clear
+            direction or task allocation.</li>
+          <li><strong>Coordinating Efforts:</strong> Through organizing, tasks are assigned to individuals or groups,
+            and authority is provided to ensure successful task completion.</li>
+          <li><strong>Achieving Objectives:</strong> Organization helps ensure that resources, whether human, financial,
+            or physical, are utilized optimally to meet institutional goals.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="aspects-of-organization">
+    <h2>2. Aspects of Organization as a Process</h2>
+    <p>The organizing process involves several interconnected aspects that ensure the smooth functioning of an
+      organization. These key aspects are crucial for achieving the organization’s goals and utilizing resources
+      efficiently.</p>
+
+    <h3>Key Aspects:</h3>
+    <ul>
+      <li><strong>Identification of Activities and Work:</strong>
+        The first step in organizing is identifying the activities necessary to fulfill the organization’s goals. In
+        educational institutions, for example:
+        <ul>
+          <li><strong>Curricular Activities:</strong> Teaching, learning, examinations.</li>
+          <li><strong>Co-curricular Activities:</strong> Sports, cultural programs.</li>
+          <li><strong>Administrative Activities:</strong> Record-keeping, staffing.</li>
+          <li><strong>Financial Activities:</strong> Budgeting, fee collection.</li>
+        </ul>
+      </li>
+      <li><strong>Assigning Activities to Appropriate Departments, Sections, and Individuals:</strong> After identifying
+        activities, they must be assigned to specific departments. For example, in a school:
+        <ul>
+          <li><strong>Examination Department:</strong> Responsible for exam papers and scheduling.</li>
+          <li><strong>Teaching Departments:</strong> Deliver lessons and design courses.</li>
+          <li><strong>Administrative Section:</strong> Manages records and student services.</li>
+        </ul>
+      </li>
+      <li><strong>Defining Responsibilities:</strong> Clear definitions of responsibilities ensure that each task is
+        carried out by the right individual or department. For example, in the <strong>Examination Department</strong>,
+        the <strong>Exam Coordinator</strong> may manage the exam schedule, while <strong>Subject Teachers</strong> set
+        papers and <strong>Evaluation Staff</strong> grades them.</li>
+      <li><strong>Providing Authority and Delegation:</strong> Authority must accompany responsibility. Delegation
+        involves assigning tasks with the necessary authority to carry them out. For example, a <strong>Head of
+          Department</strong> might have the authority to set the curriculum, while a <strong>Class Teacher</strong> has
+        authority over the teaching methods.</li>
+      <li><strong>Ensuring Coordination and Communication:</strong>
+        Coordination ensures that tasks are aligned and executed in a synchronized manner across departments.
+        Communication enables the sharing of information, progress updates, and problem-solving, ensuring that tasks are
+        completed without misunderstanding.
+      </li>
+      <li><strong>Establishing Structural Relationships:</strong> Relationships in an organization should be
+        well-defined:
+        <ul>
+          <li><strong>Horizontal Relationships:</strong> Between colleagues at the same level (e.g., teachers within the
+            same department).</li>
+          <li><strong>Vertical Relationships:</strong> Between different levels of authority (e.g., teachers reporting
+            to the head of department).</li>
+        </ul>
+      </li>
+      <li><strong>Provision of Facilities and Equipment:</strong> An organization must provide the necessary tools,
+        resources, and facilities for employees to perform their tasks effectively. For example, in a school, teachers
+        require teaching aids such as textbooks, computers, and projectors.</li>
+    </ul>
+  </section>
+
+  <section class="summary">
+    <h2>3. Summary</h2>
+    <p><strong>Organizing</strong> is a critical management function that helps align resources and people to achieve
+      organizational objectives. The key steps include:</p>
+    <ul>
+      <li><strong>Identifying Activities:</strong> Understanding the tasks that must be performed to meet the
+        organization’s goals.</li>
+      <li><strong>Assigning Activities:</strong> Allocating responsibilities to the appropriate departments and
+        individuals.</li>
+      <li><strong>Defining Responsibilities:</strong> Clarifying roles to ensure accountability.</li>
+      <li><strong>Providing Authority:</strong> Ensuring individuals have the power to carry out their tasks.</li>
+      <li><strong>Ensuring Coordination:</strong> Aligning efforts across departments and individuals.</li>
+      <li><strong>Establishing Relationships:</strong> Defining both horizontal and vertical relationships within the
+        organization.</li>
+      <li><strong>Providing Resources:</strong> Ensuring that the necessary tools and facilities are available to
+        employees.</li>
+    </ul>
+
+    <p>Ultimately, the process of organizing is ongoing, requiring continuous adaptation to maintain effectiveness and
+      ensure the organization’s success. Through thoughtful implementation of the organizing process, institutions can
+      achieve their objectives, improve coordination, and utilize resources optimally.</p>
+  </section>
+</div>

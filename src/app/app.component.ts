@@ -33,7 +33,7 @@ export class AppComponent {
     { name: 'Lesson 14: Staffing I', url: 'les14', quiz: 'quiz/14', fillblank: 'fillblank/14' },
     { name: 'Lesson 15: Staffing II ', url: 'les15', quiz: 'quiz/15', fillblank: 'fillblank/15' },
     { name: 'Lesson 16: Controlling I', url: 'les16', quiz: 'quiz/16', fillblank: 'fillblank/16' },
-    { name: 'Lesson 17: Controlling as a Function of Management', url: 'les17', quiz: 'quiz/17' },
+    { name: 'Lesson 17: Controlling as a Function of Management', url: 'les17', quiz: 'quiz/17', fillblank: 'fillblank17' },
     { name: 'Lesson 18: Delegating I', url: 'les18', quiz: 'quiz/18', fillblank: 'fillblank/18' },
     { name: 'Lesson 19: Delegating II', url: 'les19', quiz: 'quiz/19', fillblank: 'fillblank/19' },
     { name: 'Lesson 20: Decision Making', url: 'les20', quiz: 'quiz/20', fillblank: 'fillblank/20' },

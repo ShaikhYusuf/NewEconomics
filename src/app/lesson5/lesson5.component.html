@@ -1,6 +1,27 @@
 <div class="lesson-container">
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
+
+
+  <section class="main" #texDiv>
     <h1>Lesson 5: Need and Objectives of Education Management</h1>
-  
     <!-- Objectives Section -->
     <section>
       <h2>Objectives</h2>
@@ -10,33 +31,48 @@
         <li>Identify the objectives of educational management.</li>
       </ul>
     </section>
-  
+
     <!-- Concept of Education Management Section -->
     <section>
       <h2>Concept of Education Management</h2>
-      <p><strong>Understanding Education Management:</strong> Educational management refers to the systematic planning, organizing, directing, and controlling of all activities and resources within educational institutions to achieve educational objectives effectively. It involves optimizing human and material resources to enhance teaching, research, and community engagement while fostering institutional growth and societal development.</p>
-      
-      <p><strong>Dynamic Nature of Educational Institutions:</strong> Educational institutions operate in a constantly changing environment influenced by:</p>
+      <p><strong>Understanding Education Management:</strong> Educational management refers to the systematic
+        planning, organizing, directing, and controlling of all activities and resources within educational
+        institutions to achieve educational objectives effectively. It involves optimizing human and material
+        resources to enhance teaching, research, and community engagement while fostering institutional growth and
+        societal development.</p>
+
+      <p><strong>Dynamic Nature of Educational Institutions:</strong> Educational institutions operate in a constantly
+        changing environment influenced by:</p>
       <ul>
-        <li><strong>Technological Advancements:</strong> The integration of modern tools and methods in the teaching-learning process.</li>
+        <li><strong>Technological Advancements:</strong> The integration of modern tools and methods in the
+          teaching-learning process.</li>
         <li><strong>Policy Changes:</strong> New governmental rules, regulations, and policies impact operations.</li>
-        <li><strong>Societal Needs:</strong> Adjustments required to meet evolving societal expectations and demands.</li>
+        <li><strong>Societal Needs:</strong> Adjustments required to meet evolving societal expectations and demands.
+        </li>
       </ul>
-      <p>Due to these factors, educational institutions must continuously improve internal processes and adapt to changes to maintain relevance and effectiveness.</p>
-  
-      <p><strong>Origin and Development:</strong> Educational management originated in the United States in the early 20th century as a specialized field. The United Kingdom adopted this concept in the 1960s, emphasizing structured management in educational settings.</p>
-  
+      <p>Due to these factors, educational institutions must continuously improve internal processes and adapt to
+        changes to maintain relevance and effectiveness.</p>
+
+      <p><strong>Origin and Development:</strong> Educational management originated in the United States in the early
+        20th century as a specialized field. The United Kingdom adopted this concept in the 1960s, emphasizing
+        structured management in educational settings.</p>
+
       <p><strong>Definitions:</strong></p>
-      <p><strong>Henry Fayol’s Definition of Management:</strong> “To manage is to forecast and plan, to organize, to command, to co-ordinate, and to control.”</p>
-      <p>Management involves a systematic process comprising five core functions: planning, organizing, commanding, coordinating, and controlling.</p>
-  
-      <p><strong>Definition of Educational Management:</strong> Educational management applies Fayol’s principles to educational settings, focusing on human resources, material resources, regulations, policies, and societal integration.</p>
+      <p><strong>Henry Fayol’s Definition of Management:</strong> “To manage is to forecast and plan, to organize, to
+        command, to co-ordinate, and to control.”</p>
+      <p>Management involves a systematic process comprising five core functions: planning, organizing, commanding,
+        coordinating, and controlling.</p>
+
+      <p><strong>Definition of Educational Management:</strong> Educational management applies Fayol’s principles to
+        educational settings, focusing on human resources, material resources, regulations, policies, and societal
+        integration.</p>
     </section>
-  
+
     <!-- Need for Educational Management Section -->
     <section>
       <h2>Need for Educational Management</h2>
-      <p>Educational management is crucial for ensuring that educational institutions operate effectively, especially in a dynamic and resource-constrained environment. Key reasons include:</p>
+      <p>Educational management is crucial for ensuring that educational institutions operate effectively, especially
+        in a dynamic and resource-constrained environment. Key reasons include:</p>
       <ul>
         <li>Adapting to changes in government policies and evolving societal needs.</li>
         <li>Optimizing resource utilization (human and material).</li>
@@ -50,7 +86,7 @@
         <li>Managing interpersonal conflicts and maintaining harmony.</li>
       </ul>
     </section>
-  
+
     <!-- Objectives of Educational Management Section -->
     <section>
       <h2>Objectives of Educational Management</h2>
@@ -66,5 +102,5 @@
         <li>Strengthening human relationships among stakeholders.</li>
       </ul>
     </section>
-  </div>
-  
+  </section>
+</div>

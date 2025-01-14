@@ -1,8 +1,29 @@
 <!-- Lesson 30: Stress Management: Meaning, Sources and Strategies -->
 
 <div class="lesson-container">
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+  
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+  
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
     <h1>Lesson 30: Stress Management: Meaning, Sources and Strategies</h1>
   
+    <section class="main" #textDiv></section>
     <section>
       <h2>Introduction to Stress Management</h2>
       <p>

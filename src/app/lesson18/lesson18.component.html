@@ -1,95 +1,167 @@
 <div class="lesson-container">
-    <h1>Lesson 18: Delegating I</h1>
-  
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
+  <h1>Lesson 18: Delegating I</h1>
+
+  <section class="main" #textDiv>
+
     <!-- Learning Objectives Section -->
     <section>
       <h2>1. Learning Objectives (Detailed Explanation)</h2>
-      <p>The learning objectives of this session are designed to build a comprehensive understanding of delegation, its process, importance, and the key considerations involved. By the end of this session, learners will have gained theoretical and practical knowledge to implement delegation effectively. Let’s break these objectives into detailed components:</p>
-  
+      <p>The learning objectives of this session are designed to build a comprehensive understanding of delegation, its
+        process, importance, and the key considerations involved. By the end of this session, learners will have gained
+        theoretical and practical knowledge to implement delegation effectively. Let’s break these objectives into
+        detailed components:</p>
+
       <h3>a. Define the Delegation Process</h3>
-      <p><strong>Understanding Delegation:</strong> Delegation is a process by which a manager assigns tasks and the requisite authority to subordinates, holding them accountable for achieving specific outcomes. It is a two-way process involving both the delegator and the subordinate.</p>
-      <p><strong>Importance of Clarity:</strong> Learners will understand the necessity of providing clear instructions about the tasks and the outcomes expected. Vague or unclear delegation often leads to confusion and inefficiency.</p>
-      <p><strong>Real-Life Example:</strong> A manager in a retail store delegates the task of inventory management to a team leader, providing them access to the inventory system and authority to reorder low-stock items.</p>
-  
+      <p><strong>Understanding Delegation:</strong> Delegation is a process by which a manager assigns tasks and the
+        requisite authority to subordinates, holding them accountable for achieving specific outcomes. It is a two-way
+        process involving both the delegator and the subordinate.</p>
+      <p><strong>Importance of Clarity:</strong> Learners will understand the necessity of providing clear instructions
+        about the tasks and the outcomes expected. Vague or unclear delegation often leads to confusion and
+        inefficiency.</p>
+      <p><strong>Real-Life Example:</strong> A manager in a retail store delegates the task of inventory management to a
+        team leader, providing them access to the inventory system and authority to reorder low-stock items.</p>
+
       <h3>b. Differentiate Between Assigning and Delegation of Work</h3>
-      <p><strong>Assigning Work:</strong> This involves telling someone to perform a task without granting them decision-making authority or holding them accountable for the overall result.</p>
-      <p><strong>Delegating Work:</strong> Delegation involves transferring not just the responsibility for performing the task but also the authority to make necessary decisions and accountability for the task's outcome.</p>
-      <p><strong>Key Difference:</strong> Assigning work is instruction-based, while delegation is empowerment-based.</p>
-      <p><strong>Real-Life Example:</strong> A school principal instructs a teacher to organize a parent-teacher meeting (assignment). Conversely, if the principal empowers the teacher to decide the meeting agenda, venue, and schedule (delegation), the teacher takes ownership of the process and its outcomes.</p>
-  
+      <p><strong>Assigning Work:</strong> This involves telling someone to perform a task without granting them
+        decision-making authority or holding them accountable for the overall result.</p>
+      <p><strong>Delegating Work:</strong> Delegation involves transferring not just the responsibility for performing
+        the task but also the authority to make necessary decisions and accountability for the task's outcome.</p>
+      <p><strong>Key Difference:</strong> Assigning work is instruction-based, while delegation is empowerment-based.
+      </p>
+      <p><strong>Real-Life Example:</strong> A school principal instructs a teacher to organize a parent-teacher meeting
+        (assignment). Conversely, if the principal empowers the teacher to decide the meeting agenda, venue, and
+        schedule (delegation), the teacher takes ownership of the process and its outcomes.</p>
+
       <h3>c. Identify the Importance of Delegation of Work</h3>
       <ul>
-        <li><strong>Efficient Use of Time:</strong> Delegation allows managers to focus on strategic activities by entrusting operational tasks to subordinates.</li>
-        <li><strong>Skill Development:</strong> Subordinates develop new skills, gain experience, and prepare for leadership roles.</li>
-        <li><strong>Building Trust:</strong> Effective delegation fosters trust and strengthens the manager-subordinate relationship.</li>
-        <li><strong>Encouraging Innovation:</strong> When subordinates are given the freedom to execute tasks their way, it often results in creative and innovative solutions.</li>
+        <li><strong>Efficient Use of Time:</strong> Delegation allows managers to focus on strategic activities by
+          entrusting operational tasks to subordinates.</li>
+        <li><strong>Skill Development:</strong> Subordinates develop new skills, gain experience, and prepare for
+          leadership roles.</li>
+        <li><strong>Building Trust:</strong> Effective delegation fosters trust and strengthens the manager-subordinate
+          relationship.</li>
+        <li><strong>Encouraging Innovation:</strong> When subordinates are given the freedom to execute tasks their way,
+          it often results in creative and innovative solutions.</li>
       </ul>
-      <p><strong>Real-Life Example:</strong> A department head delegates the task of designing a marketing campaign to their junior team members, allowing them to brainstorm and execute ideas. This not only saves the manager’s time but also nurtures creativity among team members.</p>
-  
+      <p><strong>Real-Life Example:</strong> A department head delegates the task of designing a marketing campaign to
+        their junior team members, allowing them to brainstorm and execute ideas. This not only saves the manager’s time
+        but also nurtures creativity among team members.</p>
+
       <h3>d. Analyze the Factors to Be Considered While Delegating</h3>
       <ul>
-        <li><strong>Nature of the Task:</strong> Routine tasks can be delegated easily, but complex tasks require careful planning and communication.</li>
-        <li><strong>Competence of the Subordinate:</strong> A subordinate’s skills, knowledge, and willingness must align with the task being delegated.</li>
-        <li><strong>Time Available:</strong> Urgent tasks may not allow for detailed delegation, while longer-term tasks can involve deeper planning and delegation.</li>
-        <li><strong>Accountability and Authority:</strong> Delegation is only effective when authority and accountability are balanced. Subordinates must have the freedom to make decisions and be held responsible for the outcomes.</li>
+        <li><strong>Nature of the Task:</strong> Routine tasks can be delegated easily, but complex tasks require
+          careful planning and communication.</li>
+        <li><strong>Competence of the Subordinate:</strong> A subordinate’s skills, knowledge, and willingness must
+          align with the task being delegated.</li>
+        <li><strong>Time Available:</strong> Urgent tasks may not allow for detailed delegation, while longer-term tasks
+          can involve deeper planning and delegation.</li>
+        <li><strong>Accountability and Authority:</strong> Delegation is only effective when authority and
+          accountability are balanced. Subordinates must have the freedom to make decisions and be held responsible for
+          the outcomes.</li>
       </ul>
-      <p><strong>Factors in Action:</strong> A construction manager delegates site inspection to an experienced junior engineer, ensuring they are equipped with checklists, timelines, and the authority to liaise with contractors. The manager provides oversight but allows the engineer to manage site operations independently.</p>
-  
+      <p><strong>Factors in Action:</strong> A construction manager delegates site inspection to an experienced junior
+        engineer, ensuring they are equipped with checklists, timelines, and the authority to liaise with contractors.
+        The manager provides oversight but allows the engineer to manage site operations independently.</p>
+
       <h3>Conclusion of Objectives</h3>
-      <p>The session aims to instill a comprehensive understanding of delegation, emphasizing its role in improving efficiency, fostering growth, and achieving organizational goals. By understanding the delegation process, distinguishing it from mere task assignment, and considering critical factors, learners will be equipped to:</p>
+      <p>The session aims to instill a comprehensive understanding of delegation, emphasizing its role in improving
+        efficiency, fostering growth, and achieving organizational goals. By understanding the delegation process,
+        distinguishing it from mere task assignment, and considering critical factors, learners will be equipped to:</p>
       <ul>
         <li>Delegate effectively and responsibly.</li>
         <li>Promote a culture of trust, autonomy, and accountability.</li>
         <li>Use delegation as a tool for personal and organizational development.</li>
       </ul>
     </section>
-  
+
     <!-- Definitions of Delegation -->
     <section>
       <h2>2. Definitions of Delegation (Detailed Explanation)</h2>
-      <p><strong>Delegation</strong> is a cornerstone of effective management and leadership. It involves transferring responsibility and authority from one individual, typically a manager or leader, to another, usually a subordinate, while maintaining accountability for the task's completion.</p>
-  
+      <p><strong>Delegation</strong> is a cornerstone of effective management and leadership. It involves transferring
+        responsibility and authority from one individual, typically a manager or leader, to another, usually a
+        subordinate, while maintaining accountability for the task's completion.</p>
+
       <h3>Key Definitions of Delegation</h3>
       <ul>
-        <li><strong>Formal Perspective:</strong> Delegation is the act of assigning formal authority and responsibility to a subordinate to carry out specific tasks or activities.</li>
-        <li><strong>Simplified Definition:</strong> Delegation is providing information about a job, assigning the required authority, and holding the subordinate accountable for the results.</li>
-        <li><strong>Holistic View:</strong> Delegation is not just about assigning tasks but empowering individuals with the autonomy to make decisions within the scope of their responsibilities, fostering ownership and involvement in achieving organizational goals.</li>
+        <li><strong>Formal Perspective:</strong> Delegation is the act of assigning formal authority and responsibility
+          to a subordinate to carry out specific tasks or activities.</li>
+        <li><strong>Simplified Definition:</strong> Delegation is providing information about a job, assigning the
+          required authority, and holding the subordinate accountable for the results.</li>
+        <li><strong>Holistic View:</strong> Delegation is not just about assigning tasks but empowering individuals with
+          the autonomy to make decisions within the scope of their responsibilities, fostering ownership and involvement
+          in achieving organizational goals.</li>
       </ul>
-  
+
       <h3>Elements of Delegation</h3>
       <ul>
         <li><strong>Authority:</strong> The manager grants the subordinate the power to act on their behalf.</li>
-        <li><strong>Responsibility:</strong> The subordinate is responsible for performing the assigned task efficiently.</li>
-        <li><strong>Accountability:</strong> Although the subordinate takes on the responsibility, the manager retains overall accountability for the task.</li>
+        <li><strong>Responsibility:</strong> The subordinate is responsible for performing the assigned task
+          efficiently.</li>
+        <li><strong>Accountability:</strong> Although the subordinate takes on the responsibility, the manager retains
+          overall accountability for the task.</li>
       </ul>
-  
+
       <h3>Examples of Delegation in Action</h3>
       <ul>
-        <li><strong>Corporate Environment:</strong> A project manager delegates the responsibility for creating a project timeline to a team member, empowering them with software access and decision-making authority.</li>
-        <li><strong>Educational Institution:</strong> A principal delegates the organization of the annual sports day to a group of teachers, providing them with a budget and decision-making freedom.</li>
-        <li><strong>Healthcare Sector:</strong> A hospital administrator delegates the preparation of a staff duty roster to a senior nurse, including the authority to approve shift swaps.</li>
+        <li><strong>Corporate Environment:</strong> A project manager delegates the responsibility for creating a
+          project timeline to a team member, empowering them with software access and decision-making authority.</li>
+        <li><strong>Educational Institution:</strong> A principal delegates the organization of the annual sports day to
+          a group of teachers, providing them with a budget and decision-making freedom.</li>
+        <li><strong>Healthcare Sector:</strong> A hospital administrator delegates the preparation of a staff duty
+          roster to a senior nurse, including the authority to approve shift swaps.</li>
       </ul>
-  
+
       <h3>Purpose of Delegation</h3>
       <ul>
-        <li><strong>Efficiency:</strong> Tasks are distributed to ensure the workload is shared, and managers can focus on strategic goals.</li>
-        <li><strong>Skill Development:</strong> Delegating responsibilities helps team members grow professionally by tackling challenges.</li>
-        <li><strong>Empowerment:</strong> It instills confidence in subordinates by allowing them to make decisions and learn from their outcomes.</li>
-        <li><strong>Accountability:</strong> Delegation ensures tasks are completed systematically, with clear expectations and follow-up.</li>
+        <li><strong>Efficiency:</strong> Tasks are distributed to ensure the workload is shared, and managers can focus
+          on strategic goals.</li>
+        <li><strong>Skill Development:</strong> Delegating responsibilities helps team members grow professionally by
+          tackling challenges.</li>
+        <li><strong>Empowerment:</strong> It instills confidence in subordinates by allowing them to make decisions and
+          learn from their outcomes.</li>
+        <li><strong>Accountability:</strong> Delegation ensures tasks are completed systematically, with clear
+          expectations and follow-up.</li>
       </ul>
-  
+
       <h3>Process of Delegation</h3>
       <ul>
-        <li><strong>Communicating the Task:</strong> Define the task clearly, including objectives, timelines, and expectations.</li>
-        <li><strong>Assigning Authority:</strong> Provide the necessary tools, permissions, and autonomy to perform the task.</li>
-        <li><strong>Ensuring Accountability:</strong> Establish a mechanism for regular updates, feedback, and review.</li>
+        <li><strong>Communicating the Task:</strong> Define the task clearly, including objectives, timelines, and
+          expectations.</li>
+        <li><strong>Assigning Authority:</strong> Provide the necessary tools, permissions, and autonomy to perform the
+          task.</li>
+        <li><strong>Ensuring Accountability:</strong> Establish a mechanism for regular updates, feedback, and review.
+        </li>
       </ul>
-  
+
       <h3>Case Study: Delegation in Action</h3>
       <ul>
-        <li><strong>Scenario 1:</strong> Ms. Banerjee, head of the primary section at St. Mary’s School, is assigned the task of organizing a science exhibition. She communicates with government officials, outlines the requirements, and mobilizes the necessary resources.</li>
-        <li><strong>Scenario 2:</strong> Ms. Mitra, head of the primary section at St. Peter’s School, approaches delegation differently. After discussing the details with her principal, she forms committees with clear roles, empowering coordinators with authority to manage their teams.</li>
+        <li><strong>Scenario 1:</strong> Ms. Banerjee, head of the primary section at St. Mary’s School, is assigned the
+          task of organizing a science exhibition. She communicates with government officials, outlines the
+          requirements, and mobilizes the necessary resources.</li>
+        <li><strong>Scenario 2:</strong> Ms. Mitra, head of the primary section at St. Peter’s School, approaches
+          delegation differently. After discussing the details with her principal, she forms committees with clear
+          roles, empowering coordinators with authority to manage their teams.</li>
       </ul>
     </section>
-  </div>
-  
+  </section>
+</div>

@@ -1,6 +1,27 @@
 <div class="lesson-container">
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+  
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+  
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
     <h1>Lesson 35: Theories of Leadership – II</h1>
-    
+
+    <section class="main" #textDiv>
     <section>
       <h2>2. Introduction: A Detailed Explanation</h2>
       <p>The <strong>Contingency Theory of Leadership</strong> marks a significant shift in understanding leadership dynamics. Unlike traditional models that advocate for a universal leadership style, contingency theory proposes that leadership effectiveness is contingent on the interaction between:</p>
@@ -108,5 +129,6 @@
         <li>May not accommodate rapid situational changes.</li>
       </ul>
     </section>
+  </section>
   </div>
   

@@ -1,276 +1,337 @@
 <div class="lesson-container">
-  <div class="section">
-    <h1>Lesson 17: Controlling as a Function of Management</h1>
-    <h2>1.0 Objectives</h2>
-    <p>By the end of this lesson, learners will be able to:</p>
-    <ul>
-      <li>Explain the steps involved in controlling – Understand the stages through which managers monitor, evaluate,
-        and correct organizational activities.</li>
-      <li>Understand the importance of controlling in management – Recognize how controlling ensures that the set goals
-        are met effectively and efficiently.</li>
-      <li>Establish the relationship between controlling and directing – Understand how controlling complements
-        directing to ensure smooth functioning of the organization.</li>
-      <li>Discuss the need and importance of directing – Learn about the role of directing in motivating, guiding, and
-        leading employees to achieve organizational goals.</li>
-    </ul>
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
   </div>
+  <section class="main" #textDiv>
+    <div class="section">
+      <h1>Lesson 17: Controlling as a Function of Management</h1>
+      <h2>1.0 Objectives</h2>
+      <p>By the end of this lesson, learners will be able to:</p>
+      <ul>
+        <li>Explain the steps involved in controlling – Understand the stages through which managers monitor, evaluate,
+          and correct organizational activities.</li>
+        <li>Understand the importance of controlling in management – Recognize how controlling ensures that the set
+          goals
+          are met effectively and efficiently.</li>
+        <li>Establish the relationship between controlling and directing – Understand how controlling complements
+          directing to ensure smooth functioning of the organization.</li>
+        <li>Discuss the need and importance of directing – Learn about the role of directing in motivating, guiding, and
+          leading employees to achieve organizational goals.</li>
+      </ul>
+    </div>
 
-  <div class="section">
-    <h2>1.1 Introduction</h2>
-    <p>Controlling is one of the essential functions of management that ensures an organization’s objectives are met
-      effectively and efficiently. While planning sets the direction, and organizing allocates resources, controlling
-      ensures that the set plans are executed successfully. It involves monitoring and evaluating the performance of
-      activities and taking corrective actions whenever deviations are noticed.</p>
-    <p>In any organization, there are performance standards that must be achieved. However, performance may not always
-      align with these expectations. When discrepancies occur, controlling helps identify these gaps and provides
-      necessary corrective actions. The process of controlling also helps in optimizing resource usage, ensuring proper
-      processes are followed, and ultimately achieving the desired outcomes.</p>
-    <p>In essence, controlling acts as a feedback mechanism that ensures all activities remain aligned with the
-      organization’s goals. Without effective control, operations can drift off course, resources may be misused, and
-      the set goals may not be achieved.</p>
-    <p>Moreover, controlling provides insights into areas needing improvement, leading to better strategic decisions,
-      and more efficient organizational functioning. It is tightly connected with other functions like planning and
-      organizing, ensuring that the organization’s efforts stay aligned with its objectives.</p>
-  </div>
+    <div class="section">
+      <h2>1.1 Introduction</h2>
+      <p>Controlling is one of the essential functions of management that ensures an organization’s objectives are met
+        effectively and efficiently. While planning sets the direction, and organizing allocates resources, controlling
+        ensures that the set plans are executed successfully. It involves monitoring and evaluating the performance of
+        activities and taking corrective actions whenever deviations are noticed.</p>
+      <p>In any organization, there are performance standards that must be achieved. However, performance may not always
+        align with these expectations. When discrepancies occur, controlling helps identify these gaps and provides
+        necessary corrective actions. The process of controlling also helps in optimizing resource usage, ensuring
+        proper
+        processes are followed, and ultimately achieving the desired outcomes.</p>
+      <p>In essence, controlling acts as a feedback mechanism that ensures all activities remain aligned with the
+        organization’s goals. Without effective control, operations can drift off course, resources may be misused, and
+        the set goals may not be achieved.</p>
+      <p>Moreover, controlling provides insights into areas needing improvement, leading to better strategic decisions,
+        and more efficient organizational functioning. It is tightly connected with other functions like planning and
+        organizing, ensuring that the organization’s efforts stay aligned with its objectives.</p>
+    </div>
 
-  <div class="section">
-    <h2>1.2 Steps in Controlling</h2>
-    <p>Controlling is a systematic and structured process that follows certain steps to ensure performance aligns with
-      organizational goals. These steps help managers identify any deviations and take corrective measures to get back
-      on track.</p>
+    <div class="section">
+      <h2>1.2 Steps in Controlling</h2>
+      <p>Controlling is a systematic and structured process that follows certain steps to ensure performance aligns with
+        organizational goals. These steps help managers identify any deviations and take corrective measures to get back
+        on track.</p>
 
-    <h3>1. Establishment of Controlled Standards</h3>
-    <p>The first step in the controlling process is to set specific standards or benchmarks against which actual
-      performance will be measured. These standards must be clear, measurable, achievable, relevant, and time-bound
-      (SMART). The standards should reflect key aspects like quantity, quality, cost, and time.</p>
-    <p>For instance, a company that aims to improve customer satisfaction might set a standard of achieving 90% positive
-      feedback on customer surveys within the next quarter.</p>
+      <h3>1. Establishment of Controlled Standards</h3>
+      <p>The first step in the controlling process is to set specific standards or benchmarks against which actual
+        performance will be measured. These standards must be clear, measurable, achievable, relevant, and time-bound
+        (SMART). The standards should reflect key aspects like quantity, quality, cost, and time.</p>
+      <p>For instance, a company that aims to improve customer satisfaction might set a standard of achieving 90%
+        positive
+        feedback on customer surveys within the next quarter.</p>
 
-    <h3>2. Measurement of Performance</h3>
-    <p>After setting the standards, the next step is to measure actual performance. This involves collecting reliable
-      and relevant data to assess whether activities are being completed as planned. Accurate performance data is
-      essential for making informed decisions during the control process.</p>
-    <p>In the case of a school, this measurement could include tracking student performance through grades, attendance,
-      or even participation in extracurricular activities.</p>
+      <h3>2. Measurement of Performance</h3>
+      <p>After setting the standards, the next step is to measure actual performance. This involves collecting reliable
+        and relevant data to assess whether activities are being completed as planned. Accurate performance data is
+        essential for making informed decisions during the control process.</p>
+      <p>In the case of a school, this measurement could include tracking student performance through grades,
+        attendance,
+        or even participation in extracurricular activities.</p>
 
-    <h3>3. Comparison between Performance and Set Standards</h3>
-    <p>Once the performance data is collected, it is compared to the established standards. This comparison helps
-      identify any discrepancies between what was expected and the actual performance. If actual performance meets or
-      exceeds the standards, no action is necessary. However, if deviations are found, further analysis is needed to
-      understand the cause.</p>
-    <p>For example, if a company set a sales target of $100,000 for the quarter but achieved only $85,000, the manager
-      would investigate why the sales did not meet the target.</p>
+      <h3>3. Comparison between Performance and Set Standards</h3>
+      <p>Once the performance data is collected, it is compared to the established standards. This comparison helps
+        identify any discrepancies between what was expected and the actual performance. If actual performance meets or
+        exceeds the standards, no action is necessary. However, if deviations are found, further analysis is needed to
+        understand the cause.</p>
+      <p>For example, if a company set a sales target of $100,000 for the quarter but achieved only $85,000, the manager
+        would investigate why the sales did not meet the target.</p>
 
-    <h3>4. Correction of Deviations from Standards (Corrective Action)</h3>
-    <p>If deviations are found, corrective actions are needed to address the gap between the desired and actual
-      performance. These actions could involve adjusting strategies, reallocating resources, or changing processes to
-      ensure performance is back on track.</p>
-    <p>In a school, if students are falling behind in their grades, corrective actions might include extra tutoring,
-      revising teaching strategies, or increasing parent-teacher communication.</p>
+      <h3>4. Correction of Deviations from Standards (Corrective Action)</h3>
+      <p>If deviations are found, corrective actions are needed to address the gap between the desired and actual
+        performance. These actions could involve adjusting strategies, reallocating resources, or changing processes to
+        ensure performance is back on track.</p>
+      <p>In a school, if students are falling behind in their grades, corrective actions might include extra tutoring,
+        revising teaching strategies, or increasing parent-teacher communication.</p>
 
-    <h3>5. Communicating the Discrepancy</h3>
-    <p>It is essential to communicate any discrepancies between expected and actual performance to the relevant parties
-      in the organization. This ensures everyone understands the situation and is on the same page regarding the steps
-      to address the issues.</p>
-    <p>For example, if a manufacturing unit is not meeting its production targets, it is important to communicate this
-      to all relevant teams so that corrective actions, such as adjusting production schedules or increasing staffing,
-      can be implemented.</p>
+      <h3>5. Communicating the Discrepancy</h3>
+      <p>It is essential to communicate any discrepancies between expected and actual performance to the relevant
+        parties
+        in the organization. This ensures everyone understands the situation and is on the same page regarding the steps
+        to address the issues.</p>
+      <p>For example, if a manufacturing unit is not meeting its production targets, it is important to communicate this
+        to all relevant teams so that corrective actions, such as adjusting production schedules or increasing staffing,
+        can be implemented.</p>
 
-    <h3>6. Implementation of Corrective Plans</h3>
-    <p>The final step is to implement the corrective actions that have been decided. This involves putting the necessary
-      changes into effect and continuously monitoring their impact. The implementation of corrective plans should be
-      followed by ongoing performance measurement to ensure that the organization is back on track.</p>
-    <p>For instance, after providing additional training to teachers to enhance their teaching methods, the organization
-      must observe whether student performance improves in the subsequent evaluations.</p>
-  </div>
+      <h3>6. Implementation of Corrective Plans</h3>
+      <p>The final step is to implement the corrective actions that have been decided. This involves putting the
+        necessary
+        changes into effect and continuously monitoring their impact. The implementation of corrective plans should be
+        followed by ongoing performance measurement to ensure that the organization is back on track.</p>
+      <p>For instance, after providing additional training to teachers to enhance their teaching methods, the
+        organization
+        must observe whether student performance improves in the subsequent evaluations.</p>
+    </div>
 
-  <div class="section">
-    <h2>1.3 Importance of Controlling</h2>
-    <p>Controlling is crucial for ensuring that organizational goals are met in the most efficient and effective manner
-      possible. Below are several reasons why controlling is so important:</p>
-    <ul>
-      <li><strong>Adjustments in Operations:</strong> Controlling enables managers to make timely adjustments to
-        operations based on performance data. This ensures that if anything goes off-track, corrective measures are put
-        in place to get things back on course.</li>
-      <li><strong>Policy Verification:</strong> Through controlling, managers can evaluate whether the policies and
-        strategies put in place are yielding the desired results. By comparing actual performance against standards, it
-        becomes clear whether current strategies are effective or need to be revised.</li>
-      <li><strong>Coordination of Activities:</strong> Controlling ensures that all departments within an organization
-        work in sync. Proper coordination helps eliminate redundancies, avoids overlaps in tasks, and ensures that
-        resources are optimally utilized.</li>
-      <li><strong>Monitoring Environmental Changes:</strong> Controlling helps organizations stay adaptable by
-        monitoring changes in the external environment. This includes technological advances, economic changes, new
-        regulations, or evolving social trends.</li>
-      <li><strong>Enhancing Organizational Efficiency and Effectiveness:</strong> Through regular performance
-        measurement and corrective actions, managers can ensure that resources are used optimally, and processes are
-        running smoothly, leading to improved results.</li>
-    </ul>
-  </div>
+    <div class="section">
+      <h2>1.3 Importance of Controlling</h2>
+      <p>Controlling is crucial for ensuring that organizational goals are met in the most efficient and effective
+        manner
+        possible. Below are several reasons why controlling is so important:</p>
+      <ul>
+        <li><strong>Adjustments in Operations:</strong> Controlling enables managers to make timely adjustments to
+          operations based on performance data. This ensures that if anything goes off-track, corrective measures are
+          put
+          in place to get things back on course.</li>
+        <li><strong>Policy Verification:</strong> Through controlling, managers can evaluate whether the policies and
+          strategies put in place are yielding the desired results. By comparing actual performance against standards,
+          it
+          becomes clear whether current strategies are effective or need to be revised.</li>
+        <li><strong>Coordination of Activities:</strong> Controlling ensures that all departments within an organization
+          work in sync. Proper coordination helps eliminate redundancies, avoids overlaps in tasks, and ensures that
+          resources are optimally utilized.</li>
+        <li><strong>Monitoring Environmental Changes:</strong> Controlling helps organizations stay adaptable by
+          monitoring changes in the external environment. This includes technological advances, economic changes, new
+          regulations, or evolving social trends.</li>
+        <li><strong>Enhancing Organizational Efficiency and Effectiveness:</strong> Through regular performance
+          measurement and corrective actions, managers can ensure that resources are used optimally, and processes are
+          running smoothly, leading to improved results.</li>
+      </ul>
+    </div>
 
-  <div class="section">
-    <h2>1.4 Directing</h2>
-    <p>Directing is the management function that involves leading, guiding, and motivating employees to perform their
-      tasks effectively and efficiently to meet the organization’s goals. It ensures that employees are engaged,
-      motivated, and focused on their roles.</p>
+    <div class="section">
+      <h2>1.4 Directing</h2>
+      <p>Directing is the management function that involves leading, guiding, and motivating employees to perform their
+        tasks effectively and efficiently to meet the organization’s goals. It ensures that employees are engaged,
+        motivated, and focused on their roles.</p>
 
-    <h3>Definition of Directing</h3>
-    <p>Directing is the process of providing leadership, guidance, and motivation to employees to ensure that tasks are
-      completed effectively and aligned with organizational goals. It involves clear communication, providing resources,
-      motivating employees, and supervising performance.</p>
+      <h3>Definition of Directing</h3>
+      <p>Directing is the process of providing leadership, guidance, and motivation to employees to ensure that tasks
+        are
+        completed effectively and aligned with organizational goals. It involves clear communication, providing
+        resources,
+        motivating employees, and supervising performance.</p>
 
-    <h3>Key Aspects of Directing:</h3>
-    <ul>
-      <li><strong>Motivating Employees:</strong> Motivating employees is central to directing. By understanding
-        individual needs, managers can provide incentives (both intrinsic and extrinsic) that keep employees engaged and
-        productive.</li>
-      <li><strong>Leadership and Supervision:</strong> Directing requires strong leadership and supervision. Effective
-        leaders guide their teams by setting clear expectations, providing regular feedback, and making adjustments when
-        necessary.</li>
-      <li><strong>Communication:</strong> Clear communication is essential in directing. Managers must clearly
-        communicate tasks, goals, and expectations. Regular updates and feedback help ensure employees stay informed and
-        focused on their objectives.</li>
-      <li><strong>Providing Guidance:</strong> Managers need to support employees by offering training, mentorship, and
-        problem-solving assistance to help them overcome challenges and perform their best.</li>
-    </ul>
-  </div>
+      <h3>Key Aspects of Directing:</h3>
+      <ul>
+        <li><strong>Motivating Employees:</strong> Motivating employees is central to directing. By understanding
+          individual needs, managers can provide incentives (both intrinsic and extrinsic) that keep employees engaged
+          and
+          productive.</li>
+        <li><strong>Leadership and Supervision:</strong> Directing requires strong leadership and supervision. Effective
+          leaders guide their teams by setting clear expectations, providing regular feedback, and making adjustments
+          when
+          necessary.</li>
+        <li><strong>Communication:</strong> Clear communication is essential in directing. Managers must clearly
+          communicate tasks, goals, and expectations. Regular updates and feedback help ensure employees stay informed
+          and
+          focused on their objectives.</li>
+        <li><strong>Providing Guidance:</strong> Managers need to support employees by offering training, mentorship,
+          and
+          problem-solving assistance to help them overcome challenges and perform their best.</li>
+      </ul>
+    </div>
 
-  <div class="section">
-    <h2>1.5 Elements of Direction</h2>
-    <p>Effective direction involves several key elements that work together to ensure tasks are completed efficiently:
-    </p>
-    <ul>
-      <li>Communication – Ensures that tasks, roles, and expectations are clearly understood.</li>
-      <li>Leadership and Supervision – Guides employees through strong leadership and effective supervision.</li>
-      <li>Motivation – Drives employee performance by understanding their needs and providing appropriate incentives.
-      </li>
-      <li>Feedback and Recognition – Regularly assesses performance and provides positive reinforcement and constructive
-        criticism.</li>
-      <li>Coordination – Ensures that all departments and teams work together toward common goals.</li>
-      <li>Delegation – Assigns tasks to the most suitable individuals, empowering them to take ownership and
-        responsibility.</li>
-    </ul>
-  </div>
+    <div class="section">
+      <h2>1.5 Elements of Direction</h2>
+      <p>Effective direction involves several key elements that work together to ensure tasks are completed efficiently:
+      </p>
+      <ul>
+        <li>Communication – Ensures that tasks, roles, and expectations are clearly understood.</li>
+        <li>Leadership and Supervision – Guides employees through strong leadership and effective supervision.</li>
+        <li>Motivation – Drives employee performance by understanding their needs and providing appropriate incentives.
+        </li>
+        <li>Feedback and Recognition – Regularly assesses performance and provides positive reinforcement and
+          constructive
+          criticism.</li>
+        <li>Coordination – Ensures that all departments and teams work together toward common goals.</li>
+        <li>Delegation – Assigns tasks to the most suitable individuals, empowering them to take ownership and
+          responsibility.</li>
+      </ul>
+    </div>
 
-  <div class="section">
-    <h2>Conclusion</h2>
-    <p>In conclusion, both controlling and directing are crucial for the success of an organization. While controlling
-      ensures that performance aligns with set standards, directing ensures that employees are motivated, guided, and
-      equipped to carry out their tasks effectively. Together, these functions help organizations achieve their goals
-      efficiently and stay on track, even in the face of challenges.</p>
-  </div>
+    <div class="section">
+      <h2>Conclusion</h2>
+      <p>In conclusion, both controlling and directing are crucial for the success of an organization. While controlling
+        ensures that performance aligns with set standards, directing ensures that employees are motivated, guided, and
+        equipped to carry out their tasks effectively. Together, these functions help organizations achieve their goals
+        efficiently and stay on track, even in the face of challenges.</p>
+    </div>
 
-  <section class="lesson-part">
-    <h2>1.6 Need and Importance of Direction</h2>
-    <p>Direction plays a vital role in ensuring that an organization operates smoothly and achieves its goals
-      efficiently. It is one of the key functions of management and is essential for the effective implementation of
-      plans and strategies. Direction not only helps guide employees but also creates an environment that fosters
-      growth, motivation, and collaboration. Below are the key reasons for the need and importance of direction in any
-      organization:</p>
+    <section class="lesson-part">
+      <h2>1.6 Need and Importance of Direction</h2>
+      <p>Direction plays a vital role in ensuring that an organization operates smoothly and achieves its goals
+        efficiently. It is one of the key functions of management and is essential for the effective implementation of
+        plans and strategies. Direction not only helps guide employees but also creates an environment that fosters
+        growth, motivation, and collaboration. Below are the key reasons for the need and importance of direction in any
+        organization:</p>
 
-    <ul>
-      <li><strong>Leader Initiates Communication:</strong> Effective direction starts with leadership. The leader is
-        responsible for initiating communication within the organization. Communication is the foundation of all
-        management processes, and without it, employees will not have the necessary information to carry out tasks.</li>
-      <li><strong>Motivates People:</strong> Direction involves motivating employees to achieve higher levels of
-        performance. Motivation can be intrinsic (coming from within the individual) or extrinsic (external rewards). A
-        key element of direction is providing the necessary guidance, encouragement, and rewards to motivate employees.
-      </li>
-      <li><strong>Develops Teams:</strong> Direction helps in the formation and development of effective teams within
-        the organization. A manager’s role in directing is not only to guide individuals but also to create a sense of
-        teamwork. By fostering collaboration and cohesion, the manager ensures that all team members work towards common
-        goals.</li>
-      <li><strong>Boosts Morale:</strong> One of the significant benefits of direction is that it boosts the morale of
-        employees. When employees receive clear direction, support, and recognition, their confidence grows, leading to
-        increased enthusiasm and a positive attitude toward the organization.</li>
-      <li><strong>Ensures Proper Use of Resources:</strong> Direction ensures that the resources of an
-        organization—whether human, financial, or material—are used effectively and efficiently. By guiding employees on
-        how to utilize resources properly, a manager can ensure that organizational goals are met without wastage.</li>
-      <li><strong>Helps in Achieving Organizational Goals:</strong> The ultimate goal of direction is to ensure that the
-        objectives and goals of the organization are achieved. By providing clear guidance, feedback, and motivation,
-        the manager helps employees focus on tasks that align with the organization’s goals.</li>
-    </ul>
+      <ul>
+        <li><strong>Leader Initiates Communication:</strong> Effective direction starts with leadership. The leader is
+          responsible for initiating communication within the organization. Communication is the foundation of all
+          management processes, and without it, employees will not have the necessary information to carry out tasks.
+        </li>
+        <li><strong>Motivates People:</strong> Direction involves motivating employees to achieve higher levels of
+          performance. Motivation can be intrinsic (coming from within the individual) or extrinsic (external rewards).
+          A
+          key element of direction is providing the necessary guidance, encouragement, and rewards to motivate
+          employees.
+        </li>
+        <li><strong>Develops Teams:</strong> Direction helps in the formation and development of effective teams within
+          the organization. A manager’s role in directing is not only to guide individuals but also to create a sense of
+          teamwork. By fostering collaboration and cohesion, the manager ensures that all team members work towards
+          common
+          goals.</li>
+        <li><strong>Boosts Morale:</strong> One of the significant benefits of direction is that it boosts the morale of
+          employees. When employees receive clear direction, support, and recognition, their confidence grows, leading
+          to
+          increased enthusiasm and a positive attitude toward the organization.</li>
+        <li><strong>Ensures Proper Use of Resources:</strong> Direction ensures that the resources of an
+          organization—whether human, financial, or material—are used effectively and efficiently. By guiding employees
+          on
+          how to utilize resources properly, a manager can ensure that organizational goals are met without wastage.
+        </li>
+        <li><strong>Helps in Achieving Organizational Goals:</strong> The ultimate goal of direction is to ensure that
+          the
+          objectives and goals of the organization are achieved. By providing clear guidance, feedback, and motivation,
+          the manager helps employees focus on tasks that align with the organization’s goals.</li>
+      </ul>
 
-    <p><strong>In Conclusion:</strong> Direction is essential for the overall success of an organization. It helps align
-      individual efforts with organizational goals, motivates employees, improves morale, and ensures the efficient use
-      of resources.</p>
-  </section>
+      <p><strong>In Conclusion:</strong> Direction is essential for the overall success of an organization. It helps
+        align
+        individual efforts with organizational goals, motivates employees, improves morale, and ensures the efficient
+        use
+        of resources.</p>
+    </section>
 
-  <section class="lesson-part">
-    <h2>1.7 Control: Monitoring and Evaluation in the Process of Management</h2>
-    <p>Control is a crucial function in the management process, ensuring that the organization's activities align with
-      its goals and that corrective actions are taken when necessary. Without control, it would be difficult to ensure
-      that all efforts are directed toward achieving organizational objectives. Control allows managers to monitor
-      progress, identify issues, and take timely actions to keep the organization on track. This section will delve into
-      the importance of control, the process of control, and real-life examples of how it works in practice.</p>
+    <section class="lesson-part">
+      <h2>1.7 Control: Monitoring and Evaluation in the Process of Management</h2>
+      <p>Control is a crucial function in the management process, ensuring that the organization's activities align with
+        its goals and that corrective actions are taken when necessary. Without control, it would be difficult to ensure
+        that all efforts are directed toward achieving organizational objectives. Control allows managers to monitor
+        progress, identify issues, and take timely actions to keep the organization on track. This section will delve
+        into
+        the importance of control, the process of control, and real-life examples of how it works in practice.</p>
 
-    <h3>1. Definition of Control</h3>
-    <p>Control in management refers to the process of setting standards, measuring actual performance, comparing this
-      performance with the established standards, and taking corrective actions when needed. This helps ensure that the
-      organization's objectives are being met effectively and efficiently. Control is often described as a feedback
-      loop, where the outcomes of actions are assessed and adjustments are made to improve future performance.</p>
+      <h3>1. Definition of Control</h3>
+      <p>Control in management refers to the process of setting standards, measuring actual performance, comparing this
+        performance with the established standards, and taking corrective actions when needed. This helps ensure that
+        the
+        organization's objectives are being met effectively and efficiently. Control is often described as a feedback
+        loop, where the outcomes of actions are assessed and adjustments are made to improve future performance.</p>
 
-    <h3>2. Importance of Control in Management</h3>
-    <ul>
-      <li><strong>Ensures Goal Achievement:</strong> Control ensures that all efforts are aligned with the
-        organization’s goals. It helps track whether activities are moving toward achieving these goals and allows for
-        adjustments when they are not.</li>
-      <li><strong>Reduces Risk:</strong> By monitoring progress, managers can identify potential problems early,
-        reducing the risk of failure. Early identification of discrepancies can prevent small issues from escalating
-        into major problems.</li>
-      <li><strong>Improves Performance:</strong> Control helps identify areas where performance is lagging and allows
-        managers to take corrective actions to improve performance. This continuous improvement leads to higher
-        efficiency and productivity.</li>
-      <li><strong>Enhances Accountability:</strong> With clear standards and performance measures in place, individuals
-        and teams are more accountable for their actions. They are aware that their performance will be monitored, which
-        motivates them to work more effectively.</li>
-      <li><strong>Ensures Resource Optimization:</strong> Control ensures that resources—whether financial, human, or
-        material—are used effectively and efficiently. By monitoring their usage, control helps prevent wastage and
-        ensures resources are allocated where they are most needed.</li>
-    </ul>
+      <h3>2. Importance of Control in Management</h3>
+      <ul>
+        <li><strong>Ensures Goal Achievement:</strong> Control ensures that all efforts are aligned with the
+          organization’s goals. It helps track whether activities are moving toward achieving these goals and allows for
+          adjustments when they are not.</li>
+        <li><strong>Reduces Risk:</strong> By monitoring progress, managers can identify potential problems early,
+          reducing the risk of failure. Early identification of discrepancies can prevent small issues from escalating
+          into major problems.</li>
+        <li><strong>Improves Performance:</strong> Control helps identify areas where performance is lagging and allows
+          managers to take corrective actions to improve performance. This continuous improvement leads to higher
+          efficiency and productivity.</li>
+        <li><strong>Enhances Accountability:</strong> With clear standards and performance measures in place,
+          individuals
+          and teams are more accountable for their actions. They are aware that their performance will be monitored,
+          which
+          motivates them to work more effectively.</li>
+        <li><strong>Ensures Resource Optimization:</strong> Control ensures that resources—whether financial, human, or
+          material—are used effectively and efficiently. By monitoring their usage, control helps prevent wastage and
+          ensures resources are allocated where they are most needed.</li>
+      </ul>
 
-    <h3>3. The Control Process</h3>
-    <p>The control process involves several key steps that work together to ensure effective monitoring and correction
-      of actions. These steps are:</p>
-    <ul>
-      <li><strong>Setting Standards:</strong> The first step in control is setting standards or benchmarks against which
-        actual performance will be measured.</li>
-      <li><strong>Measuring Actual Performance:</strong> After setting standards, the next step is to measure actual
-        performance. This involves collecting data and information to assess how well the organization or individual is
-        performing relative to the standards.</li>
-      <li><strong>Comparing Actual Performance with Standards:</strong> Once performance is measured, it is compared to
-        the standards set earlier. This comparison helps identify whether the performance is on track or deviating from
-        the desired outcomes.</li>
-      <li><strong>Taking Corrective Actions:</strong> When deviations from the set standards are found, corrective
-        actions must be taken to bring performance back in line with the goals.</li>
-      <li><strong>Feedback Loop:</strong> The final step in the control process is ensuring that feedback is provided to
-        employees, teams, or individuals.</li>
-    </ul>
+      <h3>3. The Control Process</h3>
+      <p>The control process involves several key steps that work together to ensure effective monitoring and correction
+        of actions. These steps are:</p>
+      <ul>
+        <li><strong>Setting Standards:</strong> The first step in control is setting standards or benchmarks against
+          which
+          actual performance will be measured.</li>
+        <li><strong>Measuring Actual Performance:</strong> After setting standards, the next step is to measure actual
+          performance. This involves collecting data and information to assess how well the organization or individual
+          is
+          performing relative to the standards.</li>
+        <li><strong>Comparing Actual Performance with Standards:</strong> Once performance is measured, it is compared
+          to
+          the standards set earlier. This comparison helps identify whether the performance is on track or deviating
+          from
+          the desired outcomes.</li>
+        <li><strong>Taking Corrective Actions:</strong> When deviations from the set standards are found, corrective
+          actions must be taken to bring performance back in line with the goals.</li>
+        <li><strong>Feedback Loop:</strong> The final step in the control process is ensuring that feedback is provided
+          to
+          employees, teams, or individuals.</li>
+      </ul>
 
-    <h3>4. Types of Control</h3>
-    <ul>
-      <li><strong>Preventive Control:</strong> Focuses on preventing problems before they arise.</li>
-      <li><strong>Concurrent Control:</strong> Takes place in real-time, allowing managers to monitor performance as it
-        happens and make adjustments immediately.</li>
-      <li><strong>Corrective Control:</strong> Comes into play when performance deviates from the established standards,
-        involving corrective actions to address discrepancies and improve performance.</li>
-    </ul>
+      <h3>4. Types of Control</h3>
+      <ul>
+        <li><strong>Preventive Control:</strong> Focuses on preventing problems before they arise.</li>
+        <li><strong>Concurrent Control:</strong> Takes place in real-time, allowing managers to monitor performance as
+          it
+          happens and make adjustments immediately.</li>
+        <li><strong>Corrective Control:</strong> Comes into play when performance deviates from the established
+          standards,
+          involving corrective actions to address discrepancies and improve performance.</li>
+      </ul>
 
-    <h3>5. Real-Life Examples of Control in Action</h3>
-    <ul>
-      <li><strong>In Schools:</strong> A school’s performance management system involves continuous control through
-        regular assessments of students' academic progress.</li>
-      <li><strong>In Manufacturing:</strong> A factory manager monitors the production line's output and compares it
-        with the set production targets.</li>
-      <li><strong>In Healthcare:</strong> A hospital administrator tracks patient care metrics, such as wait times and
-        recovery rates, and compares them with quality standards.</li>
-    </ul>
+      <h3>5. Real-Life Examples of Control in Action</h3>
+      <ul>
+        <li><strong>In Schools:</strong> A school’s performance management system involves continuous control through
+          regular assessments of students' academic progress.</li>
+        <li><strong>In Manufacturing:</strong> A factory manager monitors the production line's output and compares it
+          with the set production targets.</li>
+        <li><strong>In Healthcare:</strong> A hospital administrator tracks patient care metrics, such as wait times and
+          recovery rates, and compares them with quality standards.</li>
+      </ul>
 
-    <h3>6. Challenges in Control</h3>
-    <p>While control is essential, it is not always easy to implement effectively. Some common challenges include
-      resistance to change, measurement difficulties, and the cost of monitoring.</p>
+      <h3>6. Challenges in Control</h3>
+      <p>While control is essential, it is not always easy to implement effectively. Some common challenges include
+        resistance to change, measurement difficulties, and the cost of monitoring.</p>
 
-    <p><strong>Conclusion:</strong> Control is a vital aspect of management that ensures the organization stays aligned
-      with its goals. Through careful planning, measuring, comparing, and adjusting performance, managers can maintain
-      progress and address problems before they escalate.</p>
+      <p><strong>Conclusion:</strong> Control is a vital aspect of management that ensures the organization stays
+        aligned
+        with its goals. Through careful planning, measuring, comparing, and adjusting performance, managers can maintain
+        progress and address problems before they escalate.</p>
+    </section>
   </section>
 </div>

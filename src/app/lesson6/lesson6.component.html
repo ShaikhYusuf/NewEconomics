@@ -1,87 +1,125 @@
 <div class="lesson-container">
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
+
+  <section class="introduction" #textDiv>
     <h1>Lesson 6: Roles of a Manager</h1>
-    
+
+
     <section class="objectives">
       <h2>Objectives</h2>
       <ul>
         <li>Classify managerial roles into categories.</li>
-        <li>Explore the three main roles of managers: <strong>interpersonal, informational, and decisional</strong>.</li>
+        <li>Explore the three main roles of managers: <strong>interpersonal, informational, and decisional</strong>.
+        </li>
         <li>Provide activities that help managers execute these roles effectively.</li>
       </ul>
     </section>
-    
-    <section class="introduction">
-      <h2>Introduction</h2>
-      <p>Managers in educational settings, such as school principals and department heads, play a critical role in organizational success. Their multifaceted roles influence job satisfaction, resource optimization, and overall educational outcomes.</p>
-      <p>Key Theories about Managerial Roles:</p>
+
+    <h2>Introduction</h2>
+    <p>Managers in educational settings, such as school principals and department heads, play a critical role in
+      organizational success. Their multifaceted roles influence job satisfaction, resource optimization, and overall
+      educational outcomes.</p>
+    <p>Key Theories about Managerial Roles:</p>
+    <ul>
+      <li><strong>Fayol’s Theory:</strong> Focuses on planning, organizing, and controlling.</li>
+      <li><strong>Behaviorists:</strong> Emphasize team building.</li>
+      <li><strong>Management Scientists:</strong> Highlight decision-making.</li>
+      <li><strong>Contingency School:</strong> Emphasizes interactions with external environments.</li>
+    </ul>
+  </section>
+
+  <section class="classification">
+    <h2>Classification of Managerial Roles</h2>
+    <p>Managerial roles are classified into four categories, based on <strong>Henry Mintzberg’s framework
+        (1971)</strong> and <strong>Coulson’s addition (1987):</strong></p>
+    <ul>
+      <li><strong>Interpersonal Roles:</strong> Building relationships.</li>
+      <li><strong>Informational Roles:</strong> Handling and sharing information.</li>
+      <li><strong>Decisional Roles:</strong> Making strategic decisions.</li>
+      <li><strong>Leading Professional Roles:</strong> Emphasizes leadership in professional development.</li>
+    </ul>
+  </section>
+
+  <section class="role-details">
+    <h2>Roles of a Manager</h2>
+
+    <div class="role">
+      <h3>1. Interpersonal Role</h3>
+      <p>This role revolves around human interactions necessary for achieving organizational goals. Sub-roles include:
+      </p>
       <ul>
-        <li><strong>Fayol’s Theory:</strong> Focuses on planning, organizing, and controlling.</li>
-        <li><strong>Behaviorists:</strong> Emphasize team building.</li>
-        <li><strong>Management Scientists:</strong> Highlight decision-making.</li>
-        <li><strong>Contingency School:</strong> Emphasizes interactions with external environments.</li>
+        <li><strong>Figurehead:</strong> Symbolic and ceremonial tasks. Example: Greeting visitors and signing
+          documents.</li>
+        <li><strong>Leader:</strong> Motivating and mentoring employees. Example: Holding staff meetings and evaluating
+          performance.</li>
+        <li><strong>Liaison:</strong> Networking and communication. Example: Attending parent meetings and fostering
+          external relationships.</li>
       </ul>
-    </section>
-    
-    <section class="classification">
-      <h2>Classification of Managerial Roles</h2>
-      <p>Managerial roles are classified into four categories, based on <strong>Henry Mintzberg’s framework (1971)</strong> and <strong>Coulson’s addition (1987):</strong></p>
+    </div>
+
+    <div class="role">
+      <h3>2. Informational Role</h3>
+      <p>Managers handle the flow of information within and outside the organization. Sub-roles include:</p>
       <ul>
-        <li><strong>Interpersonal Roles:</strong> Building relationships.</li>
-        <li><strong>Informational Roles:</strong> Handling and sharing information.</li>
-        <li><strong>Decisional Roles:</strong> Making strategic decisions.</li>
-        <li><strong>Leading Professional Roles:</strong> Emphasizes leadership in professional development.</li>
+        <li><strong>Monitor:</strong> Gathering and assessing information. Example: Conducting performance reviews and
+          staying updated on trends.</li>
+        <li><strong>Disseminator:</strong> Sharing information internally. Example: Explaining performance goals to
+          staff.</li>
+        <li><strong>Spokesperson:</strong> Representing the organization externally. Example: Publicizing achievements
+          through brochures.</li>
       </ul>
-    </section>
-    
-    <section class="role-details">
-      <h2>Roles of a Manager</h2>
-      
-      <div class="role">
-        <h3>1. Interpersonal Role</h3>
-        <p>This role revolves around human interactions necessary for achieving organizational goals. Sub-roles include:</p>
-        <ul>
-          <li><strong>Figurehead:</strong> Symbolic and ceremonial tasks. Example: Greeting visitors and signing documents.</li>
-          <li><strong>Leader:</strong> Motivating and mentoring employees. Example: Holding staff meetings and evaluating performance.</li>
-          <li><strong>Liaison:</strong> Networking and communication. Example: Attending parent meetings and fostering external relationships.</li>
-        </ul>
-      </div>
-      
-      <div class="role">
-        <h3>2. Informational Role</h3>
-        <p>Managers handle the flow of information within and outside the organization. Sub-roles include:</p>
-        <ul>
-          <li><strong>Monitor:</strong> Gathering and assessing information. Example: Conducting performance reviews and staying updated on trends.</li>
-          <li><strong>Disseminator:</strong> Sharing information internally. Example: Explaining performance goals to staff.</li>
-          <li><strong>Spokesperson:</strong> Representing the organization externally. Example: Publicizing achievements through brochures.</li>
-        </ul>
-      </div>
-      
-      <div class="role">
-        <h3>3. Decisional Role</h3>
-        <p>This role involves using information to make strategic decisions. Sub-roles include:</p>
-        <ul>
-          <li><strong>Entrepreneur:</strong> Driving innovation and change. Example: Integrating ICT into teaching methods.</li>
-          <li><strong>Disturbance Handler:</strong> Resolving crises. Example: Mediating a teacher strike.</li>
-          <li><strong>Resource Allocator:</strong> Optimizing resources. Example: Allocating books and equipment.</li>
-          <li><strong>Negotiator:</strong> Facilitating agreements. Example: Mediating between staff and management during disputes.</li>
-        </ul>
-      </div>
-      
-      <div class="role">
-        <h3>4. Leading Professional Role</h3>
-        <p>This role emphasizes leadership in educational contexts, including:</p>
-        <ul>
-          <li><strong>Goal Setter and Evaluator:</strong> Defining organizational goals and monitoring progress.</li>
-          <li><strong>Curriculum Coordinator:</strong> Ensuring curriculum alignment with objectives.</li>
-          <li><strong>Teacher:</strong> Occasionally stepping into teaching roles when needed.</li>
-          <li><strong>Exemplar of Values:</strong> Modeling professional behaviors like punctuality and commitment.</li>
-        </ul>
-      </div>
-    </section>
-    
-    <section class="conclusion">
-      <h2>Conclusion</h2>
-      <p>The roles outlined demonstrate that a manager’s responsibilities are dynamic and interconnected. By performing interpersonal, informational, decisional, and leading professional roles effectively, managers like Mr. Kulkarni inspire a collaborative and high-performing environment, fostering educational excellence and organizational success.</p>
-    </section>
-  </div>
-  
+    </div>
+
+    <div class="role">
+      <h3>3. Decisional Role</h3>
+      <p>This role involves using information to make strategic decisions. Sub-roles include:</p>
+      <ul>
+        <li><strong>Entrepreneur:</strong> Driving innovation and change. Example: Integrating ICT into teaching
+          methods.</li>
+        <li><strong>Disturbance Handler:</strong> Resolving crises. Example: Mediating a teacher strike.</li>
+        <li><strong>Resource Allocator:</strong> Optimizing resources. Example: Allocating books and equipment.</li>
+        <li><strong>Negotiator:</strong> Facilitating agreements. Example: Mediating between staff and management during
+          disputes.</li>
+      </ul>
+    </div>
+
+    <div class="role">
+      <h3>4. Leading Professional Role</h3>
+      <p>This role emphasizes leadership in educational contexts, including:</p>
+      <ul>
+        <li><strong>Goal Setter and Evaluator:</strong> Defining organizational goals and monitoring progress.</li>
+        <li><strong>Curriculum Coordinator:</strong> Ensuring curriculum alignment with objectives.</li>
+        <li><strong>Teacher:</strong> Occasionally stepping into teaching roles when needed.</li>
+        <li><strong>Exemplar of Values:</strong> Modeling professional behaviors like punctuality and commitment.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="conclusion">
+    <h2>Conclusion</h2>
+    <p>The roles outlined demonstrate that a manager’s responsibilities are dynamic and interconnected. By performing
+      interpersonal, informational, decisional, and leading professional roles effectively, managers like Mr. Kulkarni
+      inspire a collaborative and high-performing environment, fostering educational excellence and organizational
+      success.</p>
+  </section>
+
+</div>

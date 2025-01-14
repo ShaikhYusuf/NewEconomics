@@ -1,6 +1,20 @@
 <div class="lesson-container">
+  <!-- Speech Buttons -->
+  <div class="speech-button-container">
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon> Play
+    </button>
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon> Pause
+    </button>
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon> Stop
+    </button>
+  </div>
+
+  <section class="introduction" #textDiv>
     <h1>Lesson 7: Skills of Managers</h1>
-  
+
     <section>
       <h2>Objectives of the Lesson</h2>
       <ul>
@@ -8,115 +22,130 @@
         <li>Learn how these skills are developed over time.</li>
       </ul>
     </section>
-  
+
     <section>
       <h2>Introduction</h2>
       <p>
-        <strong>Definition of Skills:</strong> Skills are abilities or proficiencies developed through education, 
+        <strong>Definition of Skills:</strong> Skills are abilities or proficiencies developed through education,
         experience, and practice. Some skills may be natural talents, but many can be acquired and improved over time.
       </p>
       <p>
-        In educational management, effective leadership depends on the specific skills required at different 
-        levels of responsibility (e.g., teachers, supervisors, principals). Managers must adapt their skills 
+        In educational management, effective leadership depends on the specific skills required at different
+        levels of responsibility (e.g., teachers, supervisors, principals). Managers must adapt their skills
         to evolving roles.
       </p>
     </section>
-  
+
     <section>
       <h2>Scenarios of Ms. Sunayana Naik</h2>
       <p>This section illustrates how skills change with managerial responsibilities:</p>
       <ul>
         <li>
-          <strong>As an Assistant Teacher:</strong> Focus on <em>teaching skills</em> like lesson planning, communication, and time management. These <strong>technical skills</strong> are critical at the first-level management stage.
+          <strong>As an Assistant Teacher:</strong> Focus on <em>teaching skills</em> like lesson planning,
+          communication, and time management. These <strong>technical skills</strong> are critical at the first-level
+          management stage.
         </li>
         <li>
-          <strong>As a Supervisor:</strong> Focus shifts to <em>leadership, problem-solving, and coordination</em>. A balance of <strong>human</strong> and <strong>technical skills</strong> is required.
+          <strong>As a Supervisor:</strong> Focus shifts to <em>leadership, problem-solving, and coordination</em>. A
+          balance of <strong>human</strong> and <strong>technical skills</strong> is required.
         </li>
         <li>
-          <strong>As a Principal:</strong> Focus on administration, strategic planning, and policy implementation. <strong>Conceptual skills</strong> become paramount.
+          <strong>As a Principal:</strong> Focus on administration, strategic planning, and policy implementation.
+          <strong>Conceptual skills</strong> become paramount.
         </li>
       </ul>
     </section>
-  
+
     <section>
       <h2>Three-Skill Approach by Robert Katz</h2>
       <ul>
         <li>
           <strong>Technical Skills:</strong>
           <ul>
-            <li><strong>Definition:</strong> Specialized knowledge and abilities required to perform specific tasks.</li>
+            <li><strong>Definition:</strong> Specialized knowledge and abilities required to perform specific tasks.
+            </li>
             <li><strong>Examples:</strong> Lesson planning, student evaluation, effective teaching.</li>
-            <li><strong>Relevance:</strong> Crucial for <strong>first-level managers</strong>, like teachers or team leaders.</li>
+            <li><strong>Relevance:</strong> Crucial for <strong>first-level managers</strong>, like teachers or team
+              leaders.</li>
           </ul>
         </li>
         <li>
           <strong>Human Skills:</strong>
           <ul>
-            <li><strong>Definition:</strong> Ability to work effectively with others, including emotional intelligence and teamwork.</li>
-            <li><strong>Examples:</strong> Resolving staff conflicts, understanding student needs, liaising with stakeholders.</li>
+            <li><strong>Definition:</strong> Ability to work effectively with others, including emotional intelligence
+              and teamwork.</li>
+            <li><strong>Examples:</strong> Resolving staff conflicts, understanding student needs, liaising with
+              stakeholders.</li>
             <li><strong>Relevance:</strong> Important at <strong>all levels of management</strong>.</li>
           </ul>
         </li>
         <li>
           <strong>Conceptual Skills:</strong>
           <ul>
-            <li><strong>Definition:</strong> Ability to understand the organization as a whole and make strategic decisions.</li>
+            <li><strong>Definition:</strong> Ability to understand the organization as a whole and make strategic
+              decisions.</li>
             <li><strong>Examples:</strong> Long-term development planning, policy alignment with mission.</li>
             <li><strong>Relevance:</strong> Most important for <strong>top-level managers</strong>.</li>
           </ul>
         </li>
       </ul>
     </section>
-  
+
     <section>
       <h2>Importance of the Three-Skill Approach</h2>
       <ul>
         <li>
-          <strong>Selection of Appropriate Personnel:</strong> Different management levels require different skill sets, 
+          <strong>Selection of Appropriate Personnel:</strong> Different management levels require different skill sets,
           such as technical skills for teachers and conceptual skills for principals.
         </li>
         <li>
           <strong>Development of Managerial Skills:</strong>
           <ul>
             <li><strong>Technical Skills:</strong> Developed through education and practice.</li>
-            <li><strong>Human Skills:</strong> Fostered through training programs like emotional intelligence workshops.</li>
+            <li><strong>Human Skills:</strong> Fostered through training programs like emotional intelligence workshops.
+            </li>
             <li><strong>Conceptual Skills:</strong> Enhanced through strategic thinking exercises and case studies.</li>
           </ul>
         </li>
       </ul>
     </section>
-  
+
     <section>
       <h2>Examples of Skill Applications</h2>
       <ul>
         <li>
-          <strong>Scenario Four:</strong> Principal fails to consult staff, highlighting the need for <strong>human skills</strong>.
+          <strong>Scenario Four:</strong> Principal fails to consult staff, highlighting the need for <strong>human
+            skills</strong>.
         </li>
         <li>
-          <strong>Scenario Five:</strong> Teacher supports a distressed student, showcasing <strong>empathy and human skills</strong>.
+          <strong>Scenario Five:</strong> Teacher supports a distressed student, showcasing <strong>empathy and human
+            skills</strong>.
         </li>
         <li>
-          <strong>Scenario Nine:</strong> Principal creates a phased development plan, demonstrating <strong>conceptual skills</strong>.
+          <strong>Scenario Nine:</strong> Principal creates a phased development plan, demonstrating <strong>conceptual
+            skills</strong>.
         </li>
       </ul>
     </section>
-  
+
     <section>
       <h2>Relative Importance of Skills</h2>
       <ul>
         <li><strong>First-Level Managers:</strong> Emphasis on <strong>technical skills</strong>.</li>
-        <li><strong>Middle-Level Managers:</strong> Balance of <strong>technical</strong> and <strong>human skills</strong>.</li>
+        <li><strong>Middle-Level Managers:</strong> Balance of <strong>technical</strong> and <strong>human
+            skills</strong>.</li>
         <li><strong>Top-Level Managers:</strong> Strong emphasis on <strong>conceptual skills</strong>.</li>
       </ul>
     </section>
-  
+
     <section>
       <h2>Summary</h2>
       <p>
-        Managers at different levels require varying combinations of technical, human, and conceptual skills. 
-        As responsibilities increase, the emphasis shifts from operational (technical) to strategic (conceptual) skills. 
+        Managers at different levels require varying combinations of technical, human, and conceptual skills.
+        As responsibilities increase, the emphasis shifts from operational (technical) to strategic (conceptual) skills.
         Recognizing these distinctions helps focus skill development for better performance.
       </p>
     </section>
-  </div>
-  
+  </section>
+
+</div>

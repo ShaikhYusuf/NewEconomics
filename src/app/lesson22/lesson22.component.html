@@ -1,6 +1,26 @@
 <div class="lesson-container">
+
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+  
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+  
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
     <h1>Lesson 22: Human Resource Management</h1>
-    
+    <section class="main" #textDiv>
     <section>
       <h2>Introduction to Human Resource Management (HRM)</h2>
       <p>
@@ -116,5 +136,6 @@
         <p>The case study illustrates a scenario where an educational institution trains employees for online examination management. The HR dilemma is whether to retain these employees for other roles or let them go after exams. The recommended solution is to retain and train employees for other roles in the organization, which can improve long-term efficiency and reduce turnover costs.</p>
         <p>This approach adheres to HRM principles such as continuous training, employee development, and organizational integration.</p>
     </section>
-    <!-- Additional Sections for Remaining Content -->
+    
+  </section>
 </div>

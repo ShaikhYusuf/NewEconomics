@@ -1,210 +1,298 @@
 <div class="lesson-container">
-    <h1>Lesson 21: Decision Making Types of Decisions</h1>
-    
+  <div class="speech-button-container">
+    <!-- Play or Resume Button -->
+    <button mat-icon-button (click)="startOrResumeVoice()" aria-label="Play or Resume lesson audio">
+      <mat-icon>play_arrow</mat-icon>
+      Play
+    </button>
+
+    <!-- Pause Button -->
+    <button mat-icon-button (click)="pauseVoice()" aria-label="Pause lesson audio">
+      <mat-icon>pause</mat-icon>
+      Pause
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
+  <h1>Lesson 21: Decision Making Types of Decisions</h1>
+  <section class="main" #textDiv>
     <section>
       <h2>Introduction to Decision Making</h2>
       <p>
-        Decision-making is an essential process for any organization. It involves selecting one alternative from several options to achieve a specific goal or solve a problem. In a business context, decision-making shapes the organization's actions, strategies, and responses to challenges. Effective decision-making is critical to achieving both short-term and long-term objectives.
+        Decision-making is an essential process for any organization. It involves selecting one alternative from several
+        options to achieve a specific goal or solve a problem. In a business context, decision-making shapes the
+        organization's actions, strategies, and responses to challenges. Effective decision-making is critical to
+        achieving both short-term and long-term objectives.
       </p>
     </section>
-    
+
     <section>
       <h2>The Decision-Making Process</h2>
       <p>
-        The process of decision-making begins when a problem or opportunity is identified. At this point, managers need to evaluate the options available and choose the one that will best achieve the desired outcome. Decision-making occurs at all levels of the organization:
+        The process of decision-making begins when a problem or opportunity is identified. At this point, managers need
+        to evaluate the options available and choose the one that will best achieve the desired outcome. Decision-making
+        occurs at all levels of the organization:
       </p>
       <ul>
-        <li><strong>Top Management</strong>: These managers make strategic decisions, such as entering a new market, which affect the long-term direction of the company.</li>
-        <li><strong>Middle Management</strong>: These managers are involved in tactical decisions, like implementing specific projects or initiatives.</li>
-        <li><strong>Lower-Level Management</strong>: These managers typically handle operational decisions, such as managing day-to-day activities and routine tasks.</li>
+        <li><strong>Top Management</strong>: These managers make strategic decisions, such as entering a new market,
+          which affect the long-term direction of the company.</li>
+        <li><strong>Middle Management</strong>: These managers are involved in tactical decisions, like implementing
+          specific projects or initiatives.</li>
+        <li><strong>Lower-Level Management</strong>: These managers typically handle operational decisions, such as
+          managing day-to-day activities and routine tasks.</li>
       </ul>
     </section>
-    
+
     <section>
       <h2>Types of Decisions and Their Impact</h2>
       <p>
-        Decisions can vary widely in terms of their complexity, importance, and scope. Some decisions affect only a few people, while others have a major impact on the entire organization.
+        Decisions can vary widely in terms of their complexity, importance, and scope. Some decisions affect only a few
+        people, while others have a major impact on the entire organization.
       </p>
       <ul>
-        <li><strong>Minor Decisions</strong>: These decisions are less impactful and usually affect a smaller group or individual. For example, scheduling shifts or ordering supplies.</li>
-        <li><strong>Major Decisions</strong>: These have a significant impact on the organization’s performance or market position. An example is launching a new product line or expanding into a new market.</li>
+        <li><strong>Minor Decisions</strong>: These decisions are less impactful and usually affect a smaller group or
+          individual. For example, scheduling shifts or ordering supplies.</li>
+        <li><strong>Major Decisions</strong>: These have a significant impact on the organization’s performance or
+          market position. An example is launching a new product line or expanding into a new market.</li>
       </ul>
     </section>
-  
+
     <section>
       <h2>The Nature of Decision-Making</h2>
       <p>Several factors influence the nature of a decision:</p>
       <ul>
-        <li><strong>Degree of Futurity</strong>: The extent to which the decision’s impact will be felt in the future. Long-term decisions require more careful analysis and planning.</li>
-        <li><strong>Impact on the Organization</strong>: Some decisions affect only a small part of the organization, while others influence the entire company.</li>
-        <li><strong>Complexity</strong>: The number of factors involved in making the decision. Complex decisions require more analysis.</li>
+        <li><strong>Degree of Futurity</strong>: The extent to which the decision’s impact will be felt in the future.
+          Long-term decisions require more careful analysis and planning.</li>
+        <li><strong>Impact on the Organization</strong>: Some decisions affect only a small part of the organization,
+          while others influence the entire company.</li>
+        <li><strong>Complexity</strong>: The number of factors involved in making the decision. Complex decisions
+          require more analysis.</li>
         <li><strong>Frequency</strong>: Some decisions are made regularly, while others are rare and significant.</li>
       </ul>
       <p>
-        Understanding these dimensions helps managers decide on the best approach to take for each decision. Routine decisions may require little time or research, but strategic or long-term decisions need to be handled with more care.
+        Understanding these dimensions helps managers decide on the best approach to take for each decision. Routine
+        decisions may require little time or research, but strategic or long-term decisions need to be handled with more
+        care.
       </p>
     </section>
-  
+
     <section>
       <h2>Organizational vs. Personal Decisions</h2>
       <p>
-        In organizations, decisions are generally classified as <strong>organizational</strong> or <strong>personal</strong>:
+        In organizations, decisions are generally classified as <strong>organizational</strong> or
+        <strong>personal</strong>:
       </p>
       <ul>
-        <li><strong>Organizational Decisions</strong>: These are made in a professional context, aimed at benefiting the organization. For example, allocating resources for a marketing campaign.</li>
-        <li><strong>Personal Decisions</strong>: These are made by individuals for their personal lives, outside of work. For instance, deciding whether to relocate for a new job opportunity.</li>
+        <li><strong>Organizational Decisions</strong>: These are made in a professional context, aimed at benefiting the
+          organization. For example, allocating resources for a marketing campaign.</li>
+        <li><strong>Personal Decisions</strong>: These are made by individuals for their personal lives, outside of
+          work. For instance, deciding whether to relocate for a new job opportunity.</li>
       </ul>
       <p>
-        The key distinction is that organizational decisions serve the company’s goals, whereas personal decisions are made by individuals and may impact their work performance but not the organization directly.
+        The key distinction is that organizational decisions serve the company’s goals, whereas personal decisions are
+        made by individuals and may impact their work performance but not the organization directly.
       </p>
     </section>
-  
+
     <section>
       <h2>Decision-Making Under Uncertainty</h2>
       <p>
-        Many decisions are made under uncertain conditions, where outcomes cannot be predicted with certainty. Managers often rely on judgment, experience, and intuition in these cases. For example, expanding into a new market might involve uncertainties about customer behavior or competition.
+        Many decisions are made under uncertain conditions, where outcomes cannot be predicted with certainty. Managers
+        often rely on judgment, experience, and intuition in these cases. For example, expanding into a new market might
+        involve uncertainties about customer behavior or competition.
       </p>
       <p>
-        When making decisions under uncertainty, it’s important to involve others, seek diverse perspectives, and carefully evaluate the risks and rewards. Uncertainty is common in <strong>non-programmed decisions</strong>, which are unique and require in-depth analysis and creative problem-solving.
+        When making decisions under uncertainty, it’s important to involve others, seek diverse perspectives, and
+        carefully evaluate the risks and rewards. Uncertainty is common in <strong>non-programmed decisions</strong>,
+        which are unique and require in-depth analysis and creative problem-solving.
       </p>
     </section>
-  
+
     <section>
       <h2>The Role of Communication in Decision Making</h2>
       <p>
-        Once a decision is made, it is crucial to communicate it effectively to all stakeholders involved. Clear communication ensures that everyone understands the decision, knows their role in its implementation, and is committed to executing it. Transparent communication is especially important for major decisions that may affect employees, such as restructuring or downsizing.
+        Once a decision is made, it is crucial to communicate it effectively to all stakeholders involved. Clear
+        communication ensures that everyone understands the decision, knows their role in its implementation, and is
+        committed to executing it. Transparent communication is especially important for major decisions that may affect
+        employees, such as restructuring or downsizing.
       </p>
       <p>
-        By communicating decisions effectively, managers can maintain trust and morale, even in difficult or unpopular situations.
+        By communicating decisions effectively, managers can maintain trust and morale, even in difficult or unpopular
+        situations.
       </p>
     </section>
-  
+
     <section>
       <h2>Conclusion</h2>
       <p>
-        Decision-making is a complex process that requires careful thought, analysis, and communication. Understanding the different types of decisions allows managers to approach each situation with the right mindset and strategy. Effective decision-making, when done well, drives the organization toward its goals, helps address challenges, and fosters growth.
+        Decision-making is a complex process that requires careful thought, analysis, and communication. Understanding
+        the different types of decisions allows managers to approach each situation with the right mindset and strategy.
+        Effective decision-making, when done well, drives the organization toward its goals, helps address challenges,
+        and fosters growth.
       </p>
     </section>
-    
-        <h1>4. Decision-Making Process (Detailed Explanation)</h1>
-        <p>The decision-making process is a systematic approach used by individuals and organizations to make choices that will guide their actions. Whether it's a personal decision or one made at the organizational level, a structured process helps ensure that the decision is thoughtful, well-informed, and likely to achieve the desired results. The following is a step-by-step breakdown of the decision-making process:</p>
-        
-        <h2>Step 1: Identify the Problem or Opportunity</h2>
-        <p>The first step in the decision-making process is to clearly define the problem or opportunity. It’s essential to understand the issue at hand before proceeding to the next steps.</p>
-        <ul>
-          <li><strong>Problem Identification:</strong> This involves recognizing that something is wrong or not functioning as it should. Problems can range from operational inefficiencies to strategic challenges. <strong>Example:</strong> A retail company noticing a decline in sales during certain months.</li>
-          <li><strong>Opportunity Identification:</strong> This refers to recognizing a favorable situation that can be capitalized on. An opportunity is often seen as a potential for growth or improvement. <strong>Example:</strong> A tech firm identifying an emerging market for artificial intelligence services.</li>
-        </ul>
-        
-        <h2>Step 2: Gather Information</h2>
-        <p>Once the problem or opportunity is clearly defined, the next step is to gather all relevant information. This could involve researching the issue, analyzing available data, or consulting with experts.</p>
-        <ul>
-          <li><strong>Internal Data:</strong> Information from within the organization, such as performance reports, financial data, and employee feedback. <strong>Example:</strong> A manufacturing company reviewing production statistics.</li>
-          <li><strong>External Data:</strong> Information from outside the organization, such as market trends, customer preferences, and competitor actions. <strong>Example:</strong> A marketing team analyzing consumer behavior reports.</li>
-          <li><strong>Consultation:</strong> Seeking input from relevant stakeholders (employees, customers, suppliers, etc.). <strong>Example:</strong> A project manager consulting with team members.</li>
-        </ul>
-      
-        <h2>Step 3: Generate Alternatives</h2>
-        <p>Once sufficient information has been gathered, the next step is to generate a list of possible alternatives.</p>
-        <ul>
-          <li><strong>Brainstorming:</strong> Encourage creative thinking to develop multiple solutions or strategies. <strong>Example:</strong> A company looking to expand internationally.</li>
-          <li><strong>Feasibility Studies:</strong> Analyze the practicality and potential success of each alternative. <strong>Example:</strong> A startup assessing whether they have the necessary capital for a new product.</li>
-        </ul>
-      
-        <h2>Step 4: Evaluate Alternatives</h2>
-        <p>After generating a list of alternatives, it is important to assess each option based on its merits and drawbacks.</p>
-        <ul>
-          <li><strong>Criteria Setting:</strong> Establish the key factors for evaluation, such as cost, time, and resources. <strong>Example:</strong> Evaluating alternatives based on cost and long-term savings.</li>
-          <li><strong>Risk Assessment:</strong> Assess the risks associated with each alternative. <strong>Example:</strong> A company assessing the risk of expanding into a new market.</li>
-          <li><strong>Decision Matrix:</strong> A tool for comparing alternatives. <strong>Example:</strong> A hiring manager comparing candidates.</li>
-        </ul>
-      
-        <h2>Step 5: Make the Decision</h2>
-        <p>After evaluating the alternatives, the next step is to select the best option.</p>
-        <ul>
-          <li><strong>Decision Criteria:</strong> Ensure the decision aligns with the organization's objectives. <strong>Example:</strong> A company choosing to invest in energy-efficient technologies.</li>
-          <li><strong>Intuition:</strong> Sometimes, a decision is made based on intuition or experience. <strong>Example:</strong> A CEO deciding to expand into a new country.</li>
-        </ul>
-      
-        <h2>Step 6: Implement the Decision</h2>
-        <p>Once the decision has been made, the next step is to implement the chosen alternative.</p>
-        <ul>
-          <li><strong>Action Plan:</strong> Develop a detailed plan outlining what needs to be done and by whom. <strong>Example:</strong> A company launching a new product.</li>
-          <li><strong>Resource Allocation:</strong> Ensure necessary resources are available. <strong>Example:</strong> A business expanding into a new market.</li>
-          <li><strong>Communication:</strong> Communicate the decision to all relevant stakeholders. <strong>Example:</strong> A manager communicating steps to their team.</li>
-        </ul>
-      
-        <h2>Step 7: Monitor and Evaluate the Results</h2>
-        <p>After implementation, it's essential to monitor the results and evaluate the effectiveness of the decision.</p>
-        <ul>
-          <li><strong>Performance Metrics:</strong> Track indicators like financial results and customer satisfaction. <strong>Example:</strong> Monitoring sales growth after a new ad campaign.</li>
-          <li><strong>Feedback Loops:</strong> Collect feedback and adjust strategies as needed. <strong>Example:</strong> A company conducting customer surveys.</li>
-          <li><strong>Continuous Improvement:</strong> Use the experience to improve future decisions. <strong>Example:</strong> A company learning from a failed marketing strategy.</li>
-        </ul>
-      
-        <h2>Conclusion</h2>
-        <p>The decision-making process is crucial for achieving organizational goals and overcoming challenges. By following a structured approach, organizations can increase the likelihood of making effective, informed decisions.</p>
-      
-        <h1>5. How to Approach Decisions? (Detailed Explanation)</h1>
-        <p>In decision-making, understanding the context and how to approach different types of decisions is crucial. The process of approaching decisions effectively involves recognizing the urgency, importance, and consequences of each decision.</p>
-      
-        <h2>Decision Matrix: Importance vs. Urgency</h2>
-        <p>The two primary dimensions that determine how to approach decisions are importance and urgency. Each decision can be categorized based on these two criteria, which will help guide the decision-making approach.</p>
-        <ul>
-          <li><strong>Important vs. Not Important:</strong> An important decision will have a long-lasting impact, while an unimportant decision has limited consequences.</li>
-          <li><strong>Urgent vs. Not Urgent:</strong> An urgent decision requires immediate action, while a non-urgent decision can be deferred without significant harm.</li>
-        </ul>
-      
-        <h2>How to Balance Urgency and Importance</h2>
-        <p>While making decisions, it is important to understand how to balance urgency and importance to avoid feeling overwhelmed.</p>
-        <ul>
-          <li><strong>Recognize the balance:</strong> Not all urgent matters are important, and not all important matters are urgent.</li>
-          <li><strong>Delegate effectively:</strong> Delegate decisions that are urgent but not important.</li>
-          <li><strong>Time management:</strong> Use tools like time-blocking or task prioritization methods.</li>
-        </ul>
-      
-        <h2>Conclusion</h2>
-        <p>Properly approaching each type of decision can enhance both personal and organizational effectiveness.</p>
-      
-        <h1>6. Techniques of Decision Making (Detailed Explanation)</h1>
-        <p>Effective decision-making is a critical skill in both personal and organizational settings. Below are some common decision-making techniques:</p>
-      
-        <h2>1. Nominal Group Technique (NGT)</h2>
-        <p>The Nominal Group Technique (NGT) is a structured method of generating and prioritizing ideas in a group setting.</p>
-        <ul>
-          <li><strong>Step 1:</strong> Introduction of the Question.</li>
-          <li><strong>Step 2:</strong> Silent Idea Generation.</li>
-          <li><strong>Step 3:</strong> Round Robin Presentation.</li>
-          <li><strong>Step 4:</strong> Clarification and Reduction.</li>
-          <li><strong>Step 5:</strong> Ranking.</li>
-          <li><strong>Step 6:</strong> Final Discussion.</li>
-        </ul>
-        <p><strong>Example:</strong> A team in a company using NGT to decide on new marketing strategies.</p>
-        
-        <h2>2. Delphi Technique</h2>
-        <p>The Delphi Technique is used for gathering insights and reaching consensus among a group of experts.</p>
-        <ul>
-          <li><strong>Step 1:</strong> Define the Problem.</li>
-          <li><strong>Step 2:</strong> First Round of Questionnaires.</li>
-          <li><strong>Step 3:</strong> Summarize Responses.</li>
-          <li><strong>Step 4:</strong> Repeat the Process.</li>
-          <li><strong>Step 5:</strong> Reach Consensus.</li>
-        </ul>
-        <p><strong>Example:</strong> A company using the Delphi Technique to improve customer service.</p>
-        
-        <h2>3. Brainstorming</h2>
-        <p>Brainstorming is a technique used to generate creative ideas in a group setting.</p>
-        <ul>
-          <li><strong>Step 1:</strong> Set the Stage for Creativity.</li>
-          <li><strong>Step 2:</strong> Encourage Open Sharing of Ideas.</li>
-          <li><strong>Step 3:</strong> Evaluate Ideas After the Session.</li>
-        </ul>
-        <p><strong>Example:</strong> A product development team brainstorming new features for a product.</p>
-      
-        <h2>Conclusion</h2>
-        <p>Different techniques work best depending on the context and group involved. Choosing the right method can lead to more effective decision-making and better results.</p>
-      
-      
-      
-  </div>
-  
+
+    <h1>4. Decision-Making Process (Detailed Explanation)</h1>
+    <p>The decision-making process is a systematic approach used by individuals and organizations to make choices that
+      will guide their actions. Whether it's a personal decision or one made at the organizational level, a structured
+      process helps ensure that the decision is thoughtful, well-informed, and likely to achieve the desired results.
+      The following is a step-by-step breakdown of the decision-making process:</p>
+
+    <h2>Step 1: Identify the Problem or Opportunity</h2>
+    <p>The first step in the decision-making process is to clearly define the problem or opportunity. It’s essential to
+      understand the issue at hand before proceeding to the next steps.</p>
+    <ul>
+      <li><strong>Problem Identification:</strong> This involves recognizing that something is wrong or not functioning
+        as it should. Problems can range from operational inefficiencies to strategic challenges.
+        <strong>Example:</strong> A retail company noticing a decline in sales during certain months.</li>
+      <li><strong>Opportunity Identification:</strong> This refers to recognizing a favorable situation that can be
+        capitalized on. An opportunity is often seen as a potential for growth or improvement. <strong>Example:</strong>
+        A tech firm identifying an emerging market for artificial intelligence services.</li>
+    </ul>
+
+    <h2>Step 2: Gather Information</h2>
+    <p>Once the problem or opportunity is clearly defined, the next step is to gather all relevant information. This
+      could involve researching the issue, analyzing available data, or consulting with experts.</p>
+    <ul>
+      <li><strong>Internal Data:</strong> Information from within the organization, such as performance reports,
+        financial data, and employee feedback. <strong>Example:</strong> A manufacturing company reviewing production
+        statistics.</li>
+      <li><strong>External Data:</strong> Information from outside the organization, such as market trends, customer
+        preferences, and competitor actions. <strong>Example:</strong> A marketing team analyzing consumer behavior
+        reports.</li>
+      <li><strong>Consultation:</strong> Seeking input from relevant stakeholders (employees, customers, suppliers,
+        etc.). <strong>Example:</strong> A project manager consulting with team members.</li>
+    </ul>
+
+    <h2>Step 3: Generate Alternatives</h2>
+    <p>Once sufficient information has been gathered, the next step is to generate a list of possible alternatives.</p>
+    <ul>
+      <li><strong>Brainstorming:</strong> Encourage creative thinking to develop multiple solutions or strategies.
+        <strong>Example:</strong> A company looking to expand internationally.</li>
+      <li><strong>Feasibility Studies:</strong> Analyze the practicality and potential success of each alternative.
+        <strong>Example:</strong> A startup assessing whether they have the necessary capital for a new product.</li>
+    </ul>
+
+    <h2>Step 4: Evaluate Alternatives</h2>
+    <p>After generating a list of alternatives, it is important to assess each option based on its merits and drawbacks.
+    </p>
+    <ul>
+      <li><strong>Criteria Setting:</strong> Establish the key factors for evaluation, such as cost, time, and
+        resources. <strong>Example:</strong> Evaluating alternatives based on cost and long-term savings.</li>
+      <li><strong>Risk Assessment:</strong> Assess the risks associated with each alternative. <strong>Example:</strong>
+        A company assessing the risk of expanding into a new market.</li>
+      <li><strong>Decision Matrix:</strong> A tool for comparing alternatives. <strong>Example:</strong> A hiring
+        manager comparing candidates.</li>
+    </ul>
+
+    <h2>Step 5: Make the Decision</h2>
+    <p>After evaluating the alternatives, the next step is to select the best option.</p>
+    <ul>
+      <li><strong>Decision Criteria:</strong> Ensure the decision aligns with the organization's objectives.
+        <strong>Example:</strong> A company choosing to invest in energy-efficient technologies.</li>
+      <li><strong>Intuition:</strong> Sometimes, a decision is made based on intuition or experience.
+        <strong>Example:</strong> A CEO deciding to expand into a new country.</li>
+    </ul>
+
+    <h2>Step 6: Implement the Decision</h2>
+    <p>Once the decision has been made, the next step is to implement the chosen alternative.</p>
+    <ul>
+      <li><strong>Action Plan:</strong> Develop a detailed plan outlining what needs to be done and by whom.
+        <strong>Example:</strong> A company launching a new product.</li>
+      <li><strong>Resource Allocation:</strong> Ensure necessary resources are available. <strong>Example:</strong> A
+        business expanding into a new market.</li>
+      <li><strong>Communication:</strong> Communicate the decision to all relevant stakeholders.
+        <strong>Example:</strong> A manager communicating steps to their team.</li>
+    </ul>
+
+    <h2>Step 7: Monitor and Evaluate the Results</h2>
+    <p>After implementation, it's essential to monitor the results and evaluate the effectiveness of the decision.</p>
+    <ul>
+      <li><strong>Performance Metrics:</strong> Track indicators like financial results and customer satisfaction.
+        <strong>Example:</strong> Monitoring sales growth after a new ad campaign.</li>
+      <li><strong>Feedback Loops:</strong> Collect feedback and adjust strategies as needed. <strong>Example:</strong> A
+        company conducting customer surveys.</li>
+      <li><strong>Continuous Improvement:</strong> Use the experience to improve future decisions.
+        <strong>Example:</strong> A company learning from a failed marketing strategy.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>The decision-making process is crucial for achieving organizational goals and overcoming challenges. By following
+      a structured approach, organizations can increase the likelihood of making effective, informed decisions.</p>
+
+    <h1>5. How to Approach Decisions? (Detailed Explanation)</h1>
+    <p>In decision-making, understanding the context and how to approach different types of decisions is crucial. The
+      process of approaching decisions effectively involves recognizing the urgency, importance, and consequences of
+      each decision.</p>
+
+    <h2>Decision Matrix: Importance vs. Urgency</h2>
+    <p>The two primary dimensions that determine how to approach decisions are importance and urgency. Each decision can
+      be categorized based on these two criteria, which will help guide the decision-making approach.</p>
+    <ul>
+      <li><strong>Important vs. Not Important:</strong> An important decision will have a long-lasting impact, while an
+        unimportant decision has limited consequences.</li>
+      <li><strong>Urgent vs. Not Urgent:</strong> An urgent decision requires immediate action, while a non-urgent
+        decision can be deferred without significant harm.</li>
+    </ul>
+
+    <h2>How to Balance Urgency and Importance</h2>
+    <p>While making decisions, it is important to understand how to balance urgency and importance to avoid feeling
+      overwhelmed.</p>
+    <ul>
+      <li><strong>Recognize the balance:</strong> Not all urgent matters are important, and not all important matters
+        are urgent.</li>
+      <li><strong>Delegate effectively:</strong> Delegate decisions that are urgent but not important.</li>
+      <li><strong>Time management:</strong> Use tools like time-blocking or task prioritization methods.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Properly approaching each type of decision can enhance both personal and organizational effectiveness.</p>
+
+    <h1>6. Techniques of Decision Making (Detailed Explanation)</h1>
+    <p>Effective decision-making is a critical skill in both personal and organizational settings. Below are some common
+      decision-making techniques:</p>
+
+    <h2>1. Nominal Group Technique (NGT)</h2>
+    <p>The Nominal Group Technique (NGT) is a structured method of generating and prioritizing ideas in a group setting.
+    </p>
+    <ul>
+      <li><strong>Step 1:</strong> Introduction of the Question.</li>
+      <li><strong>Step 2:</strong> Silent Idea Generation.</li>
+      <li><strong>Step 3:</strong> Round Robin Presentation.</li>
+      <li><strong>Step 4:</strong> Clarification and Reduction.</li>
+      <li><strong>Step 5:</strong> Ranking.</li>
+      <li><strong>Step 6:</strong> Final Discussion.</li>
+    </ul>
+    <p><strong>Example:</strong> A team in a company using NGT to decide on new marketing strategies.</p>
+
+    <h2>2. Delphi Technique</h2>
+    <p>The Delphi Technique is used for gathering insights and reaching consensus among a group of experts.</p>
+    <ul>
+      <li><strong>Step 1:</strong> Define the Problem.</li>
+      <li><strong>Step 2:</strong> First Round of Questionnaires.</li>
+      <li><strong>Step 3:</strong> Summarize Responses.</li>
+      <li><strong>Step 4:</strong> Repeat the Process.</li>
+      <li><strong>Step 5:</strong> Reach Consensus.</li>
+    </ul>
+    <p><strong>Example:</strong> A company using the Delphi Technique to improve customer service.</p>
+
+    <h2>3. Brainstorming</h2>
+    <p>Brainstorming is a technique used to generate creative ideas in a group setting.</p>
+    <ul>
+      <li><strong>Step 1:</strong> Set the Stage for Creativity.</li>
+      <li><strong>Step 2:</strong> Encourage Open Sharing of Ideas.</li>
+      <li><strong>Step 3:</strong> Evaluate Ideas After the Session.</li>
+    </ul>
+    <p><strong>Example:</strong> A product development team brainstorming new features for a product.</p>
+
+    <h2>Conclusion</h2>
+    <p>Different techniques work best depending on the context and group involved. Choosing the right method can lead to
+      more effective decision-making and better results.</p>
+
+
+  </section>
+</div>
