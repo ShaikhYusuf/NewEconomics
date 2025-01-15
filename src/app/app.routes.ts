@@ -86,7 +86,7 @@ export const routes: Routes = [
     { path: 'les37', component: Lesson37Component },
     { path: 'les38', component: Lesson38Component },
     { path: 'les39', component: Lesson39Component },
-    { path: 'les40 ', component: Lesson40Component },
+    { path: 'les40', component: Lesson40Component },    
     { path: 'quiz/:lessonId', component: QuizComponent },
     { path: 'fillblank/:lessonId', component: FillBlankComponent }
 
